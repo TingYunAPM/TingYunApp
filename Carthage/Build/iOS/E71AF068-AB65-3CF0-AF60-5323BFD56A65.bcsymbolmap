@@ -78,14 +78,14 @@ ___destroy_helper_block_
 ___Block_byref_object_copy_
 ___Block_byref_object_dispose_
 ___84-[_priv_NBSErrorManager logErrorWithError:Request:withIP:cdnAssosiateInfo:libClass:]_block_invoke
-___copy_helper_block_.272
-___destroy_helper_block_.273
+___copy_helper_block_.265
+___destroy_helper_block_.266
 -[_priv_NBSErrorManager logErrorWithHTTPError:Response:ResponseData:withIP:cdnAssosiateInfo:libClass:]
 _getURIFromURLString
 -[_priv_NBSErrorManager logErrorWithError:urlString:stackTrace:]
 ___64-[_priv_NBSErrorManager logErrorWithError:urlString:stackTrace:]_block_invoke
-___copy_helper_block_.286
-___destroy_helper_block_.287
+___copy_helper_block_.279
+___destroy_helper_block_.280
 -[_priv_NBSErrorManager logUnsupportedURLError:]
 -[_priv_NBSErrorManager getNumberWithHttpMethod:]
 -[_priv_NBSErrorManager getErrorList_busy]
@@ -112,8 +112,8 @@ _sharedErrorManager._errMngr
 _OBJC_IVAR_$__priv_NBSErrorManager._errorUploadBuf
 _OBJC_IVAR_$__priv_NBSErrorManager._unsupportedErrors
 ___block_descriptor_tmp
-___block_descriptor_tmp.274
-___block_descriptor_tmp.288
+___block_descriptor_tmp.267
+___block_descriptor_tmp.281
 +[_priv_NBSGZData getUnzipFrom:]
 +[_priv_NBSGZData getZipedFrom:]
 -[_priv_NBSGZData gzipInflate]
@@ -131,6 +131,7 @@ ___block_descriptor_tmp.288
 -[_priv_NBSLens_iOSANREntity setApp_init_flag:]
 -[_priv_NBSLens_iOSANREntity anr_type]
 -[_priv_NBSLens_iOSANREntity anr_object]
+-[_priv_NBSLens_iOSANREntity setAnr_object:]
 -[_priv_NBSLens_iOSANREntity anr_message]
 -[_priv_NBSLens_iOSANREntity setAnr_message:]
 -[_priv_NBSLens_iOSANREntity anr_os_build_version]
@@ -364,7 +365,6 @@ ___29-[NBSAppAgent start_ANRBlock]_block_invoke
 -[NBSAppAgent start]
 ___20-[NBSAppAgent start]_block_invoke
 ___20-[NBSAppAgent start]_block_invoke_2
--[NBSAppAgent clearOldCache]
 +[NBSAppAgent setSetOption:]
 +[NBSAppAgent leaveBreadcrumb:]
 +[NBSAppAgent setUserIdentifier:]
@@ -384,11 +384,11 @@ ___20-[NBSAppAgent start]_block_invoke_2
 -[NBSAppAgent nbs_applicationDidFinishLaunching:]
 +[NBSAppAgent nbs_applicationDidEnterBackground:]
 ___49+[NBSAppAgent nbs_applicationDidEnterBackground:]_block_invoke
+___copy_helper_block_.323
+___destroy_helper_block_.324
+___49+[NBSAppAgent nbs_applicationDidEnterBackground:]_block_invoke.328
 ___copy_helper_block_.333
 ___destroy_helper_block_.334
-___49+[NBSAppAgent nbs_applicationDidEnterBackground:]_block_invoke.338
-___copy_helper_block_.343
-___destroy_helper_block_.344
 +[NBSAppAgent nbs_applicationWillEnterForeground:]
 _OBJC_IVAR_$_NBSAppAgent.isNeedLocationService
 _OBJC_IVAR_$_NBSAppAgent.hitRate
@@ -413,8 +413,8 @@ ___block_descriptor_tmp.219
 ___block_literal_global.220
 ___block_descriptor_tmp.227
 ___block_literal_global.228
+___block_descriptor_tmp.325
 ___block_descriptor_tmp.335
-___block_descriptor_tmp.345
 -[_priv_NBSLensPageInfo init]
 -[_priv_NBSLensPageInfo vcName]
 -[_priv_NBSLensPageInfo setVcName:]
@@ -459,6 +459,7 @@ ___50+[_priv_NBSURLProtocol_Session share_nbs_Sesssion]_block_invoke
 -[_priv_NBSURLProtocol_Session URLSession:task:didCompleteWithError:]
 -[_priv_NBSURLProtocol_Session URLSession:dataTask:willCacheResponse:completionHandler:]
 -[_priv_NBSURLProtocol_Session URLSession:task:didReceiveChallenge:completionHandler:]
+-[_priv_NBSURLProtocol_Session URLSession:task:didFinishCollectingMetrics:]
 -[_priv_NBSURLProtocol_Session dataTask]
 -[_priv_NBSURLProtocol_Session setDataTask:]
 -[_priv_NBSURLProtocol_Session modes]
@@ -552,6 +553,92 @@ _OBJC_IVAR_$__priv_NBSUILogCenter_assistant._controllerName
 _OBJC_IVAR_$__priv_NBSUILogCenter_assistant._UIDataInfo
 _OBJC_IVAR_$__priv_NBSUILogCenter_assistant._traceInfo
 _OBJC_IVAR_$__priv_NBSUILogCenter_assistant._isClosed
++[_priv_NBSLensWebViewDelegate webView:didFailLoadWithError:]
++[_priv_NBSLensWebViewDelegate delegateWithOldDeldate:webview:]
+-[_priv_NBSLensWebViewDelegate forwardInvocation:]
+-[_priv_NBSLensWebViewDelegate methodSignatureForSelector:]
+-[_priv_NBSLensWebViewDelegate respondsToSelector:]
+-[_priv_NBSLensWebViewDelegate .cxx_destruct]
+-[NBSLensWebAction init]
+-[NBSLensWebAction initWithTaskIdentifier:]
+-[NBSLensWebAction setRESOURCE_URL:]
+-[NBSLensWebAction initiaType]
+-[NBSLensWebAction OFFSET_TIMESTAMP]
+-[NBSLensWebAction setOFFSET_TIMESTAMP:]
+-[NBSLensWebAction RESOURCE_TYPE]
+-[NBSLensWebAction setRESOURCE_TYPE:]
+-[NBSLensWebAction RESOURCE_URL]
+-[NBSLensWebAction FETCH_START]
+-[NBSLensWebAction setFETCH_START:]
+-[NBSLensWebAction DOMAIN_LOOKUP_START]
+-[NBSLensWebAction setDOMAIN_LOOKUP_START:]
+-[NBSLensWebAction DOMAIN_LOOKUP_END]
+-[NBSLensWebAction setDOMAIN_LOOKUP_END:]
+-[NBSLensWebAction CONNECT_START]
+-[NBSLensWebAction setCONNECT_START:]
+-[NBSLensWebAction CONNECT_END]
+-[NBSLensWebAction setCONNECT_END:]
+-[NBSLensWebAction SECURE_CONNECTION_START]
+-[NBSLensWebAction setSECURE_CONNECTION_START:]
+-[NBSLensWebAction REQUEST_START]
+-[NBSLensWebAction setREQUEST_START:]
+-[NBSLensWebAction RESPONSE_START]
+-[NBSLensWebAction setRESPONSE_START:]
+-[NBSLensWebAction RESPONSE_END]
+-[NBSLensWebAction setRESPONSE_END:]
+-[NBSLensWebAction TRANSFER_SIZE]
+-[NBSLensWebAction setTRANSFER_SIZE:]
+-[NBSLensWebAction ENCODED_BODY_SIZE]
+-[NBSLensWebAction setENCODED_BODY_SIZE:]
+-[NBSLensWebAction DECODED_BODY_SIZE]
+-[NBSLensWebAction setDECODED_BODY_SIZE:]
+-[NBSLensWebAction HTTP_STATUS_CODE]
+-[NBSLensWebAction setHTTP_STATUS_CODE:]
+-[NBSLensWebAction NETWORK_ERROR_CODE]
+-[NBSLensWebAction setNETWORK_ERROR_CODE:]
+-[NBSLensWebAction BYTES_RECEIVED]
+-[NBSLensWebAction setBYTES_RECEIVED:]
+-[NBSLensWebAction APP_DATA]
+-[NBSLensWebAction setAPP_DATA:]
+-[NBSLensWebAction CDN_VENDOR_NAME]
+-[NBSLensWebAction setCDN_VENDOR_NAME:]
+-[NBSLensWebAction mainDocumentURLHost]
+-[NBSLensWebAction setMainDocumentURLHost:]
+-[NBSLensWebAction referer]
+-[NBSLensWebAction setReferer:]
+-[NBSLensWebAction isMainURL]
+-[NBSLensWebAction setIsMainURL:]
+-[NBSLensWebAction taskIdentifier]
+-[NBSLensWebAction setTaskIdentifier:]
+-[NBSLensWebAction pathExtension]
+-[NBSLensWebAction setPathExtension:]
+-[NBSLensWebAction .cxx_destruct]
+_OBJC_IVAR_$_NBSLensWebAction._OFFSET_TIMESTAMP
+_OBJC_IVAR_$_NBSLensWebAction._RESOURCE_TYPE
+_OBJC_IVAR_$_NBSLensWebAction._RESOURCE_URL
+_OBJC_IVAR_$_NBSLensWebAction._FETCH_START
+_OBJC_IVAR_$_NBSLensWebAction._DOMAIN_LOOKUP_START
+_OBJC_IVAR_$_NBSLensWebAction._DOMAIN_LOOKUP_END
+_OBJC_IVAR_$_NBSLensWebAction._CONNECT_START
+_OBJC_IVAR_$_NBSLensWebAction._SECURE_CONNECTION_START
+_OBJC_IVAR_$_NBSLensWebAction._REQUEST_START
+_OBJC_IVAR_$_NBSLensWebAction._RESPONSE_START
+_OBJC_IVAR_$_NBSLensWebAction._RESPONSE_END
+_OBJC_IVAR_$_NBSLensWebAction._TRANSFER_SIZE
+_OBJC_IVAR_$_NBSLensWebAction._ENCODED_BODY_SIZE
+_OBJC_IVAR_$_NBSLensWebAction._DECODED_BODY_SIZE
+_OBJC_IVAR_$_NBSLensWebAction._HTTP_STATUS_CODE
+_OBJC_IVAR_$_NBSLensWebAction._NETWORK_ERROR_CODE
+_OBJC_IVAR_$_NBSLensWebAction._BYTES_RECEIVED
+_OBJC_IVAR_$_NBSLensWebAction._APP_DATA
+_OBJC_IVAR_$_NBSLensWebAction._CDN_VENDOR_NAME
+_OBJC_IVAR_$_NBSLensWebAction._mainDocumentURLHost
+_OBJC_IVAR_$_NBSLensWebAction._referer
+_OBJC_IVAR_$_NBSLensWebAction._isMainURL
+_OBJC_IVAR_$_NBSLensWebAction._pathExtension
+_OBJC_IVAR_$_NBSLensWebAction._taskIdentifier
+_initiaType.initiaTypeInfo
+_OBJC_IVAR_$_NBSLensWebAction._CONNECT_END
 -[NBS_CLLocation coordinate]
 +[_priv_NBSProbe getValueInKeychainWithName:]
 +[_priv_NBSProbe setValueInKeychainWithName:withValue:]
@@ -626,6 +713,21 @@ ___36+[_priv_NBSLensShareLock sharedLock]_block_invoke
 -[_priv_NBSLensShareLock dealloc]
 _sharedLock.onceToken
 _sharedLock.sharedLock
++[NBSLensWebActionManager sharedManager]
+___40+[NBSLensWebActionManager sharedManager]_block_invoke
+-[NBSLensWebActionManager init]
+-[NBSLensWebActionManager addWebAction:]
+-[NBSLensWebActionManager findWebActionByTaskIdentfier:]
+-[NBSLensWebActionManager renderByMainURL:]
+-[NBSLensWebActionManager getResourceDataFromNavigationStart:toLoaded:]
+-[NBSLensWebActionManager getWebActionByURL:]
+-[NBSLensWebActionManager clean]
+-[NBSLensWebActionManager actionContainer]
+-[NBSLensWebActionManager setActionContainer:]
+-[NBSLensWebActionManager .cxx_destruct]
+_sharedManager.instance
+_sharedManager.onceToken
+_OBJC_IVAR_$_NBSLensWebActionManager._actionContainer
 +[_priv_NBSLENSGestureTracker install]
 -[_priv_NBSLENSGestureTracker nbs_addTarget:action:]
 ___52-[_priv_NBSLENSGestureTracker nbs_addTarget:action:]_block_invoke
@@ -637,108 +739,109 @@ ___57-[_priv_NBSLENSGestureTracker nbs_initWithTarget:action:]_block_invoke_2
 ___block_descriptor_tmp.131
 ___block_descriptor_tmp.132
 ___block_literal_global.133
-___nbs_hooookJSContext_block_invoke
-___nbs_hooookJSContext_block_invoke_2
-___nbs_hooookJSContext_block_invoke.155
-___copy_helper_block_.164
-___destroy_helper_block_.165
-___nbs_hooookJSContext_block_invoke.169
-___copy_helper_block_.172
-___destroy_helper_block_.173
-+[_priv_NBSLensWebViewDelegate webView:shouldStartLoadWithRequest:navigationType:]
-+[_priv_NBSLensWebViewDelegate webViewDidStartLoad:]
-+[_priv_NBSLensWebViewDelegate webViewDidFinishLoad:]
-+[_priv_NBSLensWebViewDelegate webView:didFailLoadWithError:]
-+[_priv_NBSLensWebViewDelegate delegateWithOldDeldate:webview:]
--[_priv_NBSLensWebViewDelegate forwardInvocation:]
--[_priv_NBSLensWebViewDelegate methodSignatureForSelector:]
--[_priv_NBSLensWebViewDelegate respondsToSelector:]
--[_priv_NBSLensWebViewDelegate .cxx_destruct]
--[_priv_NBSAssociatedObject init]
--[_priv_NBSAssociatedObject startTime]
--[_priv_NBSAssociatedObject setStartTime:]
--[_priv_NBSAssociatedObject url]
--[_priv_NBSAssociatedObject setUrl:]
--[_priv_NBSAssociatedObject method]
--[_priv_NBSAssociatedObject setMethod:]
--[_priv_NBSAssociatedObject isFinish]
--[_priv_NBSAssociatedObject setIsFinish:]
--[_priv_NBSAssociatedObject busy_count]
--[_priv_NBSAssociatedObject setBusy_count:]
--[_priv_NBSAssociatedObject .cxx_destruct]
-___block_descriptor_tmp.146
-___block_descriptor_tmp.166
-___block_descriptor_tmp.174
-_OBJC_IVAR_$__priv_NBSAssociatedObject._isFinish
-_OBJC_IVAR_$__priv_NBSAssociatedObject._busy_count
-_OBJC_IVAR_$__priv_NBSAssociatedObject._startTime
-_OBJC_IVAR_$__priv_NBSAssociatedObject._url
-_OBJC_IVAR_$__priv_NBSAssociatedObject._method
 -[_priv_NBSLens_jsError init]
+-[_priv_NBSLens_jsError key]
+-[_priv_NBSLens_jsError setFILENAME_OF_ERROR:]
 -[_priv_NBSLens_jsError render]
--[_priv_NBSLens_jsError line]
--[_priv_NBSLens_jsError setLine:]
--[_priv_NBSLens_jsError col]
--[_priv_NBSLens_jsError setCol:]
--[_priv_NBSLens_jsError REQUEST_METHOD]
--[_priv_NBSLens_jsError setREQUEST_METHOD:]
--[_priv_NBSLens_jsError message]
--[_priv_NBSLens_jsError setMessage:]
--[_priv_NBSLens_jsError URL]
--[_priv_NBSLens_jsError setURL:]
--[_priv_NBSLens_jsError REQUEST_URL_PARAMS]
--[_priv_NBSLens_jsError setREQUEST_URL_PARAMS:]
--[_priv_NBSLens_jsError ERROR_DESCRIPTION]
--[_priv_NBSLens_jsError setERROR_DESCRIPTION:]
--[_priv_NBSLens_jsError refFile]
--[_priv_NBSLens_jsError setRefFile:]
+-[_priv_NBSLens_jsError OFFSET_TIMESTAMP]
+-[_priv_NBSLens_jsError setOFFSET_TIMESTAMP:]
+-[_priv_NBSLens_jsError TIMESTAMP]
+-[_priv_NBSLens_jsError setTIMESTAMP:]
+-[_priv_NBSLens_jsError PAGE_START_TIME_IN_SEC]
+-[_priv_NBSLens_jsError setPAGE_START_TIME_IN_SEC:]
+-[_priv_NBSLens_jsError PV_ID]
+-[_priv_NBSLens_jsError setPV_ID:]
+-[_priv_NBSLens_jsError PAGE_URL]
+-[_priv_NBSLens_jsError setPAGE_URL:]
+-[_priv_NBSLens_jsError ERROR_TYPE_NAME]
+-[_priv_NBSLens_jsError setERROR_TYPE_NAME:]
+-[_priv_NBSLens_jsError ERROR_MESSAGE]
+-[_priv_NBSLens_jsError setERROR_MESSAGE:]
+-[_priv_NBSLens_jsError LINE_OF_ERROR]
+-[_priv_NBSLens_jsError setLINE_OF_ERROR:]
+-[_priv_NBSLens_jsError COLUMN_OF_ERROR]
+-[_priv_NBSLens_jsError setCOLUMN_OF_ERROR:]
+-[_priv_NBSLens_jsError FILENAME_OF_ERROR]
+-[_priv_NBSLens_jsError STACK]
+-[_priv_NBSLens_jsError setSTACK:]
+-[_priv_NBSLens_jsError JS_ERROR_COUNT]
+-[_priv_NBSLens_jsError setJS_ERROR_COUNT:]
+-[_priv_NBSLens_jsError IS_FIRST_JS_ERROR]
+-[_priv_NBSLens_jsError setIS_FIRST_JS_ERROR:]
+-[_priv_NBSLens_jsError CND_VENDOR_NAME]
+-[_priv_NBSLens_jsError setCND_VENDOR_NAME:]
+-[_priv_NBSLens_jsError isLoading]
+-[_priv_NBSLens_jsError setIsLoading:]
+-[_priv_NBSLens_jsError setKey:]
 -[_priv_NBSLens_jsError .cxx_destruct]
 -[_priv_NBSLens_perfmItem init]
 -[_priv_NBSLens_perfmItem render]
+-[_priv_NBSLens_perfmItem getSlowIndicator]
+-[_priv_NBSLens_perfmItem renderResourceData]
+-[_priv_NBSLens_perfmItem renderJSError]
+-[_priv_NBSLens_perfmItem updateTimingFromWebAction:]
 -[_priv_NBSLens_perfmItem URL]
 -[_priv_NBSLens_perfmItem setURL:]
--[_priv_NBSLens_perfmItem REQUEST_URL_PARAMS]
--[_priv_NBSLens_perfmItem setREQUEST_URL_PARAMS:]
--[_priv_NBSLens_perfmItem REQUEST_METHOD]
--[_priv_NBSLens_perfmItem setREQUEST_METHOD:]
--[_priv_NBSLens_perfmItem RESPONSE_TIME]
--[_priv_NBSLens_perfmItem setRESPONSE_TIME:]
--[_priv_NBSLens_perfmItem DURATION_PAGE_LOAD]
--[_priv_NBSLens_perfmItem setDURATION_PAGE_LOAD:]
--[_priv_NBSLens_perfmItem TIME_TO_RESOLVE_DNS]
--[_priv_NBSLens_perfmItem setTIME_TO_RESOLVE_DNS:]
--[_priv_NBSLens_perfmItem TIME_TO_CONNECT]
--[_priv_NBSLens_perfmItem setTIME_TO_CONNECT:]
--[_priv_NBSLens_perfmItem TIME_TO_SSL]
--[_priv_NBSLens_perfmItem setTIME_TO_SSL:]
--[_priv_NBSLens_perfmItem TIME_TO_FETCH_FROM_CACHE]
--[_priv_NBSLens_perfmItem setTIME_TO_FETCH_FROM_CACHE:]
--[_priv_NBSLens_perfmItem TIME_TO_FIRST_PACKET]
--[_priv_NBSLens_perfmItem setTIME_TO_FIRST_PACKET:]
--[_priv_NBSLens_perfmItem TIME_TO_LOAD_DOM]
--[_priv_NBSLens_perfmItem setTIME_TO_LOAD_DOM:]
--[_priv_NBSLens_perfmItem BROWSER_RENDER_TIME]
--[_priv_NBSLens_perfmItem setBROWSER_RENDER_TIME:]
--[_priv_NBSLens_perfmItem SERVER_QUEUEING_TIME]
--[_priv_NBSLens_perfmItem setSERVER_QUEUEING_TIME:]
--[_priv_NBSLens_perfmItem APPLICATION_TIME]
--[_priv_NBSLens_perfmItem setAPPLICATION_TIME:]
--[_priv_NBSLens_perfmItem NETWORK_TIME]
--[_priv_NBSLens_perfmItem setNETWORK_TIME:]
--[_priv_NBSLens_perfmItem FRONTEND_TIME]
--[_priv_NBSLens_perfmItem setFRONTEND_TIME:]
+-[_priv_NBSLens_perfmItem PV_ID]
+-[_priv_NBSLens_perfmItem setPV_ID:]
+-[_priv_NBSLens_perfmItem REDIRECT_START]
+-[_priv_NBSLens_perfmItem setREDIRECT_START:]
+-[_priv_NBSLens_perfmItem REDIRECT_END]
+-[_priv_NBSLens_perfmItem setREDIRECT_END:]
+-[_priv_NBSLens_perfmItem FETCH_START]
+-[_priv_NBSLens_perfmItem setFETCH_START:]
+-[_priv_NBSLens_perfmItem DOMAIN_LOOKUP_START]
+-[_priv_NBSLens_perfmItem setDOMAIN_LOOKUP_START:]
+-[_priv_NBSLens_perfmItem DOMAIN_LOOKUP_END]
+-[_priv_NBSLens_perfmItem setDOMAIN_LOOKUP_END:]
+-[_priv_NBSLens_perfmItem CONNECT_START]
+-[_priv_NBSLens_perfmItem setCONNECT_START:]
+-[_priv_NBSLens_perfmItem CONNECT_END]
+-[_priv_NBSLens_perfmItem setCONNECT_END:]
+-[_priv_NBSLens_perfmItem SECURE_CONNECTION_START]
+-[_priv_NBSLens_perfmItem setSECURE_CONNECTION_START:]
+-[_priv_NBSLens_perfmItem REQUEST_START]
+-[_priv_NBSLens_perfmItem setREQUEST_START:]
+-[_priv_NBSLens_perfmItem RESPONSE_START]
+-[_priv_NBSLens_perfmItem setRESPONSE_START:]
+-[_priv_NBSLens_perfmItem RESPONSE_END]
+-[_priv_NBSLens_perfmItem setRESPONSE_END:]
+-[_priv_NBSLens_perfmItem DOM_LOADING]
+-[_priv_NBSLens_perfmItem setDOM_LOADING:]
+-[_priv_NBSLens_perfmItem DOM_INTERACTIVE]
+-[_priv_NBSLens_perfmItem setDOM_INTERACTIVE:]
+-[_priv_NBSLens_perfmItem DOM_CONTENT_LOADED_EVENT_START]
+-[_priv_NBSLens_perfmItem setDOM_CONTENT_LOADED_EVENT_START:]
+-[_priv_NBSLens_perfmItem DOM_CONTENT_LOADED_EVENT_END]
+-[_priv_NBSLens_perfmItem setDOM_CONTENT_LOADED_EVENT_END:]
+-[_priv_NBSLens_perfmItem DOM_COMPLETE]
+-[_priv_NBSLens_perfmItem setDOM_COMPLETE:]
+-[_priv_NBSLens_perfmItem LOAD_EVENT_START]
+-[_priv_NBSLens_perfmItem setLOAD_EVENT_START:]
+-[_priv_NBSLens_perfmItem LOAD_EVENT_END]
+-[_priv_NBSLens_perfmItem setLOAD_EVENT_END:]
+-[_priv_NBSLens_perfmItem FIRST_PAINT_TIME]
+-[_priv_NBSLens_perfmItem setFIRST_PAINT_TIME:]
+-[_priv_NBSLens_perfmItem FIRST_SCREEN_TIME]
+-[_priv_NBSLens_perfmItem setFIRST_SCREEN_TIME:]
 -[_priv_NBSLens_perfmItem JS_ERRORS]
 -[_priv_NBSLens_perfmItem setJS_ERRORS:]
 -[_priv_NBSLens_perfmItem HTTP_STATUS_CODE]
 -[_priv_NBSLens_perfmItem setHTTP_STATUS_CODE:]
 -[_priv_NBSLens_perfmItem ERROR_CODE]
 -[_priv_NBSLens_perfmItem setERROR_CODE:]
--[_priv_NBSLens_perfmItem BYTE_SEND]
--[_priv_NBSLens_perfmItem setBYTE_SEND:]
 -[_priv_NBSLens_perfmItem BYTE_RECEIVED]
 -[_priv_NBSLens_perfmItem setBYTE_RECEIVED:]
 -[_priv_NBSLens_perfmItem APP_DATA]
 -[_priv_NBSLens_perfmItem setAPP_DATA:]
+-[_priv_NBSLens_perfmItem RESOURCES_DATA_ARRAY]
+-[_priv_NBSLens_perfmItem setRESOURCES_DATA_ARRAY:]
+-[_priv_NBSLens_perfmItem PAGE_JS_ERRORS_DATA_ARRAY]
+-[_priv_NBSLens_perfmItem setPAGE_JS_ERRORS_DATA_ARRAY:]
+-[_priv_NBSLens_perfmItem CDN_VENDOR_NAME]
+-[_priv_NBSLens_perfmItem setCDN_VENDOR_NAME:]
+-[_priv_NBSLens_perfmItem navigationStart]
+-[_priv_NBSLens_perfmItem setNavigationStart:]
 -[_priv_NBSLens_perfmItem .cxx_destruct]
 -[_priv_NBSLens_webViewDataManager handleMemoryWarning]
 -[_priv_NBSLens_webViewDataManager onNotification_post:]
@@ -749,110 +852,67 @@ ___56-[_priv_NBSLens_webViewDataManager onNotification_post:]_block_invoke
 ___51+[_priv_NBSLens_webViewDataManager singletonObject]_block_invoke
 -[_priv_NBSLens_webViewDataManager getPostData]
 -[_priv_NBSLens_webViewDataManager postToServer]
--[_priv_NBSLens_webViewDataManager logJSException:]
+-[_priv_NBSLens_webViewDataManager logJSExceptionBeforeLoad:]
+-[_priv_NBSLens_webViewDataManager logJSExceptionAfterLoad:]
 -[_priv_NBSLens_webViewDataManager logWebPerformance:]
+-[_priv_NBSLens_webViewDataManager renderJSErrorBeforeLoad]
 -[_priv_NBSLens_webViewDataManager .cxx_destruct]
-_OBJC_IVAR_$__priv_NBSLens_jsError._line
-_OBJC_IVAR_$__priv_NBSLens_jsError._col
-_OBJC_IVAR_$__priv_NBSLens_jsError._REQUEST_METHOD
-_OBJC_IVAR_$__priv_NBSLens_jsError._URL
-_OBJC_IVAR_$__priv_NBSLens_jsError._refFile
-_OBJC_IVAR_$__priv_NBSLens_jsError._REQUEST_URL_PARAMS
-_OBJC_IVAR_$__priv_NBSLens_jsError._message
-_OBJC_IVAR_$__priv_NBSLens_jsError._ERROR_DESCRIPTION
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._REQUEST_METHOD
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESPONSE_TIME
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._DURATION_PAGE_LOAD
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._TIME_TO_RESOLVE_DNS
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._TIME_TO_CONNECT
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._TIME_TO_SSL
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._TIME_TO_FETCH_FROM_CACHE
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._TIME_TO_FIRST_PACKET
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._TIME_TO_LOAD_DOM
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._BROWSER_RENDER_TIME
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._SERVER_QUEUEING_TIME
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._APPLICATION_TIME
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._NETWORK_TIME
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._FRONTEND_TIME
+_OBJC_IVAR_$__priv_NBSLens_jsError._PV_ID
+_OBJC_IVAR_$__priv_NBSLens_jsError._PAGE_URL
+_OBJC_IVAR_$__priv_NBSLens_jsError._ERROR_TYPE_NAME
+_OBJC_IVAR_$__priv_NBSLens_jsError._ERROR_MESSAGE
+_OBJC_IVAR_$__priv_NBSLens_jsError._LINE_OF_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._COLUMN_OF_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._FILENAME_OF_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._STACK
+_OBJC_IVAR_$__priv_NBSLens_jsError._JS_ERROR_COUNT
+_OBJC_IVAR_$__priv_NBSLens_jsError._IS_FIRST_JS_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._isLoading
+_OBJC_IVAR_$__priv_NBSLens_jsError._CND_VENDOR_NAME
+_OBJC_IVAR_$__priv_NBSLens_jsError._OFFSET_TIMESTAMP
+_OBJC_IVAR_$__priv_NBSLens_jsError._PAGE_START_TIME_IN_SEC
+_OBJC_IVAR_$__priv_NBSLens_jsError._TIMESTAMP
+_OBJC_IVAR_$__priv_NBSLens_jsError._key
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._navigationStart
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._URL
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._PV_ID
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._REDIRECT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._REDIRECT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._FETCH_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOMAIN_LOOKUP_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOMAIN_LOOKUP_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._CONNECT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._CONNECT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._SECURE_CONNECTION_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._REQUEST_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESPONSE_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESPONSE_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_LOADING
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_INTERACTIVE
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_CONTENT_LOADED_EVENT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_CONTENT_LOADED_EVENT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_COMPLETE
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._LOAD_EVENT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._LOAD_EVENT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._FIRST_PAINT_TIME
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._FIRST_SCREEN_TIME
 _OBJC_IVAR_$__priv_NBSLens_perfmItem._JS_ERRORS
 _OBJC_IVAR_$__priv_NBSLens_perfmItem._HTTP_STATUS_CODE
 _OBJC_IVAR_$__priv_NBSLens_perfmItem._ERROR_CODE
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._BYTE_SEND
 _OBJC_IVAR_$__priv_NBSLens_perfmItem._BYTE_RECEIVED
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._URL
-_OBJC_IVAR_$__priv_NBSLens_perfmItem._REQUEST_URL_PARAMS
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESOURCES_DATA_ARRAY
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._PAGE_JS_ERRORS_DATA_ARRAY
 _OBJC_IVAR_$__priv_NBSLens_perfmItem._APP_DATA
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._CDN_VENDOR_NAME
 _OBJC_IVAR_$__priv_NBSLens_webViewDataManager.jsErrors
 _OBJC_IVAR_$__priv_NBSLens_webViewDataManager.pfmDatas
 _OBJC_IVAR_$__priv_NBSLens_webViewDataManager.queue
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.jsErrorsBeforeLoad
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.jsErrorsAfterLoad
 _singletonObject.onceToken
 _singletonObject.tmp
-___block_descriptor_tmp.186
+___block_descriptor_tmp.385
 _OBJC_IVAR_$__priv_NBSLens_webViewDataManager.private_buf_postData
-___GetSharedTelephonyNetworkInfo_block_invoke
-+[NBSLensCrashHelper sharedInstance]
-___36+[NBSLensCrashHelper sharedInstance]_block_invoke
--[NBSLensCrashHelper GetCrashDeviceInfo]
-_GetAvailableStorageSpace
--[NBSLensCrashHelper init]
--[NBSLensCrashHelper additionalInfo]
--[NBSLensCrashHelper deviceMachine]
--[NBSLensCrashHelper cpuType]
--[NBSLensCrashHelper systemVersion]
--[NBSLensCrashHelper jailBreak]
--[NBSLensCrashHelper appVersion]
--[NBSLensCrashHelper appImageName]
--[NBSLensCrashHelper mobileNetworkCode]
--[NBSLensCrashHelper mobileCountryCode]
--[NBSLensCrashHelper totalMemorySize]
--[NBSLensCrashHelper totalStorageSpaceSize]
--[NBSLensCrashHelper deviceNetType]
--[NBSLensCrashHelper crashTime]
--[NBSLensCrashHelper cpuUsed]
--[NBSLensCrashHelper setCpuUsed:]
--[NBSLensCrashHelper networkState]
--[NBSLensCrashHelper isOpenGPS]
--[NBSLensCrashHelper isLandscape]
--[NBSLensCrashHelper statusOrientation]
--[NBSLensCrashHelper proximityState]
--[NBSLensCrashHelper battery]
--[NBSLensCrashHelper operaBusiness]
--[NBSLensCrashHelper crashUUID]
--[NBSLensCrashHelper availableMemorySize]
--[NBSLensCrashHelper availableDiskSpaceSize]
--[NBSLensCrashHelper userAdditonInfo]
--[NBSLensCrashHelper setUserAdditonInfo:]
--[NBSLensCrashHelper .cxx_destruct]
-_GetSharedTelephonyNetworkInfo.instance
-_GetSharedTelephonyNetworkInfo.onceToken
-_sharedInstance.instance
-___block_descriptor_tmp.4
-___block_literal_global.5
-_OBJC_IVAR_$_NBSLensCrashHelper._crashTime
-_OBJC_IVAR_$_NBSLensCrashHelper._totalStorageSpaceSize
-_OBJC_IVAR_$_NBSLensCrashHelper._availableDiskSpaceSize
-_OBJC_IVAR_$_NBSLensCrashHelper._cpuUsed
-_OBJC_IVAR_$_NBSLensCrashHelper._networkState
-_OBJC_IVAR_$_NBSLensCrashHelper._isOpenGPS
-_OBJC_IVAR_$_NBSLensCrashHelper._isLandscape
-_OBJC_IVAR_$_NBSLensCrashHelper._statusOrientation
-_OBJC_IVAR_$_NBSLensCrashHelper._proximityState
-_OBJC_IVAR_$_NBSLensCrashHelper._battery
-_OBJC_IVAR_$_NBSLensCrashHelper._operaBusiness
-_OBJC_IVAR_$_NBSLensCrashHelper._crashUUID
-_OBJC_IVAR_$_NBSLensCrashHelper._availableMemorySize
-_OBJC_IVAR_$_NBSLensCrashHelper._deviceMachine
-_OBJC_IVAR_$_NBSLensCrashHelper._cpuType
-_OBJC_IVAR_$_NBSLensCrashHelper._systemVersion
-_OBJC_IVAR_$_NBSLensCrashHelper._totalMemorySize
-_OBJC_IVAR_$_NBSLensCrashHelper._jailBreak
-_OBJC_IVAR_$_NBSLensCrashHelper._appVersion
-_OBJC_IVAR_$_NBSLensCrashHelper._appImageName
-_OBJC_IVAR_$_NBSLensCrashHelper._mobileNetworkCode
-_OBJC_IVAR_$_NBSLensCrashHelper._mobileCountryCode
-_OBJC_IVAR_$_NBSLensCrashHelper._deviceNetType
-_OBJC_IVAR_$_NBSLensCrashHelper._userAdditonInfo
-_JAIL_PATHS
 -[_priv_NBSTraceItem init]
 -[_priv_NBSTraceItem calculate_time_excWithSub]
 -[_priv_NBSTraceItem renderByAbsoluteTime:]
@@ -1011,8 +1071,7 @@ l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionDownloadDelegate
 l_OBJC_PROTOCOL_$_NSURLSessionStreamDelegate
 l_OBJC_LABEL_PROTOCOL_$_NSURLSessionStreamDelegate
 l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionStreamDelegate
-___block_descriptor_tmp.379
-___block_descriptor_tmp.390
+___block_descriptor_tmp.396
 +[_priv_NSURLConnection_NBS nbs_sendAsynchronousRequest:queue:completionHandler:]
 ___81+[_priv_NSURLConnection_NBS nbs_sendAsynchronousRequest:queue:completionHandler:]_block_invoke
 +[_priv_NSURLConnection_NBS nbs_sendSynchronousRequest:returningResponse:error:]
@@ -1029,7 +1088,70 @@ l_OBJC_PROTOCOL_REFERENCE_$_NSURLConnectionDataDelegate
 l_OBJC_PROTOCOL_$_NSURLConnectionDownloadDelegate
 l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDownloadDelegate
 l_OBJC_PROTOCOL_REFERENCE_$_NSURLConnectionDownloadDelegate
-_nbs_createMiniDelegateClass.mustArray
+___GetSharedTelephonyNetworkInfo_block_invoke
++[NBSLensCrashHelper sharedInstance]
+___36+[NBSLensCrashHelper sharedInstance]_block_invoke
+-[NBSLensCrashHelper GetCrashDeviceInfo]
+_GetAvailableStorageSpace
+-[NBSLensCrashHelper init]
+-[NBSLensCrashHelper additionalInfo]
+-[NBSLensCrashHelper deviceMachine]
+-[NBSLensCrashHelper cpuType]
+-[NBSLensCrashHelper systemVersion]
+-[NBSLensCrashHelper jailBreak]
+-[NBSLensCrashHelper appVersion]
+-[NBSLensCrashHelper appImageName]
+-[NBSLensCrashHelper mobileNetworkCode]
+-[NBSLensCrashHelper mobileCountryCode]
+-[NBSLensCrashHelper totalMemorySize]
+-[NBSLensCrashHelper totalStorageSpaceSize]
+-[NBSLensCrashHelper deviceNetType]
+-[NBSLensCrashHelper crashTime]
+-[NBSLensCrashHelper cpuUsed]
+-[NBSLensCrashHelper setCpuUsed:]
+-[NBSLensCrashHelper networkState]
+-[NBSLensCrashHelper isOpenGPS]
+-[NBSLensCrashHelper isLandscape]
+-[NBSLensCrashHelper statusOrientation]
+-[NBSLensCrashHelper proximityState]
+-[NBSLensCrashHelper battery]
+-[NBSLensCrashHelper operaBusiness]
+-[NBSLensCrashHelper crashUUID]
+-[NBSLensCrashHelper availableMemorySize]
+-[NBSLensCrashHelper availableDiskSpaceSize]
+-[NBSLensCrashHelper userAdditonInfo]
+-[NBSLensCrashHelper setUserAdditonInfo:]
+-[NBSLensCrashHelper .cxx_destruct]
+_GetSharedTelephonyNetworkInfo.instance
+_GetSharedTelephonyNetworkInfo.onceToken
+_sharedInstance.instance
+___block_descriptor_tmp.4
+___block_literal_global.5
+_OBJC_IVAR_$_NBSLensCrashHelper._crashTime
+_OBJC_IVAR_$_NBSLensCrashHelper._totalStorageSpaceSize
+_OBJC_IVAR_$_NBSLensCrashHelper._availableDiskSpaceSize
+_OBJC_IVAR_$_NBSLensCrashHelper._cpuUsed
+_OBJC_IVAR_$_NBSLensCrashHelper._networkState
+_OBJC_IVAR_$_NBSLensCrashHelper._isOpenGPS
+_OBJC_IVAR_$_NBSLensCrashHelper._isLandscape
+_OBJC_IVAR_$_NBSLensCrashHelper._statusOrientation
+_OBJC_IVAR_$_NBSLensCrashHelper._proximityState
+_OBJC_IVAR_$_NBSLensCrashHelper._battery
+_OBJC_IVAR_$_NBSLensCrashHelper._operaBusiness
+_OBJC_IVAR_$_NBSLensCrashHelper._crashUUID
+_OBJC_IVAR_$_NBSLensCrashHelper._availableMemorySize
+_OBJC_IVAR_$_NBSLensCrashHelper._deviceMachine
+_OBJC_IVAR_$_NBSLensCrashHelper._cpuType
+_OBJC_IVAR_$_NBSLensCrashHelper._systemVersion
+_OBJC_IVAR_$_NBSLensCrashHelper._totalMemorySize
+_OBJC_IVAR_$_NBSLensCrashHelper._jailBreak
+_OBJC_IVAR_$_NBSLensCrashHelper._appVersion
+_OBJC_IVAR_$_NBSLensCrashHelper._appImageName
+_OBJC_IVAR_$_NBSLensCrashHelper._mobileNetworkCode
+_OBJC_IVAR_$_NBSLensCrashHelper._mobileCountryCode
+_OBJC_IVAR_$_NBSLensCrashHelper._deviceNetType
+_OBJC_IVAR_$_NBSLensCrashHelper._userAdditonInfo
+_JAIL_PATHS
 -[_priv_NBSLensCustomerAPIBusyItem actionEventStart]
 -[_priv_NBSLensCustomerAPIBusyItem actionEventFinishAtTime:]
 -[_priv_NBSLensCustomerAPIBusyItem traceStart]
@@ -1200,8 +1322,8 @@ ___destroy_helper_block_.433
 -[_priv_NBSHTTPTransactionList clearSession]
 -[_priv_NBSHTTPTransactionList logHTTPWithTranItem:]
 ___52-[_priv_NBSHTTPTransactionList logHTTPWithTranItem:]_block_invoke
-___copy_helper_block_.594
-___destroy_helper_block_.595
+___copy_helper_block_.578
+___destroy_helper_block_.579
 +[_priv_NBSHTTPTransactionList set_callBack_onLogURL:]
 -[_priv_NBSHTTPTransactionList requestActiveCount]
 -[_priv_NBSHTTPTransactionList requestTotalCount]
@@ -1219,7 +1341,7 @@ _OBJC_IVAR_$__priv_NBSHTTPTransactionList.isCancelUploadThread
 ___block_descriptor_tmp.434
 _Loop_uploadData.first
 _Loop_uploadData.isNeedPostANRData
-___block_descriptor_tmp.596
+___block_descriptor_tmp.580
 -[_priv_NBSSafeMutableDictionary init]
 -[_priv_NBSSafeMutableDictionary initWithCapacity:]
 -[_priv_NBSSafeMutableDictionary initWithCoder:]
@@ -1263,10 +1385,10 @@ ___44+[_priv_NBSLens_iOSANRMonitor shareInstance]_block_invoke
 -[_priv_NBSLens_iOSANRMonitor startMonitor]
 _nbs_runLoopObserverCallBack
 ___43-[_priv_NBSLens_iOSANRMonitor startMonitor]_block_invoke
-___copy_helper_block_.54
-___destroy_helper_block_.55
+___copy_helper_block_.58
+___destroy_helper_block_.59
 _OBJC_IVAR_$__priv_NBSLens_iOSANRMonitor.observer
-___block_descriptor_tmp.56
+___block_descriptor_tmp.60
 -[_priv_NBSLensUITrackerLogger init]
 +[_priv_NBSLensUITrackerLogger sharedObject]
 ___44+[_priv_NBSLensUITrackerLogger sharedObject]_block_invoke
@@ -1403,11 +1525,20 @@ ___block_descriptor_tmp.68
 -[_priv_NBSSafeMutableArray setLock:]
 -[_priv_NBSSafeMutableArray .cxx_destruct]
 _OBJC_IVAR_$__priv_NBSSafeMutableArray._lock
++[_priv_NBSLens_hookWebview nbs_webView:didCreateJSContext:frame:]
+___66+[_priv_NBSLens_hookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke
+___66+[_priv_NBSLens_hookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke_2
+___66+[_priv_NBSLens_hookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke.269
+___copy_helper_block_.274
+___destroy_helper_block_.275
+___66+[_priv_NBSLens_hookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke.281
+___copy_helper_block_.288
+___destroy_helper_block_.289
 -[_priv_NBSLens_hookWebview nbs_setDelegate:]
-+[_priv_NBSLens_hookWebview hookTheWebview:]
--[_priv_NBSLens_hookWebview nbs_awakeFromNib]
--[_priv_NBSLens_hookWebview nbs_initWithFrame:]
 +[_priv_NBSLens_hookWebview install]
+___block_descriptor_tmp.262
+___block_descriptor_tmp.276
+___block_descriptor_tmp.290
 _seRequesttHeader
 ___nbs_glb_all_rootSegments_block_invoke
 _getVCOfView
@@ -1420,9 +1551,9 @@ _nbs_uniqueId._uniqueId_var
 _nbs_glb_all_activing_VCS.dict
 _nbs_glb_all_rootSegments.dict
 _nbs_glb_all_rootSegments.onceToken
-___block_descriptor_tmp.399
-___block_descriptor_tmp.500
-___block_literal_global.501
+___block_descriptor_tmp.407
+___block_descriptor_tmp.516
+___block_literal_global.517
 +[_priv_NBSLensDelegateUITracker install]
 -[_priv_NBSLensDelegateUITracker nbs_setDelegate:]
 ___50-[_priv_NBSLensDelegateUITracker nbs_setDelegate:]_block_invoke
@@ -1471,8 +1602,8 @@ _NBSLens_signalHandler.onceToken
 ___block_descriptor_tmp.187
 ___block_descriptor_tmp.195
 ___block_descriptor_tmp.204
-_nbs_glb_stack
 _nbs_previousSignalHandlers
+_nbs_glb_stack
 +[_priv_NBSUIDataItem UIDataWithKey:]
 -[_priv_NBSUIDataItem init]
 -[_priv_NBSUIDataItem renderWithScope:]
@@ -1784,6 +1915,7 @@ _nbs_get_viewControllers
 +[_priv_NBSUIAgent hookFMDB]
 +[_priv_NBSUIAgent start]
 ___nbs_get_viewControllers_block_invoke
+___block_descriptor_tmp.56
 ___block_descriptor_tmp.76
 ___block_descriptor_tmp.78
 ___block_descriptor_tmp.86
@@ -1893,6 +2025,14 @@ ___31+[_priv_NBSConfig sharedConfig]_block_invoke
 -[_priv_NBSConfig cdn_config]
 -[_priv_NBSConfig setCdn_config:]
 -[_priv_NBSConfig hijackWhitelist]
+-[_priv_NBSConfig slowPageThreshold]
+-[_priv_NBSConfig slowFirstPaintThreshold]
+-[_priv_NBSConfig slowFirstScreenThreshold]
+-[_priv_NBSConfig slowDomInteractiveThreshold]
+-[_priv_NBSConfig nbs_secret_key]
+-[_priv_NBSConfig setNbs_secret_key:]
+-[_priv_NBSConfig nbs_access_key]
+-[_priv_NBSConfig setNbs_access_key:]
 -[_priv_NBSConfig .cxx_destruct]
 _sharedConfig.onceToken
 _sharedConfig.theConfig
@@ -1907,6 +2047,12 @@ _OBJC_IVAR_$__priv_NBSConfig.anrThreshold
 _OBJC_IVAR_$__priv_NBSConfig.anrActionsCount
 _OBJC_IVAR_$__priv_NBSConfig.cdnHeaderName
 _OBJC_IVAR_$__priv_NBSConfig.hijackWhitelist
+_OBJC_IVAR_$__priv_NBSConfig.slowPageThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowFirstPaintThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowFirstScreenThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowDomInteractiveThreshold
+_OBJC_IVAR_$__priv_NBSConfig._nbs_secret_key
+_OBJC_IVAR_$__priv_NBSConfig._nbs_access_key
 -[_priv_NBSLensURLSessionDemuxTaskInfo initWithTask:delegate:modes:]
 -[_priv_NBSLensURLSessionDemuxTaskInfo performBlock:]
 -[_priv_NBSLensURLSessionDemuxTaskInfo performBlockOnClientThread:]
@@ -1925,55 +2071,57 @@ _OBJC_IVAR_$__priv_NBSConfig.hijackWhitelist
 ___104-[_priv_NBSLensURLSessionDemux URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke
 -[_priv_NBSLensURLSessionDemux URLSession:task:didReceiveChallenge:completionHandler:]
 ___86-[_priv_NBSLensURLSessionDemux URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke
-___copy_helper_block_.81
-___destroy_helper_block_.82
+___copy_helper_block_.82
+___destroy_helper_block_.83
 -[_priv_NBSLensURLSessionDemux URLSession:task:needNewBodyStream:]
 ___66-[_priv_NBSLensURLSessionDemux URLSession:task:needNewBodyStream:]_block_invoke
-___copy_helper_block_.86
-___destroy_helper_block_.87
+___copy_helper_block_.87
+___destroy_helper_block_.88
 -[_priv_NBSLensURLSessionDemux URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
 ___104-[_priv_NBSLensURLSessionDemux URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]_block_invoke
-___copy_helper_block_.91
-___destroy_helper_block_.92
+___copy_helper_block_.92
+___destroy_helper_block_.93
 -[_priv_NBSLensURLSessionDemux URLSession:task:didCompleteWithError:]
 ___69-[_priv_NBSLensURLSessionDemux URLSession:task:didCompleteWithError:]_block_invoke
-___copy_helper_block_.97
-___destroy_helper_block_.98
+___copy_helper_block_.99
+___destroy_helper_block_.100
 -[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveResponse:completionHandler:]
 ___89-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
-___copy_helper_block_.102
-___destroy_helper_block_.103
+___copy_helper_block_.104
+___destroy_helper_block_.105
 -[_priv_NBSLensURLSessionDemux URLSession:dataTask:didBecomeDownloadTask:]
 ___74-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didBecomeDownloadTask:]_block_invoke
-___copy_helper_block_.107
-___destroy_helper_block_.108
+___copy_helper_block_.109
+___destroy_helper_block_.110
 -[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveData:]
 ___67-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveData:]_block_invoke
-___copy_helper_block_.112
-___destroy_helper_block_.113
+___copy_helper_block_.114
+___destroy_helper_block_.115
 -[_priv_NBSLensURLSessionDemux URLSession:dataTask:willCacheResponse:completionHandler:]
 ___88-[_priv_NBSLensURLSessionDemux URLSession:dataTask:willCacheResponse:completionHandler:]_block_invoke
-___copy_helper_block_.117
-___destroy_helper_block_.118
+___copy_helper_block_.119
+___destroy_helper_block_.120
+-[_priv_NBSLensURLSessionDemux URLSession:task:didFinishCollectingMetrics:]
+___75-[_priv_NBSLensURLSessionDemux URLSession:task:didFinishCollectingMetrics:]_block_invoke
+___copy_helper_block_.124
+___destroy_helper_block_.125
 -[_priv_NBSLensURLSessionDemux configuration]
 -[_priv_NBSLensURLSessionDemux session]
--[_priv_NBSLensURLSessionDemux taskInfoByTaskID]
 -[_priv_NBSLensURLSessionDemux sessionDelegateQueue]
 -[_priv_NBSLensURLSessionDemux .cxx_destruct]
 _OBJC_IVAR_$__priv_NBSLensURLSessionDemuxTaskInfo._delegate
 _OBJC_IVAR_$__priv_NBSLensURLSessionDemuxTaskInfo._thread
 _OBJC_IVAR_$__priv_NBSLensURLSessionDemuxTaskInfo._modes
 _OBJC_IVAR_$__priv_NBSLensURLSessionDemux._configuration
-_OBJC_IVAR_$__priv_NBSLensURLSessionDemux._taskInfoByTaskID
 _OBJC_IVAR_$__priv_NBSLensURLSessionDemux._sessionDelegateQueue
 _OBJC_IVAR_$__priv_NBSLensURLSessionDemux._session
-___block_descriptor_tmp.83
-___block_descriptor_tmp.93
-___block_descriptor_tmp.99
-___block_descriptor_tmp.104
-___block_descriptor_tmp.109
-___block_descriptor_tmp.114
-___block_descriptor_tmp.119
+___block_descriptor_tmp.84
+___block_descriptor_tmp.89
+___block_descriptor_tmp.95
+___block_descriptor_tmp.101
+___block_descriptor_tmp.106
+___block_descriptor_tmp.121
+___block_descriptor_tmp.126
 +[NBSAESEncrypt convertDataToHexStr:]
 ___37+[NBSAESEncrypt convertDataToHexStr:]_block_invoke
 +[NBSAESEncrypt convertHexStrToData:]
@@ -1981,7 +2129,29 @@ ___37+[NBSAESEncrypt convertDataToHexStr:]_block_invoke
 _convet_key
 +[NBSAESEncrypt AES128CryptWithData:key:accessKey:enc:]
 __ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
 __ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
 __ZL22add_image_hook_swiftV1PK11mach_headerl
 __ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
 __ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
@@ -2025,9 +2195,17 @@ __ZL11_class_name
 __ZL32OBJC_$_CLASS_METHODS___ARCLite__
 __ZL17_load_method_name
 __ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
 l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
 l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
 l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
 __ZL30NSUndoManagerProxy_targetClass
 __ZL29original_NSManagedObject_init
 __ZL40original_NSManagedObject_allocWithEntity
@@ -2056,7 +2234,7 @@ __ZL36original_objc_copyClassNamesForImage
 __ZL12demangleLock
 __ZL9Demangled
 Apple LLVM version 9.0.0 (clang-900.0.35)
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=302.3
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=302.3 -march=armv7a
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66/source/arclite.mm
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-66
 fixStringForCoreData
@@ -2109,7 +2287,6 @@ __arclite_NSManagedObject_init
 replaceMethod
 __arclite_NSUndoManagerProxy_isKindOfClass
 add_image_hook_swiftV1
-patch_lazy_pointers
 patch_t<const char **(const char *, unsigned int *)>
 patch_t<const char *(Protocol *)>
 patch_t<const char *(Class)>
@@ -2118,9 +2295,51 @@ patch_t<Class (const char *)>
 patch_t<void *(id)>
 patch_t<Class (Class, const char *, unsigned long)>
 patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
 __arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
 __ARCLite__load
 install_swiftV1
+install_ARC
 install_dict_nil_value
 addOrReplaceMethod
 keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
