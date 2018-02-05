@@ -15,7 +15,7 @@
 		7469FE8B1F308A0500A0B835 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469FE8A1F308A0500A0B835 /* SystemConfiguration.framework */; };
 		7469FE8D1F308A1000A0B835 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469FE8C1F308A1000A0B835 /* Security.framework */; };
 		74AAF23920285CEC0082691A /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AAF23820285CEC0082691A /* tingyunApp.framework */; };
-		74AAF23B20285D250082691A /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AAF23A20285D250082691A /* NBSAppAgent.h */; };
+		74AAF23B20285D250082691A /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AAF23A20285D250082691A /* NBSAppAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
