@@ -46,6 +46,8 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
    nbsCustomerAPI_logFinish(str_eventName,_cmd);\
 }
 
+
+
 @interface NBSAppAgent : NSObject
 /*
  启动NBSAppAgent。一般，只需本函数足矣！
