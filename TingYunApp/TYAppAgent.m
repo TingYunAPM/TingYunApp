@@ -26,8 +26,8 @@
     [NBSAppAgent startWithAppID:appId location:locationAllowed];
 }
 
-+(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId{
-    [NBSAppAgent startWithAppID:appId location:locationAllowed rateOfLaunch:rate channelId:channelId];
++(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId useBuildVersion:(BOOL)useBuildVersion {
+    [NBSAppAgent startWithAppID:appId location:locationAllowed rateOfLaunch:rate channelId:channelId useBuildVersion:useBuildVersion];
 }
 
 +(void)setIgnoreBlock:(BOOL (^)(NSURLRequest* request)) block{

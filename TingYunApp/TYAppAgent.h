@@ -77,8 +77,7 @@ extern void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
 /*
  同时指定启动概率、是否使用位置服务、渠道ID
  */
-+(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId;
-
++(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId useBuildVersion:(BOOL)useBuildVersion;
 /*
  忽略某些网络请求。block返回true的，都被忽略。
  */

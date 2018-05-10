@@ -7,15 +7,28 @@
 
 #import <Foundation/Foundation.h>
 
-#define NBSOption_Net           1<<0
-#define NBSOption_UI            1<<1
-#define NBSOption_Crash         1<<2
-#define NBSOption_hybrid        1<<3
-#define NBSOption_Socket        1<<4
-#define NBSOption_StrideApp     1<<5
-#define NBSOption_ANR           1<<6
-#define NBSOption_Behaviour     1<<7
-#define NBSOption_CDNHeader     1<<8
+typedef NS_ENUM(NSInteger, NBS_OPTION)
+{
+    NBS_OPTION_NET           = 1<<0,
+    NBS_OPTION_UI            = 1<<1,
+    NBS_OPTION_CRASH         = 1<<2,
+    NBS_OPTION_HYBRID        = 1<<3,
+    NBS_OPTION_SOCKET        = 1<<4,
+    NBS_OPTION_STRIDE        = 1<<5,
+    NBS_OPTION_ANR           = 1<<6,
+    NBS_OPTION_BEHAVIOUR     = 1<<7,
+    NBS_OPTION_CND           = 1<<8,
+    
+    NBSOption_Net       = NBS_OPTION_NET,
+    NBSOption_UI        = NBS_OPTION_UI,
+    NBSOption_Crash     = NBS_OPTION_CRASH,
+    NBSOption_hybrid    = NBS_OPTION_HYBRID,
+    NBSOption_Socket    = NBS_OPTION_SOCKET,
+    NBSOption_StrideApp = NBS_OPTION_STRIDE,
+    NBSOption_ANR       = NBS_OPTION_ANR,
+    NBSOption_Behaviour = NBS_OPTION_BEHAVIOUR,
+    NBSOption_CDNHeader = NBS_OPTION_CND
+};
 
 void nbsCustomerAPI_logStart(NSString *eventName,id self,SEL _cmd);
 void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
@@ -46,8 +59,6 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
    nbsCustomerAPI_logFinish(str_eventName,_cmd);\
 }
 
-
-
 @interface NBSAppAgent : NSObject
 /*
  启动NBSAppAgent。一般，只需本函数足矣！
@@ -69,8 +80,9 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
 +(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed;
 /*
  同时指定启动概率、是否使用位置服务、渠道ID
+ useBuildVersion：YES优先使用CFBundleVersion版本号，NO使用CFBundleShortVersionString，默认为NO。
  */
-+(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId;
++(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId useBuildVersion:(BOOL)useBuildVersion;
 
 /*
  忽略某些网络请求。block返回true的，都被忽略。
