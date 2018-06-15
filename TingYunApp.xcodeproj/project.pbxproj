@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6552C19020A43C2100FFEB70 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6552C18F20A43C2100FFEB70 /* tingyunApp.framework */; };
-		6552C19220A43C3600FFEB70 /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6552C19120A43C3600FFEB70 /* NBSAppAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		676FE8DE20D3C33800C5328C /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676FE8DD20D3C33800C5328C /* tingyunApp.framework */; };
+		676FE8E020D3C34E00C5328C /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 676FE8DF20D3C34E00C5328C /* NBSAppAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7469FE7D1F3089AD00A0B835 /* TYAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7469FE7B1F3089AD00A0B835 /* TYAppAgent.h */; };
 		7469FE7E1F3089AD00A0B835 /* TYAppAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7469FE7C1F3089AD00A0B835 /* TYAppAgent.m */; };
 		7469FE851F3089EE00A0B835 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469FE841F3089EE00A0B835 /* UIKit.framework */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6552C18F20A43C2100FFEB70 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
-		6552C19120A43C3600FFEB70 /* NBSAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSAppAgent.h; sourceTree = "<group>"; };
+		676FE8DD20D3C33800C5328C /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
+		676FE8DF20D3C34E00C5328C /* NBSAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSAppAgent.h; sourceTree = "<group>"; };
 		7469FE701F30899700A0B835 /* TingYunApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TingYunApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7469FE741F30899700A0B835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7469FE7B1F3089AD00A0B835 /* TYAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAppAgent.h; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 				7469FE891F3089FE00A0B835 /* CoreTelephony.framework in Frameworks */,
 				7469FE871F3089F700A0B835 /* libz.tbd in Frameworks */,
 				7469FE851F3089EE00A0B835 /* UIKit.framework in Frameworks */,
-				6552C19020A43C2100FFEB70 /* tingyunApp.framework in Frameworks */,
+				676FE8DE20D3C33800C5328C /* tingyunApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +52,8 @@
 		7469FE661F30899700A0B835 = {
 			isa = PBXGroup;
 			children = (
-				6552C19120A43C3600FFEB70 /* NBSAppAgent.h */,
-				6552C18F20A43C2100FFEB70 /* tingyunApp.framework */,
+				676FE8DF20D3C34E00C5328C /* NBSAppAgent.h */,
+				676FE8DD20D3C33800C5328C /* tingyunApp.framework */,
 				7469FE721F30899700A0B835 /* TingYunApp */,
 				7469FE711F30899700A0B835 /* Products */,
 				7469FE831F3089EE00A0B835 /* Frameworks */,
@@ -97,7 +97,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6552C19220A43C3600FFEB70 /* NBSAppAgent.h in Headers */,
+				676FE8E020D3C34E00C5328C /* NBSAppAgent.h in Headers */,
 				7469FE7D1F3089AD00A0B835 /* TYAppAgent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

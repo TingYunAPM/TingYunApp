@@ -143,12 +143,3 @@ extern void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
 
 
 
-#pragma mark Only for Enterprise-Edition:
-@interface TYAppAgent (Enterprise)
-+(void)setRedirectURL:(NSString*)URL;//设置转向url
-+(void)setHttpEnabled:(BOOL)isEnable;// 链接dc允许http而非https
-+(void)httpsAllowAnyCert;//https方式链接dc时，允许任何证书，即便是自授的、伪造的
-@end
-
-
-

@@ -63,17 +63,3 @@
 
 @end
 
-@implementation TYAppAgent (Enterprise)
-
-+(void)setRedirectURL:(NSString*)URL{
-    [NBSAppAgent setRedirectURL:URL];
-}
-
-+(void)setHttpEnabled:(BOOL)isEnable{
-    [NBSAppAgent setHttpEnabled:isEnable];
-}
-
-+(void)httpsAllowAnyCert{
-    [NBSAppAgent httpsAllowAnyCert];
-}
-@end
