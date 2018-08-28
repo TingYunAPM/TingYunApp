@@ -14,8 +14,8 @@
 		7469FE891F3089FE00A0B835 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469FE881F3089FE00A0B835 /* CoreTelephony.framework */; };
 		7469FE8B1F308A0500A0B835 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469FE8A1F308A0500A0B835 /* SystemConfiguration.framework */; };
 		7469FE8D1F308A1000A0B835 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469FE8C1F308A1000A0B835 /* Security.framework */; };
-		B41865672108A6B20000EBF1 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41865662108A6B20000EBF1 /* tingyunApp.framework */; };
-		B41865692108A6D20000EBF1 /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = B41865682108A6D20000EBF1 /* NBSAppAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40D6719213540AB00AD48B5 /* tingyunApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40D6718213540AB00AD48B5 /* tingyunApp.framework */; };
+		B40D671B213540B500AD48B5 /* NBSAppAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = B40D671A213540B500AD48B5 /* NBSAppAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B418656B2108A8160000EBF1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B418656A2108A8160000EBF1 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		7469FE881F3089FE00A0B835 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7469FE8A1F308A0500A0B835 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7469FE8C1F308A1000A0B835 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		B41865662108A6B20000EBF1 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
-		B41865682108A6D20000EBF1 /* NBSAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBSAppAgent.h; path = tingyunApp.framework/Versions/A/Headers/NBSAppAgent.h; sourceTree = "<group>"; };
+		B40D6718213540AB00AD48B5 /* tingyunApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tingyunApp.framework; sourceTree = "<group>"; };
+		B40D671A213540B500AD48B5 /* NBSAppAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSAppAgent.h; sourceTree = "<group>"; };
 		B418656A2108A8160000EBF1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -44,8 +44,8 @@
 				7469FE8B1F308A0500A0B835 /* SystemConfiguration.framework in Frameworks */,
 				7469FE891F3089FE00A0B835 /* CoreTelephony.framework in Frameworks */,
 				7469FE871F3089F700A0B835 /* libz.tbd in Frameworks */,
+				B40D6719213540AB00AD48B5 /* tingyunApp.framework in Frameworks */,
 				7469FE851F3089EE00A0B835 /* UIKit.framework in Frameworks */,
-				B41865672108A6B20000EBF1 /* tingyunApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +55,8 @@
 		7469FE661F30899700A0B835 = {
 			isa = PBXGroup;
 			children = (
-				B41865682108A6D20000EBF1 /* NBSAppAgent.h */,
-				B41865662108A6B20000EBF1 /* tingyunApp.framework */,
+				B40D671A213540B500AD48B5 /* NBSAppAgent.h */,
+				B40D6718213540AB00AD48B5 /* tingyunApp.framework */,
 				7469FE721F30899700A0B835 /* TingYunApp */,
 				7469FE711F30899700A0B835 /* Products */,
 				7469FE831F3089EE00A0B835 /* Frameworks */,
@@ -101,7 +101,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41865692108A6D20000EBF1 /* NBSAppAgent.h in Headers */,
+				B40D671B213540B500AD48B5 /* NBSAppAgent.h in Headers */,
 				7469FE7D1F3089AD00A0B835 /* TYAppAgent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
