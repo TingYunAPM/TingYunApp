@@ -1,0 +1,2748 @@
+BCSymbolMap Version: 2.0
++[TYAppAgent startWithAppID:]
++[TYAppAgent startWithAppID:channelId:]
++[TYAppAgent startWithAppID:rateOfLaunch:]
++[TYAppAgent startWithAppID:location:]
++[TYAppAgent startWithAppID:location:rateOfLaunch:channelId:useBuildVersion:]
++[TYAppAgent setIgnoreBlock:]
++[TYAppAgent setCustomerData:forKey:]
++[TYAppAgent setSetOption:]
++[TYAppAgent leaveBreadcrumb:]
++[TYAppAgent setUserIdentifier:]
++[TYAppAgent trackEvent:]
++[TYAppAgent tingyunAppIsStart]
+Apple LLVM version 9.1.0 (clang-902.0.39.2)
+/Users/gaoderen/Desktop/TingYunApp/TingYunApp/TingYunApp/TYAppAgent.m
+/Users/gaoderen/Desktop/TingYunApp/TingYunApp
+/Users/gaoderen/Library/Developer/Xcode/DerivedData/TingYunApp-firfekippxhlgmbiqvqkgeohbifx/Build/Intermediates.noindex/ArchiveIntermediates/TingYunApp/IntermediateBuildFilesPath/TingYunApp.build/Release-iphoneos/TingYunApp.build/DerivedSources/TingYunApp_vers.c
++[_priv_NBSReachability reachabilityWithHostName:]
++[_priv_NBSReachability reachabilityWithHostname:]
++[_priv_NBSReachability reachabilityWithAddress:]
++[_priv_NBSReachability reachabilityForInternetConnection]
++[_priv_NBSReachability reachabilityForLocalWiFi]
+-[_priv_NBSReachability initWithReachabilityRef:]
+-[_priv_NBSReachability dealloc]
+-[_priv_NBSReachability startNotifier]
+_TMReachabilityCallback
+-[_priv_NBSReachability stopNotifier]
+-[_priv_NBSReachability isReachableWithFlags:]
+-[_priv_NBSReachability isReachable]
+-[_priv_NBSReachability isReachableViaWWAN]
+-[_priv_NBSReachability isReachableViaWiFi]
+-[_priv_NBSReachability isConnectionRequired]
+-[_priv_NBSReachability connectionRequired]
+-[_priv_NBSReachability isConnectionOnDemand]
+-[_priv_NBSReachability isInterventionRequired]
+-[_priv_NBSReachability getNetworkType]
+-[_priv_NBSReachability NBSNetworkStatusForFlags:]
+-[_priv_NBSReachability currentReachabilityStatus]
+-[_priv_NBSReachability reachabilityFlags]
+-[_priv_NBSReachability currentReachabilityString]
+-[_priv_NBSReachability currentReachabilityFlags]
+-[_priv_NBSReachability reachabilityChanged:]
+___45-[_priv_NBSReachability reachabilityChanged:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[_priv_NBSReachability description]
+-[_priv_NBSReachability reachableBlock]
+-[_priv_NBSReachability setReachableBlock:]
+-[_priv_NBSReachability unreachableBlock]
+-[_priv_NBSReachability setUnreachableBlock:]
+-[_priv_NBSReachability reachableOnWWAN]
+-[_priv_NBSReachability setReachableOnWWAN:]
+-[_priv_NBSReachability reachabilityRef]
+-[_priv_NBSReachability setReachabilityRef:]
+-[_priv_NBSReachability reachabilitySerialQueue]
+-[_priv_NBSReachability setReachabilitySerialQueue:]
+-[_priv_NBSReachability reachabilityObject]
+-[_priv_NBSReachability setReachabilityObject:]
+-[_priv_NBSReachability .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$__priv_NBSReachability._reachableBlock
+_OBJC_IVAR_$__priv_NBSReachability._unreachableBlock
+_OBJC_IVAR_$__priv_NBSReachability._reachableOnWWAN
+_OBJC_IVAR_$__priv_NBSReachability._reachabilityRef
+_OBJC_IVAR_$__priv_NBSReachability._reachabilitySerialQueue
+_OBJC_IVAR_$__priv_NBSReachability._reachabilityObject
+_didReadData
+_TYLog
+_encryptData
+_md5_to_bytes
++[_priv_NBSLENSGestureTracker install]
+-[_priv_NBSLENSGestureTracker nbs_addTarget:action:]
+___52-[_priv_NBSLENSGestureTracker nbs_addTarget:action:]_block_invoke
+_bindingTargetAndActionToGesture
+-[_priv_NBSLENSGestureTracker nbs_initWithTarget:action:]
+___57-[_priv_NBSLENSGestureTracker nbs_initWithTarget:action:]_block_invoke
+___block_descriptor_tmp.71
+-[_priv_NBSHTTPTransaction clear]
+-[_priv_NBSHTTPTransaction init]
+-[_priv_NBSHTTPTransaction getText]
+-[_priv_NBSHTTPTransaction addIntoArray:]
+-[_priv_NBSHTTPTransaction startWithIP:DNSTime:atTimePoint:withObject:]
+-[_priv_NBSHTTPTransaction updateWithResponse:timePoint:]
+-[_priv_NBSHTTPTransaction updateWithReceiveData:]
+-[_priv_NBSHTTPTransaction updateWithTotalReceiveData:]
+-[_priv_NBSHTTPTransaction updateWithTotalReceiveSize:]
+-[_priv_NBSHTTPTransaction updateSendSize:]
+-[_priv_NBSHTTPTransaction updateWithError:]
+-[_priv_NBSHTTPTransaction finishAt:]
+-[_priv_NBSHTTPTransaction tm_dur_dns]
+-[_priv_NBSHTTPTransaction setTm_dur_dns:]
+-[_priv_NBSHTTPTransaction tm_pnt_send]
+-[_priv_NBSHTTPTransaction setTm_pnt_send:]
+-[_priv_NBSHTTPTransaction tm_dur_firstP]
+-[_priv_NBSHTTPTransaction setTm_dur_firstP:]
+-[_priv_NBSHTTPTransaction tm_dur_end]
+-[_priv_NBSHTTPTransaction setTm_dur_end:]
+-[_priv_NBSHTTPTransaction tm_dur_cnnct]
+-[_priv_NBSHTTPTransaction setTm_dur_cnnct:]
+-[_priv_NBSHTTPTransaction tm_dur_ssl]
+-[_priv_NBSHTTPTransaction setTm_dur_ssl:]
+-[_priv_NBSHTTPTransaction sendSize]
+-[_priv_NBSHTTPTransaction setSendSize:]
+-[_priv_NBSHTTPTransaction receiveSize]
+-[_priv_NBSHTTPTransaction setReceiveSize:]
+-[_priv_NBSHTTPTransaction errCode]
+-[_priv_NBSHTTPTransaction setErrCode:]
+-[_priv_NBSHTTPTransaction contentLength]
+-[_priv_NBSHTTPTransaction setContentLength:]
+-[_priv_NBSHTTPTransaction statusCode]
+-[_priv_NBSHTTPTransaction setStatusCode:]
+-[_priv_NBSHTTPTransaction headerSize]
+-[_priv_NBSHTTPTransaction setHeaderSize:]
+-[_priv_NBSHTTPTransaction dataSize]
+-[_priv_NBSHTTPTransaction setDataSize:]
+-[_priv_NBSHTTPTransaction url]
+-[_priv_NBSHTTPTransaction setUrl:]
+-[_priv_NBSHTTPTransaction ip]
+-[_priv_NBSHTTPTransaction setIp:]
+-[_priv_NBSHTTPTransaction errText]
+-[_priv_NBSHTTPTransaction setErrText:]
+-[_priv_NBSHTTPTransaction contentType]
+-[_priv_NBSHTTPTransaction setContentType:]
+-[_priv_NBSHTTPTransaction useContentLength]
+-[_priv_NBSHTTPTransaction setUseContentLength:]
+-[_priv_NBSHTTPTransaction netType]
+-[_priv_NBSHTTPTransaction setNetType:]
+-[_priv_NBSHTTPTransaction appData]
+-[_priv_NBSHTTPTransaction setAppData:]
+-[_priv_NBSHTTPTransaction response]
+-[_priv_NBSHTTPTransaction setResponse:]
+-[_priv_NBSHTTPTransaction responseData]
+-[_priv_NBSHTTPTransaction setResponseData:]
+-[_priv_NBSHTTPTransaction anyObj]
+-[_priv_NBSHTTPTransaction setAnyObj:]
+-[_priv_NBSHTTPTransaction urlParams]
+-[_priv_NBSHTTPTransaction setUrlParams:]
+-[_priv_NBSHTTPTransaction dataBody]
+-[_priv_NBSHTTPTransaction setDataBody:]
+-[_priv_NBSHTTPTransaction httpMethodNumber]
+-[_priv_NBSHTTPTransaction setHttpMethodNumber:]
+-[_priv_NBSHTTPTransaction libClassId]
+-[_priv_NBSHTTPTransaction setLibClassId:]
+-[_priv_NBSHTTPTransaction isFileURL]
+-[_priv_NBSHTTPTransaction setIsFileURL:]
+-[_priv_NBSHTTPTransaction socketItem]
+-[_priv_NBSHTTPTransaction setSocketItem:]
+-[_priv_NBSHTTPTransaction threadId]
+-[_priv_NBSHTTPTransaction setThreadId:]
+-[_priv_NBSHTTPTransaction connectType]
+-[_priv_NBSHTTPTransaction setConnectType:]
+-[_priv_NBSHTTPTransaction cdnVendorName]
+-[_priv_NBSHTTPTransaction setCdnVendorName:]
+-[_priv_NBSHTTPTransaction cdn_associate]
+-[_priv_NBSHTTPTransaction setCdn_associate:]
+-[_priv_NBSHTTPTransaction cdn_flg]
+-[_priv_NBSHTTPTransaction setCdn_flg:]
+-[_priv_NBSHTTPTransaction appPhase]
+-[_priv_NBSHTTPTransaction setAppPhase:]
+-[_priv_NBSHTTPTransaction userActionID]
+-[_priv_NBSHTTPTransaction setUserActionID:]
+-[_priv_NBSHTTPTransaction isLocalCache]
+-[_priv_NBSHTTPTransaction setIsLocalCache:]
+-[_priv_NBSHTTPTransaction request]
+-[_priv_NBSHTTPTransaction setRequest:]
+-[_priv_NBSHTTPTransaction .cxx_destruct]
+-[_priv_NBSHTTPTransactionList loop_start]
+-[_priv_NBSHTTPTransactionList loop_stop]
+-[_priv_NBSHTTPTransactionList inBackGround]
+-[_priv_NBSHTTPTransactionList dispAllTrans]
+-[_priv_NBSHTTPTransactionList checkLocalData]
+-[_priv_NBSHTTPTransactionList onNotification_post:]
+-[_priv_NBSHTTPTransactionList handleMemoryWarning]
+___51-[_priv_NBSHTTPTransactionList handleMemoryWarning]_block_invoke
+-[_priv_NBSHTTPTransactionList initWithAppId:]
+-[_priv_NBSHTTPTransactionList dealloc]
+-[_priv_NBSHTTPTransactionList getMetricData]
+-[_priv_NBSHTTPTransactionList postDataToServer]
+___48-[_priv_NBSHTTPTransactionList postDataToServer]_block_invoke
+___copy_helper_block_.459
+___destroy_helper_block_.460
+-[_priv_NBSHTTPTransactionList saveData:fileName:]
+-[_priv_NBSHTTPTransactionList documentsPath]
+-[_priv_NBSHTTPTransactionList Loop_uploadData]
+-[_priv_NBSHTTPTransactionList openSession]
+-[_priv_NBSHTTPTransactionList closeSession]
+-[_priv_NBSHTTPTransactionList clearSession]
+-[_priv_NBSHTTPTransactionList logHTTPWithTranItem:]
+___52-[_priv_NBSHTTPTransactionList logHTTPWithTranItem:]_block_invoke
+___copy_helper_block_.603
+___destroy_helper_block_.604
++[_priv_NBSHTTPTransactionList set_callBack_onLogURL:]
+-[_priv_NBSHTTPTransactionList requestActiveCount]
+-[_priv_NBSHTTPTransactionList requestTotalCount]
+-[_priv_NBSHTTPTransactionList isCancelUploadThread]
+-[_priv_NBSHTTPTransactionList setIsCancelUploadThread:]
+-[_priv_NBSHTTPTransactionList tm_point_enterBkbg]
+-[_priv_NBSHTTPTransactionList setTm_point_enterBkbg:]
+-[_priv_NBSHTTPTransactionList .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSHTTPTransaction.connectType
+_OBJC_IVAR_$__priv_NBSHTTPTransaction.cdnVendorName
+_OBJC_IVAR_$__priv_NBSHTTPTransaction.appPhase
+_OBJC_IVAR_$__priv_NBSHTTPTransaction.userActionID
+_OBJC_IVAR_$__priv_NBSHTTPTransaction.isLocalCache
+_OBJC_IVAR_$__priv_NBSHTTPTransaction.isFileURL
+_OBJC_IVAR_$__priv_NBSHTTPTransaction._request
+_OBJC_IVAR_$__priv_NBSHTTPTransactionList.loopThread
+_OBJC_IVAR_$__priv_NBSHTTPTransactionList.isCancelUploadThread
+___block_descriptor_tmp.461
+_Loop_uploadData.first
+_Loop_uploadData.isNeedPostANRData
+___block_descriptor_tmp.605
++[_priv_NBSURLSession nbs_sessionWithConfiguration:delegate:delegateQueue:]
+-[_priv_NBSURLSession nbs_dataTaskWithRequest:completionHandler:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___65-[_priv_NBSURLSession nbs_dataTaskWithRequest:completionHandler:]_block_invoke
+-[_priv_NBSURLSession nbs_downloadTaskWithRequest:]
+-[_priv_NBSURLSession nbs_downloadTaskWithRequest:completionHandler:]
+___69-[_priv_NBSURLSession nbs_downloadTaskWithRequest:completionHandler:]_block_invoke
+___copy_helper_block_.98
+___destroy_helper_block_.99
+-[_priv_NBSURLSession nbs_downloadTaskWithResumeData:completionHandler:]
+___72-[_priv_NBSURLSession nbs_downloadTaskWithResumeData:completionHandler:]_block_invoke
+___copy_helper_block_.106
+___destroy_helper_block_.107
+-[_priv_NBSURLSession nbs_uploadTaskWithRequest:fromFile:]
+-[_priv_NBSURLSession nbs_uploadTaskWithRequest:fromData:]
+-[_priv_NBSURLSession nbs_uploadTaskWithRequest:fromData:completionHandler:]
+___76-[_priv_NBSURLSession nbs_uploadTaskWithRequest:fromData:completionHandler:]_block_invoke
+___copy_helper_block_.115
+___destroy_helper_block_.116
+-[_priv_NBSURLSession nbs_uploadTaskWithRequest:fromFile:completionHandler:]
+___76-[_priv_NBSURLSession nbs_uploadTaskWithRequest:fromFile:completionHandler:]_block_invoke
+___copy_helper_block_.120
+___destroy_helper_block_.121
+-[_priv_NBSURLSession nbs_uploadTaskWithStreamedRequest:]
+___block_descriptor_tmp.101
+___block_descriptor_tmp.108
+___block_descriptor_tmp.117
+___block_descriptor_tmp.122
++[NBSMJRefreshSupport install]
+-[NBSMJRefreshSupport nbs_setRefreshingTarget:refreshingAction:]
+___64-[NBSMJRefreshSupport nbs_setRefreshingTarget:refreshingAction:]_block_invoke
+-[NBSMJRefreshSupport nbs_setRefreshingBlock:]
+___46-[NBSMJRefreshSupport nbs_setRefreshingBlock:]_block_invoke
+___block_descriptor_tmp.22
+-[NBS_CLLocation coordinate]
++[_priv_NBSProbe getValueInKeychainWithName:]
++[_priv_NBSProbe setValueInKeychainWithName:withValue:]
++[_priv_NBSProbe getLocalUDID]
++[_priv_NBSProbe saveLocalUDID:]
++[_priv_NBSProbe clearLocalUDID]
++[_priv_NBSProbe deleteOldKey:]
++[_priv_NBSProbe getUDIDValueFromDocumentsWithFileName:]
++[_priv_NBSProbe saveUDIDToDocumentWithFileName:UDID:]
++[_priv_NBSProbe getDocumentsPath]
+-[_priv_NBSProbe clearMemCount]
+-[_priv_NBSProbe updateMemAvg]
+-[_priv_NBSProbe initWithLocationNeed:sampleInterval:]
++[_priv_NBSProbe probeWithLocationPermission:sampleInterval:]
+-[_priv_NBSProbe getUsedMemAvg]
+-[_priv_NBSProbe getDeviceInfo]
+-[_priv_NBSProbe getDynamicData]
++[_priv_NBSProbe getANRDeviceData]
++[_priv_NBSProbe getANRAppInfoOverride]
++[_priv_NBSProbe freeDiskSpaceInBytes]
++[_priv_NBSProbe isJailBreak]
+-[_priv_NBSProbe getAppInfo]
++[_priv_NBSProbe fileSizeAtPath:]
++[_priv_NBSProbe folderSizeAtPath:]
+-[_priv_NBSProbe locationManager:didUpdateLocations:]
+-[_priv_NBSProbe locationManager:didUpdateToLocation:fromLocation:]
+-[_priv_NBSProbe locationManager:didFailWithError:]
++[_priv_NBSProbe visibleViewController]
++[_priv_NBSProbe getVisibleViewControllerFrom:]
+-[_priv_NBSProbe .cxx_destruct]
+_userIdOfInit
+_nbs_pbc_wmessage_new
+_nbs_pbc_wmessage_delete
+_nbs_pbc_wmessage_integer
+_nbs_pbc_wmessage_real
+_nbs_pbc_wmessage_string
+_nbs_pbc_wmessage_message
+_nbs_pbc_wmessage_buffer
+__expand_message
+__get_packed
+__pack_packed
+-[_priv_NBSURLSessionDelegateBefore URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[_priv_NBSURLSessionDelegateBefore URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[_priv_NBSURLSessionDelegateBefore URLSession:didBecomeInvalidWithError:]
+-[_priv_NBSURLSessionDelegateBefore URLSession:task:didCompleteWithError:]
+-[_priv_NBSURLSessionDelegateBefore URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[_priv_NBSURLSessionDelegateBefore URLSession:dataTask:didReceiveData:]
+-[_priv_NBSURLSessionDelegateBefore URLSession:task:didFinishCollectingMetrics:]
+-[_priv_NBSURLSessionDelegateBefore respondsToSelector:]
+-[NBSEventSegment init]
+-[NBSEventSegment threadInfo]
+-[NBSEventSegment invokeTime]
+-[NBSEventSegment setInvokeTime:]
+-[NBSEventSegment entryTime]
+-[NBSEventSegment setEntryTime:]
+-[NBSEventSegment entryCPU]
+-[NBSEventSegment setEntryCPU:]
+-[NBSEventSegment entryMemory]
+-[NBSEventSegment setEntryMemory:]
+-[NBSEventSegment exitTime]
+-[NBSEventSegment setExitTime:]
+-[NBSEventSegment exitCPU]
+-[NBSEventSegment setExitCPU:]
+-[NBSEventSegment exitMemory]
+-[NBSEventSegment setExitMemory:]
+-[NBSEventSegment eventSegmentName]
+-[NBSEventSegment setEventSegmentName:]
+-[NBSEventSegment eventSegmentType]
+-[NBSEventSegment setEventSegmentType:]
+-[NBSEventSegment callType]
+-[NBSEventSegment setCallType:]
+-[NBSEventSegment threadName]
+-[NBSEventSegment setThreadName:]
+-[NBSEventSegment threadId]
+-[NBSEventSegment setThreadId:]
+-[NBSEventSegment networkParams]
+-[NBSEventSegment setNetworkParams:]
+-[NBSEventSegment callFromAddr]
+-[NBSEventSegment setCallFromAddr:]
+-[NBSEventSegment entryAddr]
+-[NBSEventSegment setEntryAddr:]
+-[NBSEventSegment .cxx_destruct]
+_OBJC_IVAR_$_NBSEventSegment._invokeTime
+_OBJC_IVAR_$_NBSEventSegment._entryTime
+_OBJC_IVAR_$_NBSEventSegment._entryCPU
+_OBJC_IVAR_$_NBSEventSegment._entryMemory
+_OBJC_IVAR_$_NBSEventSegment._exitTime
+_OBJC_IVAR_$_NBSEventSegment._exitCPU
+_OBJC_IVAR_$_NBSEventSegment._exitMemory
+_OBJC_IVAR_$_NBSEventSegment._eventSegmentName
+_OBJC_IVAR_$_NBSEventSegment._eventSegmentType
+_OBJC_IVAR_$_NBSEventSegment._callType
+_OBJC_IVAR_$_NBSEventSegment._networkParams
+_OBJC_IVAR_$_NBSEventSegment._callFromAddr
+_OBJC_IVAR_$_NBSEventSegment._entryAddr
+_OBJC_IVAR_$_NBSEventSegment._threadId
+_OBJC_IVAR_$_NBSEventSegment._threadName
+-[_priv_NBSLensPageInfo init]
+-[_priv_NBSLensPageInfo vcName]
+-[_priv_NBSLensPageInfo setVcName:]
+-[_priv_NBSLensPageInfo timeStart]
+-[_priv_NBSLensPageInfo setTimeStart:]
+-[_priv_NBSLensPageInfo .cxx_destruct]
++[_priv_NBSLensPageInfoRecord sharedInstance]
+___45+[_priv_NBSLensPageInfoRecord sharedInstance]_block_invoke
+-[_priv_NBSLensPageInfoRecord init]
+-[_priv_NBSLensPageInfoRecord pushToVCStack:withStartTime:]
+-[_priv_NBSLensPageInfoRecord dealWithDidEnterBackground:]
+-[_priv_NBSLensPageInfoRecord dealWithDidEnterForeground:withIsNeedInit:]
+-[_priv_NBSLensPageInfoRecord renderData]
+-[_priv_NBSLensPageInfoRecord nameOfVC:]
+-[_priv_NBSLensPageInfoRecord pageInfo:withPageTime:]
+-[_priv_NBSLensPageInfoRecord .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensPageInfo._vcName
+_OBJC_IVAR_$__priv_NBSLensPageInfo._timeStart
+_sharedInstance.record
+_sharedInstance.onceToken
+___block_literal_global
+_OBJC_IVAR_$__priv_NBSLensPageInfoRecord._vcStack
+_OBJC_IVAR_$__priv_NBSLensPageInfoRecord.timeToBackground
+_OBJC_IVAR_$__priv_NBSLensPageInfoRecord.timeBackground
+_OBJC_IVAR_$__priv_NBSLensPageInfoRecord.dataArray
++[_priv_NBSLensCrashHandler install]
+___NBSUncaughtExceptionHandler_block_invoke
+___NBSLens_signalHandler_block_invoke
+___copy_helper_block_.198
+___destroy_helper_block_.199
+___NBSLens_signalHandler_block_invoke.203
+___copy_helper_block_.204
+___destroy_helper_block_.205
+_onceToken
+_nbs_previousUncatchExceptionHandler
+_NBSLens_signalHandler.crash_busying
+___block_descriptor_tmp.200
+___block_descriptor_tmp.206
+_nbs_previousSignalHandlers
+_nbs_glb_stack
++[_priv_NBSLensUITrackerInstaller install]
++[NBSAppAgent setCustomerData:forKey:]
++[NBSAppAgent setIgnoreBlock:]
++[NBSAppAgent setUncatchExceptionCallbackBlock:]
+-[NBSAppAgent initAgentWithAppID:]
+-[NBSAppAgent addApplicationNotification]
++[NBSAppAgent nbs_networkStateChange]
++[NBSAppAgent hook_appDelegate:]
++[NBSAppAgent hook_appDelegate_1:]
+-[NBSAppAgent nbs_setDelegate:]
+___31-[NBSAppAgent nbs_setDelegate:]_block_invoke
+-[NBSAppAgent check_isOK_rate]
+-[NBSAppAgent check_isOK_OSVersion]
+-[NBSAppAgent check_inSleep]
+-[NBSAppAgent start_UITrackBlock]
+___33-[NBSAppAgent start_UITrackBlock]_block_invoke
+-[NBSAppAgent start_networkBlock]
+___33-[NBSAppAgent start_networkBlock]_block_invoke
+___copy_helper_block_.142
+___destroy_helper_block_.143
+-[NBSAppAgent start_UIBlock]
+___28-[NBSAppAgent start_UIBlock]_block_invoke
+-[NBSAppAgent start_hybridBlock]
+___32-[NBSAppAgent start_hybridBlock]_block_invoke
+-[NBSAppAgent start_crashBlock]
+___31-[NBSAppAgent start_crashBlock]_block_invoke
+-[NBSAppAgent start_ANRBlock]
+___29-[NBSAppAgent start_ANRBlock]_block_invoke
+-[NBSAppAgent startHijackBlock]
+-[NBSAppAgent startAppStarts]
+-[NBSAppAgent startCDNController]
+-[NBSAppAgent start]
+___20-[NBSAppAgent start]_block_invoke
+___20-[NBSAppAgent start]_block_invoke_2
+-[NBSAppAgent clearOldCache]
++[NBSAppAgent setSetOption:]
++[NBSAppAgent leaveBreadcrumb:]
++[NBSAppAgent setUserIdentifier:]
++[NBSAppAgent clearUserIdentifier]
++[NBSAppAgent trackEvent:]
++[NBSAppAgent tingyunAppIsStart]
++[NBSAppAgent startWithAppID:]
++[NBSAppAgent startWithAppID:rateOfLaunch:]
++[NBSAppAgent startWithAppID:location:]
++[NBSAppAgent startWithAppID:location:rateOfLaunch:]
++[NBSAppAgent startWithAppID:channelId:]
++[NBSAppAgent startWithAppID:location:rateOfLaunch:channelId:useBuildVersion:]
+-[NBSAppAgent startJBAutoInstall:]
++[NBSAppAgent setCrashCollectFlg:]
++[NBSAppAgent closeLogForUpdateHint:]
+-[NBSAppAgent nbs_application:didFinishLaunchingWithOptions:]
+-[NBSAppAgent nbs_applicationDidFinishLaunching:]
+-[NBSAppAgent nbs_applicationDidEnterBackground:]
+___49-[NBSAppAgent nbs_applicationDidEnterBackground:]_block_invoke
+___copy_helper_block_.370
+___destroy_helper_block_.371
+___49-[NBSAppAgent nbs_applicationDidEnterBackground:]_block_invoke.375
+___copy_helper_block_.380
+___destroy_helper_block_.381
+-[NBSAppAgent nbs_applicationWillEnterForeground:]
+-[NBSAppAgent nbs_applicationDidBecomeActive:]
++[NBSAppAgent nf_applicationWillEnterForeground:]
++[NBSAppAgent nf_applicationDidEnterBackground:]
+___48+[NBSAppAgent nf_applicationDidEnterBackground:]_block_invoke
+___copy_helper_block_.428
+___destroy_helper_block_.429
+___48+[NBSAppAgent nf_applicationDidEnterBackground:]_block_invoke.431
+___copy_helper_block_.432
+___destroy_helper_block_.433
+_OBJC_IVAR_$_NBSAppAgent.isNeedLocationService
+_OBJC_IVAR_$_NBSAppAgent.hitRate
+_nbs_setDelegate:.onceToken
+_start_UITrackBlock.onceToken
+___block_descriptor_tmp.120
+_start_networkBlock.onceToken
+___block_descriptor_tmp.144
+_start_UIBlock.onceToken
+___block_descriptor_tmp.145
+___block_literal_global.146
+_start_hybridBlock.onceToken
+___block_descriptor_tmp.155
+___block_literal_global.156
+_start_crashBlock.onceToken
+___block_descriptor_tmp.160
+___block_literal_global.161
+_start_ANRBlock.onceToken
+___block_descriptor_tmp.170
+___block_literal_global.171
+___block_descriptor_tmp.236
+___block_literal_global.237
+___block_descriptor_tmp.244
+___block_literal_global.245
+_nbs_closeUpdateLog_SDKVersion
+___block_descriptor_tmp.372
+___block_descriptor_tmp.382
+___block_descriptor_tmp.430
+___block_descriptor_tmp.434
++[_priv_NBSLensAppStartsReporter sharedReporter]
+___48+[_priv_NBSLensAppStartsReporter sharedReporter]_block_invoke
+-[_priv_NBSLensAppStartsReporter init]
+-[_priv_NBSLensAppStartsReporter postDataToServer]
+___50-[_priv_NBSLensAppStartsReporter postDataToServer]_block_invoke
+___copy_helper_block_.13
+___destroy_helper_block_.14
+-[_priv_NBSLensAppStartsReporter reportData]
+-[_priv_NBSLensAppStartsReporter appStartItems]
+-[_priv_NBSLensAppStartsReporter setAppStartItems:]
+-[_priv_NBSLensAppStartsReporter .cxx_destruct]
+_sharedReporter.instance
+_sharedReporter.onceToken
+_OBJC_IVAR_$__priv_NBSLensAppStartsReporter.queue
+___block_descriptor_tmp.15
+_OBJC_IVAR_$__priv_NBSLensAppStartsReporter.postDatas
+_OBJC_IVAR_$__priv_NBSLensAppStartsReporter._appStartItems
++[NBSPbcWrapper messageWithObj:forDataType:]
+_registerMobileAppInfo
+_registerMobileDeviceInfo
+_registerMobileDeviceData
+_registerMobileUploadRequestCommand
+_UploadRequestCommand_wmessage
+_UploadRequestCommandWEBV2_wmessage
++[NBSPbcWrapper initMobileAppResultDictionaryFromData:]
+_GetMobileDeviceInfo_wmessage
+_GetMobileAppInfo_wmessage
+_GetAllMobileDeviceData_wmessage
+_GetUploadViews_wmessage
+_GetCrashOrAnrMobileAppInfo_wmessage
+_pbc_MobileAppInfo_bin
+_pbc_MobileDeviceInfo_bin
+_pbc_InitMobileAppRequestCommand_bin
+_pbc_MobileDeviceData_bin
+_pbc_MobileUploadRequestCommand_bin
+_pbc_MobileANRReportRequestCommand_bin
+_pbc_MobileReportUserRequestCommand_bin
+_pbc_MobileUiTraceCommand_bin
+_pbc_MobileCrashReportRequestCommand2_bin
+_pbc_InitMobileAppResult_bin
+_eventHookGcd
+_eventNewDispatchAsync
+_eventNewDispatchSync
+_eventNewDispatchAfter
+_checkVaildQueue
+___eventNewDispatchAsync_block_invoke
+___eventNewDispatchSync_block_invoke
+___copy_helper_block_.15
+___destroy_helper_block_.16
+___eventNewDispatchAfter_block_invoke
+___copy_helper_block_.20
+___destroy_helper_block_.21
+___block_descriptor_tmp.17
+_eventHookOperation
+___eventHookOperation_block_invoke
+___eventHookOperation_block_invoke_2
+___block_descriptor_tmp.32
+__pattern_new
+__scan_pattern
+_nbs_pbcP_new
+__ctype
+__check_ctype
+__comp_field
+_nbs_pbcP_unpack_packed
+_nbs_pbc_pattern_delete
+_nbs_pbc_pattern_pack
+_nbs_pbc_pattern_unpack
+_nbs_pbc_pattern_set_default
+_nbs_pbc_pattern_close_arrays
+__copy_string
+__pack_field
+__pack_number
+__pack_packed_fixed
+_unpack_field
+__pattern_set_default
+_set_default_v
+-[_priv_NBSLensCustomerAPIBusyItem eventName]
+-[_priv_NBSLensCustomerAPIBusyItem setEventName:]
+-[_priv_NBSLensCustomerAPIBusyItem clsName]
+-[_priv_NBSLensCustomerAPIBusyItem setClsName:]
+-[_priv_NBSLensCustomerAPIBusyItem methodName]
+-[_priv_NBSLensCustomerAPIBusyItem setMethodName:]
+-[_priv_NBSLensCustomerAPIBusyItem threadName]
+-[_priv_NBSLensCustomerAPIBusyItem setThreadName:]
+-[_priv_NBSLensCustomerAPIBusyItem threadId]
+-[_priv_NBSLensCustomerAPIBusyItem setThreadId:]
+-[_priv_NBSLensCustomerAPIBusyItem tm1]
+-[_priv_NBSLensCustomerAPIBusyItem setTm1:]
+-[_priv_NBSLensCustomerAPIBusyItem otherInfo]
+-[_priv_NBSLensCustomerAPIBusyItem setOtherInfo:]
+-[_priv_NBSLensCustomerAPIBusyItem isMainTHread]
+-[_priv_NBSLensCustomerAPIBusyItem setIsMainTHread:]
+-[_priv_NBSLensCustomerAPIBusyItem isOtherStage]
+-[_priv_NBSLensCustomerAPIBusyItem setIsOtherStage:]
+-[_priv_NBSLensCustomerAPIBusyItem .cxx_destruct]
++[_priv_NBSLensCustomerAPIBusyItems sharedObject]
+___49+[_priv_NBSLensCustomerAPIBusyItems sharedObject]_block_invoke
+-[_priv_NBSLensCustomerAPIBusyItems init]
+-[_priv_NBSLensCustomerAPIBusyItems registerEvent:withObject:]
+-[_priv_NBSLensCustomerAPIBusyItems getObjOfEvent:]
+-[_priv_NBSLensCustomerAPIBusyItems unregisterEvent:]
+-[_priv_NBSLensCustomerAPIBusyItems .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._eventName
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._clsName
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._methodName
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._threadName
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._threadId
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._tm1
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._otherInfo
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._isMainTHread
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItem._isOtherStage
+_sharedObject.tmp
+_sharedObject.onceToken
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItems.activit_events
+_OBJC_IVAR_$__priv_NBSLensCustomerAPIBusyItems.lockObj
+-[_priv_NBSLens_jsError init]
+-[_priv_NBSLens_jsError key]
+-[_priv_NBSLens_jsError setFILENAME_OF_ERROR:]
+-[_priv_NBSLens_jsError render]
+-[_priv_NBSLens_jsError OFFSET_TIMESTAMP]
+-[_priv_NBSLens_jsError setOFFSET_TIMESTAMP:]
+-[_priv_NBSLens_jsError TIMESTAMP]
+-[_priv_NBSLens_jsError setTIMESTAMP:]
+-[_priv_NBSLens_jsError PAGE_START_TIME_IN_SEC]
+-[_priv_NBSLens_jsError setPAGE_START_TIME_IN_SEC:]
+-[_priv_NBSLens_jsError PV_ID]
+-[_priv_NBSLens_jsError setPV_ID:]
+-[_priv_NBSLens_jsError PAGE_URL]
+-[_priv_NBSLens_jsError setPAGE_URL:]
+-[_priv_NBSLens_jsError ERROR_TYPE_NAME]
+-[_priv_NBSLens_jsError setERROR_TYPE_NAME:]
+-[_priv_NBSLens_jsError ERROR_MESSAGE]
+-[_priv_NBSLens_jsError setERROR_MESSAGE:]
+-[_priv_NBSLens_jsError LINE_OF_ERROR]
+-[_priv_NBSLens_jsError setLINE_OF_ERROR:]
+-[_priv_NBSLens_jsError COLUMN_OF_ERROR]
+-[_priv_NBSLens_jsError setCOLUMN_OF_ERROR:]
+-[_priv_NBSLens_jsError FILENAME_OF_ERROR]
+-[_priv_NBSLens_jsError STACK]
+-[_priv_NBSLens_jsError setSTACK:]
+-[_priv_NBSLens_jsError JS_ERROR_COUNT]
+-[_priv_NBSLens_jsError setJS_ERROR_COUNT:]
+-[_priv_NBSLens_jsError IS_FIRST_JS_ERROR]
+-[_priv_NBSLens_jsError setIS_FIRST_JS_ERROR:]
+-[_priv_NBSLens_jsError CND_VENDOR_NAME]
+-[_priv_NBSLens_jsError setCND_VENDOR_NAME:]
+-[_priv_NBSLens_jsError isLoading]
+-[_priv_NBSLens_jsError setIsLoading:]
+-[_priv_NBSLens_jsError setKey:]
+-[_priv_NBSLens_jsError .cxx_destruct]
+-[_priv_NBSLens_perfmItem init]
+-[_priv_NBSLens_perfmItem render]
+-[_priv_NBSLens_perfmItem getSlowIndicator]
+-[_priv_NBSLens_perfmItem renderResourceData]
+-[_priv_NBSLens_perfmItem renderUIWebViewResource]
+-[_priv_NBSLens_perfmItem renderWKWebViewResource]
+-[_priv_NBSLens_perfmItem renderJSError]
+-[_priv_NBSLens_perfmItem updateTimingFromWebAction:]
+-[_priv_NBSLens_perfmItem URL]
+-[_priv_NBSLens_perfmItem setURL:]
+-[_priv_NBSLens_perfmItem PV_ID]
+-[_priv_NBSLens_perfmItem setPV_ID:]
+-[_priv_NBSLens_perfmItem REDIRECT_START]
+-[_priv_NBSLens_perfmItem setREDIRECT_START:]
+-[_priv_NBSLens_perfmItem REDIRECT_END]
+-[_priv_NBSLens_perfmItem setREDIRECT_END:]
+-[_priv_NBSLens_perfmItem FETCH_START]
+-[_priv_NBSLens_perfmItem setFETCH_START:]
+-[_priv_NBSLens_perfmItem DOMAIN_LOOKUP_START]
+-[_priv_NBSLens_perfmItem setDOMAIN_LOOKUP_START:]
+-[_priv_NBSLens_perfmItem DOMAIN_LOOKUP_END]
+-[_priv_NBSLens_perfmItem setDOMAIN_LOOKUP_END:]
+-[_priv_NBSLens_perfmItem CONNECT_START]
+-[_priv_NBSLens_perfmItem setCONNECT_START:]
+-[_priv_NBSLens_perfmItem CONNECT_END]
+-[_priv_NBSLens_perfmItem setCONNECT_END:]
+-[_priv_NBSLens_perfmItem SECURE_CONNECTION_START]
+-[_priv_NBSLens_perfmItem setSECURE_CONNECTION_START:]
+-[_priv_NBSLens_perfmItem REQUEST_START]
+-[_priv_NBSLens_perfmItem setREQUEST_START:]
+-[_priv_NBSLens_perfmItem RESPONSE_START]
+-[_priv_NBSLens_perfmItem setRESPONSE_START:]
+-[_priv_NBSLens_perfmItem RESPONSE_END]
+-[_priv_NBSLens_perfmItem setRESPONSE_END:]
+-[_priv_NBSLens_perfmItem DOM_LOADING]
+-[_priv_NBSLens_perfmItem setDOM_LOADING:]
+-[_priv_NBSLens_perfmItem DOM_INTERACTIVE]
+-[_priv_NBSLens_perfmItem setDOM_INTERACTIVE:]
+-[_priv_NBSLens_perfmItem DOM_CONTENT_LOADED_EVENT_START]
+-[_priv_NBSLens_perfmItem setDOM_CONTENT_LOADED_EVENT_START:]
+-[_priv_NBSLens_perfmItem DOM_CONTENT_LOADED_EVENT_END]
+-[_priv_NBSLens_perfmItem setDOM_CONTENT_LOADED_EVENT_END:]
+-[_priv_NBSLens_perfmItem DOM_COMPLETE]
+-[_priv_NBSLens_perfmItem setDOM_COMPLETE:]
+-[_priv_NBSLens_perfmItem LOAD_EVENT_START]
+-[_priv_NBSLens_perfmItem setLOAD_EVENT_START:]
+-[_priv_NBSLens_perfmItem LOAD_EVENT_END]
+-[_priv_NBSLens_perfmItem setLOAD_EVENT_END:]
+-[_priv_NBSLens_perfmItem FIRST_PAINT_TIME]
+-[_priv_NBSLens_perfmItem setFIRST_PAINT_TIME:]
+-[_priv_NBSLens_perfmItem FIRST_SCREEN_TIME]
+-[_priv_NBSLens_perfmItem setFIRST_SCREEN_TIME:]
+-[_priv_NBSLens_perfmItem JS_ERRORS]
+-[_priv_NBSLens_perfmItem setJS_ERRORS:]
+-[_priv_NBSLens_perfmItem HTTP_STATUS_CODE]
+-[_priv_NBSLens_perfmItem setHTTP_STATUS_CODE:]
+-[_priv_NBSLens_perfmItem ERROR_CODE]
+-[_priv_NBSLens_perfmItem setERROR_CODE:]
+-[_priv_NBSLens_perfmItem BYTE_RECEIVED]
+-[_priv_NBSLens_perfmItem setBYTE_RECEIVED:]
+-[_priv_NBSLens_perfmItem APP_DATA]
+-[_priv_NBSLens_perfmItem setAPP_DATA:]
+-[_priv_NBSLens_perfmItem RESOURCES_DATA_ARRAY]
+-[_priv_NBSLens_perfmItem setRESOURCES_DATA_ARRAY:]
+-[_priv_NBSLens_perfmItem PAGE_JS_ERRORS_DATA_ARRAY]
+-[_priv_NBSLens_perfmItem setPAGE_JS_ERRORS_DATA_ARRAY:]
+-[_priv_NBSLens_perfmItem CDN_VENDOR_NAME]
+-[_priv_NBSLens_perfmItem setCDN_VENDOR_NAME:]
+-[_priv_NBSLens_perfmItem navigationStart]
+-[_priv_NBSLens_perfmItem setNavigationStart:]
+-[_priv_NBSLens_perfmItem isWKWebView]
+-[_priv_NBSLens_perfmItem setIsWKWebView:]
+-[_priv_NBSLens_perfmItem .cxx_destruct]
+-[_priv_NBSLens_webViewDataManager handleMemoryWarning]
+-[_priv_NBSLens_webViewDataManager onNotification_post:]
+___56-[_priv_NBSLens_webViewDataManager onNotification_post:]_block_invoke
+-[_priv_NBSLens_webViewDataManager init]
+-[_priv_NBSLens_webViewDataManager dealloc]
++[_priv_NBSLens_webViewDataManager singletonObject]
+___51+[_priv_NBSLens_webViewDataManager singletonObject]_block_invoke
+-[_priv_NBSLens_webViewDataManager getPostData]
+-[_priv_NBSLens_webViewDataManager postToServer]
+-[_priv_NBSLens_webViewDataManager logJSExceptionBeforeLoad:]
+-[_priv_NBSLens_webViewDataManager logJSExceptionAfterLoad:]
+-[_priv_NBSLens_webViewDataManager logWebPerformance:]
+-[_priv_NBSLens_webViewDataManager renderJSErrorBeforeLoad]
+-[_priv_NBSLens_webViewDataManager .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLens_jsError._PV_ID
+_OBJC_IVAR_$__priv_NBSLens_jsError._PAGE_URL
+_OBJC_IVAR_$__priv_NBSLens_jsError._ERROR_TYPE_NAME
+_OBJC_IVAR_$__priv_NBSLens_jsError._ERROR_MESSAGE
+_OBJC_IVAR_$__priv_NBSLens_jsError._LINE_OF_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._COLUMN_OF_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._FILENAME_OF_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._STACK
+_OBJC_IVAR_$__priv_NBSLens_jsError._JS_ERROR_COUNT
+_OBJC_IVAR_$__priv_NBSLens_jsError._IS_FIRST_JS_ERROR
+_OBJC_IVAR_$__priv_NBSLens_jsError._isLoading
+_OBJC_IVAR_$__priv_NBSLens_jsError._CND_VENDOR_NAME
+_OBJC_IVAR_$__priv_NBSLens_jsError._OFFSET_TIMESTAMP
+_OBJC_IVAR_$__priv_NBSLens_jsError._PAGE_START_TIME_IN_SEC
+_OBJC_IVAR_$__priv_NBSLens_jsError._TIMESTAMP
+_OBJC_IVAR_$__priv_NBSLens_jsError._key
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._navigationStart
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._URL
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._PV_ID
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._REDIRECT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._REDIRECT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._FETCH_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOMAIN_LOOKUP_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOMAIN_LOOKUP_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._CONNECT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._CONNECT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._SECURE_CONNECTION_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._REQUEST_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESPONSE_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESPONSE_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_LOADING
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_INTERACTIVE
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_CONTENT_LOADED_EVENT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_CONTENT_LOADED_EVENT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._DOM_COMPLETE
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._LOAD_EVENT_START
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._LOAD_EVENT_END
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._FIRST_PAINT_TIME
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._FIRST_SCREEN_TIME
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._JS_ERRORS
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._HTTP_STATUS_CODE
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._ERROR_CODE
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._BYTE_RECEIVED
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._RESOURCES_DATA_ARRAY
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._PAGE_JS_ERRORS_DATA_ARRAY
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._APP_DATA
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._CDN_VENDOR_NAME
+_OBJC_IVAR_$__priv_NBSLens_perfmItem._isWKWebView
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.jsErrors
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.pfmDatas
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.queue
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.jsErrorsBeforeLoad
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.jsErrorsAfterLoad
+_singletonObject.tmp
+_singletonObject.onceToken
+___block_descriptor_tmp.424
+_OBJC_IVAR_$__priv_NBSLens_webViewDataManager.private_buf_postData
+_nbs_pbcV_encode32
+_nbs_pbcV_encode
+_nbs_pbcV_zigzag32
+_nbs_pbcV_zigzag
+_nbs_pbcV_decode
+_nbs_pbcV_dezigzag64
+_nbs_pbcV_dezigzag32
+-[_priv_NBSEventTreeNode init]
+-[_priv_NBSEventTreeNode eventSegment]
+-[_priv_NBSEventTreeNode setEventSegment:]
+-[_priv_NBSEventTreeNode children]
+-[_priv_NBSEventTreeNode setChildren:]
+-[_priv_NBSEventTreeNode treeKey]
+-[_priv_NBSEventTreeNode setTreeKey:]
+-[_priv_NBSEventTreeNode isFinish]
+-[_priv_NBSEventTreeNode setIsFinish:]
+-[_priv_NBSEventTreeNode hasNetworkError]
+-[_priv_NBSEventTreeNode setHasNetworkError:]
+-[_priv_NBSEventTreeNode nodeType]
+-[_priv_NBSEventTreeNode setNodeType:]
+-[_priv_NBSEventTreeNode isTimeout]
+-[_priv_NBSEventTreeNode setIsTimeout:]
+-[_priv_NBSEventTreeNode .cxx_destruct]
+-[_priv_NBSEventTree init]
+-[_priv_NBSEventTree initWithRootNode:]
+-[_priv_NBSEventTree observeValueForKeyPath:ofObject:change:context:]
+-[_priv_NBSEventTree insertNode:parent:]
+-[_priv_NBSEventTree fixTree:]
+-[_priv_NBSEventTree forceTimeout]
+-[_priv_NBSEventTree updateTreeState]
+-[_priv_NBSEventTree fireTimer]
+___31-[_priv_NBSEventTree fireTimer]_block_invoke
+-[_priv_NBSEventTree cutTree:]
+-[_priv_NBSEventTree dealloc]
+-[_priv_NBSEventTree root]
+-[_priv_NBSEventTree setRoot:]
+-[_priv_NBSEventTree appStartsMetric]
+-[_priv_NBSEventTree setAppStartsMetric:]
+-[_priv_NBSEventTree actionMetric]
+-[_priv_NBSEventTree setActionMetric:]
+-[_priv_NBSEventTree lifeRef]
+-[_priv_NBSEventTree setLifeRef:]
+-[_priv_NBSEventTree abnormal]
+-[_priv_NBSEventTree setAbnormal:]
+-[_priv_NBSEventTree startTime]
+-[_priv_NBSEventTree setStartTime:]
+-[_priv_NBSEventTree lastNodeTime]
+-[_priv_NBSEventTree setLastNodeTime:]
+-[_priv_NBSEventTree interrupt]
+-[_priv_NBSEventTree setInterrupt:]
+-[_priv_NBSEventTree deep]
+-[_priv_NBSEventTree setDeep:]
+-[_priv_NBSEventTree .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSEventTreeNode._children
+_OBJC_IVAR_$__priv_NBSEventTreeNode._eventSegment
+_OBJC_IVAR_$__priv_NBSEventTreeNode._nodeType
+_OBJC_IVAR_$__priv_NBSEventTreeNode._treeKey
+_OBJC_IVAR_$__priv_NBSEventTreeNode._isFinish
+_OBJC_IVAR_$__priv_NBSEventTreeNode._hasNetworkError
+_OBJC_IVAR_$__priv_NBSEventTreeNode._isTimeout
+_OBJC_IVAR_$__priv_NBSEventTree.reLock
+_OBJC_IVAR_$__priv_NBSEventTree.alock
+_OBJC_IVAR_$__priv_NBSEventTree._deep
+_OBJC_IVAR_$__priv_NBSEventTree.hasFinished
+_OBJC_IVAR_$__priv_NBSEventTree._lifeRef
+_OBJC_IVAR_$__priv_NBSEventTree._root
+_OBJC_IVAR_$__priv_NBSEventTree._appStartsMetric
+_OBJC_IVAR_$__priv_NBSEventTree._actionMetric
+_OBJC_IVAR_$__priv_NBSEventTree._abnormal
+_OBJC_IVAR_$__priv_NBSEventTree._startTime
+_OBJC_IVAR_$__priv_NBSEventTree._lastNodeTime
+_OBJC_IVAR_$__priv_NBSEventTree._interrupt
+-[_priv_NBSURLSessionDelegate nbs_URLSession:didBecomeInvalidWithError:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:dataTask:didBecomeStreamTask:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:readClosedForStreamTask:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:writeClosedForStreamTask:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:streamTask:didBecomeInputStream:outputStream:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:didReceiveChallenge:completionHandler:]
+-[_priv_NBSURLSessionDelegate nbs_URLSessionDidFinishEventsForBackgroundURLSession:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:task:didReceiveChallenge:completionHandler:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:task:needNewBodyStream:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:task:didCompleteWithError:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:dataTask:didBecomeDownloadTask:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:dataTask:didReceiveData:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:dataTask:willCacheResponse:completionHandler:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:task:didFinishCollectingMetrics:]
+-[_priv_NBSURLSessionDelegate forwardingTargetForSelector:]
+-[_priv_NBSURLSessionDelegate respondsToSelector:]
+-[_priv_NBSURLSessionDelegate class]
+-[_priv_NBSURLSessionDelegate nbs_URLSession:downloadTask:didFinishDownloadingToURL:]
++[_priv_NBSLensAppStartsInstaller install]
+___getTextAddressOfImageMachHeader_block_invoke
+_getUuidFromImageMachHeader
+_getImageMachHeaderSize
+_getImageVmAddrSlide
+_getIndexOfImageMachHeader
+_checkUserImage
+_checkUserClass
+_getMainImageName
+_getMainImageMachHeaderUUID
+-[NBSActionPostInfo actionID]
+-[NBSActionPostInfo setActionID:]
+-[NBSActionPostInfo eventType]
+-[NBSActionPostInfo setEventType:]
+-[NBSActionPostInfo actionName]
+-[NBSActionPostInfo setActionName:]
+-[NBSActionPostInfo pageName]
+-[NBSActionPostInfo setPageName:]
+-[NBSActionPostInfo image]
+-[NBSActionPostInfo setImage:]
+-[NBSActionPostInfo .cxx_destruct]
++[NBSActionEditorVC load]
++[NBSActionEditorVC editorWithImage:actions:withCallBackOnPost:withCallBackOnCancel:]
+-[NBSActionEditorVC constructInterface]
+-[NBSActionEditorVC autoFitSize]
+-[NBSActionEditorVC fillData]
+-[NBSActionEditorVC viewDidLoad]
+-[NBSActionEditorVC packUpKeyBoard]
+-[NBSActionEditorVC fingerTapped:]
+-[NBSActionEditorVC handleDeviceOrientationChange:]
+-[NBSActionEditorVC click_post:]
+___32-[NBSActionEditorVC click_post:]_block_invoke
+-[NBSActionEditorVC click_cancel:]
+___34-[NBSActionEditorVC click_cancel:]_block_invoke
+___copy_helper_block_.236
+___destroy_helper_block_.237
+-[NBSActionEditorVC didReceiveMemoryWarning]
+-[NBSActionEditorVC numberOfComponentsInPickerView:]
+-[NBSActionEditorVC pickerView:numberOfRowsInComponent:]
+-[NBSActionEditorVC pickerView:widthForComponent:]
+-[NBSActionEditorVC pickerView:rowHeightForComponent:]
+-[NBSActionEditorVC pickerView:titleForRow:forComponent:]
+-[NBSActionEditorVC pickerView:didSelectRow:inComponent:]
+-[NBSActionEditorVC pickerView:viewForRow:forComponent:reusingView:]
+-[NBSActionEditorVC screenShot]
+-[NBSActionEditorVC setScreenShot:]
+-[NBSActionEditorVC callBackOnBtnPost]
+-[NBSActionEditorVC setCallBackOnBtnPost:]
+-[NBSActionEditorVC actions]
+-[NBSActionEditorVC setActions:]
+-[NBSActionEditorVC cancelCallBack]
+-[NBSActionEditorVC setCancelCallBack:]
+-[NBSActionEditorVC .cxx_destruct]
+_typesOfEvent
+_OBJC_IVAR_$_NBSActionPostInfo._actionID
+_OBJC_IVAR_$_NBSActionPostInfo._eventType
+_OBJC_IVAR_$_NBSActionPostInfo._actionName
+_OBJC_IVAR_$_NBSActionPostInfo._pageName
+_OBJC_IVAR_$_NBSActionPostInfo._image
+_OBJC_IVAR_$_NBSActionEditorVC.container
+_OBJC_IVAR_$_NBSActionEditorVC.lbl_id
+_OBJC_IVAR_$_NBSActionEditorVC.lbl_name
+_OBJC_IVAR_$_NBSActionEditorVC.lbl_page
+_OBJC_IVAR_$_NBSActionEditorVC.txt_name
+_OBJC_IVAR_$_NBSActionEditorVC.txt_page
+_OBJC_IVAR_$_NBSActionEditorVC.picker_Actions
+_OBJC_IVAR_$_NBSActionEditorVC.imageView
+_OBJC_IVAR_$_NBSActionEditorVC.btn_cancel
+_OBJC_IVAR_$_NBSActionEditorVC.btn_post
+_OBJC_IVAR_$_NBSActionEditorVC.events
+_OBJC_IVAR_$_NBSActionEditorVC.selectedRow
+___block_descriptor_tmp.238
+_OBJC_IVAR_$_NBSActionEditorVC._screenShot
+_OBJC_IVAR_$_NBSActionEditorVC._callBackOnBtnPost
+_OBJC_IVAR_$_NBSActionEditorVC._actions
+_OBJC_IVAR_$_NBSActionEditorVC._cancelCallBack
++[_priv_NBSUIAgent hookUIImage]
++[_priv_NBSUIAgent hookNSManagedObjectContext]
++[_priv_NBSUIAgent hookNSJSONSerialization]
++[_priv_NBSUIAgent hookNSData]
++[_priv_NBSUIAgent hookNSArray]
++[_priv_NBSUIAgent hookNSDictionary]
++[_priv_NBSUIAgent hook_loadView:]
+___34+[_priv_NBSUIAgent hook_loadView:]_block_invoke
+___34+[_priv_NBSUIAgent hook_loadView:]_block_invoke_2
++[_priv_NBSUIAgent hook_viewDidLoad:]
+___37+[_priv_NBSUIAgent hook_viewDidLoad:]_block_invoke
+___37+[_priv_NBSUIAgent hook_viewDidLoad:]_block_invoke_2
++[_priv_NBSUIAgent hook_viewWillAppear:]
+___40+[_priv_NBSUIAgent hook_viewWillAppear:]_block_invoke
+___40+[_priv_NBSUIAgent hook_viewWillAppear:]_block_invoke_2
++[_priv_NBSUIAgent hook_viewDidAppear:]
+___39+[_priv_NBSUIAgent hook_viewDidAppear:]_block_invoke
+___39+[_priv_NBSUIAgent hook_viewDidAppear:]_block_invoke_2
++[_priv_NBSUIAgent nbs_jump_initialize:]
+___40+[_priv_NBSUIAgent nbs_jump_initialize:]_block_invoke
++[_priv_NBSUIAgent hookSubOfController:]
+___40+[_priv_NBSUIAgent hookSubOfController:]_block_invoke
+___40+[_priv_NBSUIAgent hookSubOfController:]_block_invoke_2
++[_priv_NBSUIAgent hookFMDB]
+-[_priv_NBSUIAgent nbs_vc_flag]
++[_priv_NBSUIAgent hookRootViewController]
+___42+[_priv_NBSUIAgent hookRootViewController]_block_invoke
+___42+[_priv_NBSUIAgent hookRootViewController]_block_invoke_2
++[_priv_NBSUIAgent hookUIViewController]
+___40+[_priv_NBSUIAgent hookUIViewController]_block_invoke
++[_priv_NBSUIAgent start]
+___25+[_priv_NBSUIAgent start]_block_invoke
+_nbs_get_viewControllers
+___nbs_get_viewControllers_block_invoke
+___block_descriptor_tmp.40
+___block_descriptor_tmp.51
+___block_descriptor_tmp.58
+___block_descriptor_tmp.67
+___block_descriptor_tmp.69
+___block_descriptor_tmp.77
+___block_descriptor_tmp.79
+___block_descriptor_tmp.105
+___block_descriptor_tmp.127
+___block_descriptor_tmp.129
+___block_descriptor_tmp.149
+___block_literal_global.150
+___block_descriptor_tmp.153
+___block_descriptor_tmp.162
+___block_literal_global.163
+___block_descriptor_tmp.211
+_nbs_pbcC_open
+_nbs_pbcC_open_packed
+_nbs_pbcC_close
+_wiretype_decode
+-[_priv_NBSLensCustomerEvent initWithEventName:]
+-[_priv_NBSLensCustomerEvent eventName]
+-[_priv_NBSLensCustomerEvent setEventName:]
+-[_priv_NBSLensCustomerEvent eventTimeInSeconds]
+-[_priv_NBSLensCustomerEvent setEventTimeInSeconds:]
+-[_priv_NBSLensCustomerEvent .cxx_destruct]
++[_priv_NBSLensCustomerEventLogger shareLogger]
+___47+[_priv_NBSLensCustomerEventLogger shareLogger]_block_invoke
+-[_priv_NBSLensCustomerEventLogger logCustomerEvent:]
+-[_priv_NBSLensCustomerEventLogger customerEvents]
+-[_priv_NBSLensCustomerEventLogger renderCustomerEvents]
+-[_priv_NBSLensCustomerEventLogger clear]
+-[_priv_NBSLensCustomerEventLogger setCustomerEvents:]
+-[_priv_NBSLensCustomerEventLogger .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensCustomerEvent._eventName
+_OBJC_IVAR_$__priv_NBSLensCustomerEvent._eventTimeInSeconds
+_shareLogger.logger
+_shareLogger.onceToken
+_OBJC_IVAR_$__priv_NBSLensCustomerEventLogger._customerEvents
+_thread_get_id
+_thread_get_id_from_nsthread
+_nbs_isCacheValid
+_nbs_shouldSkipRequest
+_nbs_is_should_takeover_network
+_nbs_prepareRequest
+_nbs_NBSCacheStoragePolicyForRequestAndResponse
+_extractContentType
+_nbs_dateFromGMTString
+_get_valueFromCacheControl
++[_priv_NBSURLProtocolConnection setCallBackOfShippingAuthentication:andCallBackOfPreparingRequest:]
++[_priv_NBSURLProtocolConnection canInitWithRequest:]
++[_priv_NBSURLProtocolConnection canonicalRequestForRequest:]
++[_priv_NBSURLProtocolConnection requestIsCacheEquivalent:toRequest:]
+-[_priv_NBSURLProtocolConnection startLoading]
+-[_priv_NBSURLProtocolConnection stopLoading]
+-[_priv_NBSURLProtocolConnection dealloc]
+-[_priv_NBSURLProtocolConnection connection:willSendRequest:redirectResponse:]
+-[_priv_NBSURLProtocolConnection connection:didReceiveData:]
+-[_priv_NBSURLProtocolConnection connection:didFailWithError:]
+-[_priv_NBSURLProtocolConnection connection:didReceiveResponse:]
+-[_priv_NBSURLProtocolConnection connectionDidFinishLoading:]
+-[_priv_NBSURLProtocolConnection connection:willSendRequestForAuthenticationChallenge:]
+-[_priv_NBSURLProtocolConnection connection]
+-[_priv_NBSURLProtocolConnection setConnection:]
+-[_priv_NBSURLProtocolConnection modes]
+-[_priv_NBSURLProtocolConnection setModes:]
+-[_priv_NBSURLProtocolConnection .cxx_destruct]
+_theCallBackOfShippingAuthentication
+_theCallBackOfPrepareingRequest
+_OBJC_IVAR_$__priv_NBSURLProtocolConnection.isStartLoading
+_OBJC_IVAR_$__priv_NBSURLProtocolConnection.curr_response
+_OBJC_IVAR_$__priv_NBSURLProtocolConnection._connection
+_OBJC_IVAR_$__priv_NBSURLProtocolConnection._modes
++[NBSHookPerformSelector install]
+-[NBSHookPerformSelector nbs_performSelector:onThread:withObject:waitUntilDone:modes:]
+___86-[NBSHookPerformSelector nbs_performSelector:onThread:withObject:waitUntilDone:modes:]_block_invoke
+-[_priv_NBSLensURLSessionDemuxTaskInfo initWithTask:delegate:modes:]
+-[_priv_NBSLensURLSessionDemuxTaskInfo performBlock:]
+-[_priv_NBSLensURLSessionDemuxTaskInfo performBlockOnClientThread:]
+-[_priv_NBSLensURLSessionDemuxTaskInfo invalidate]
+-[_priv_NBSLensURLSessionDemuxTaskInfo delegate]
+-[_priv_NBSLensURLSessionDemuxTaskInfo setDelegate:]
+-[_priv_NBSLensURLSessionDemuxTaskInfo thread]
+-[_priv_NBSLensURLSessionDemuxTaskInfo setThread:]
+-[_priv_NBSLensURLSessionDemuxTaskInfo modes]
+-[_priv_NBSLensURLSessionDemuxTaskInfo .cxx_destruct]
+-[_priv_NBSLensURLSessionDemux init]
+-[_priv_NBSLensURLSessionDemux initWithConfiguration:]
+-[_priv_NBSLensURLSessionDemux dataTaskWithRequest:delegate:modes:]
+-[_priv_NBSLensURLSessionDemux taskInfoForTask:]
+-[_priv_NBSLensURLSessionDemux URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+___104-[_priv_NBSLensURLSessionDemux URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]_block_invoke
+-[_priv_NBSLensURLSessionDemux URLSession:task:didReceiveChallenge:completionHandler:]
+___86-[_priv_NBSLensURLSessionDemux URLSession:task:didReceiveChallenge:completionHandler:]_block_invoke
+___copy_helper_block_.82
+___destroy_helper_block_.83
+-[_priv_NBSLensURLSessionDemux URLSession:task:needNewBodyStream:]
+___66-[_priv_NBSLensURLSessionDemux URLSession:task:needNewBodyStream:]_block_invoke
+___copy_helper_block_.87
+___destroy_helper_block_.88
+-[_priv_NBSLensURLSessionDemux URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]
+___104-[_priv_NBSLensURLSessionDemux URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:]_block_invoke
+___copy_helper_block_.92
+___destroy_helper_block_.93
+-[_priv_NBSLensURLSessionDemux URLSession:task:didCompleteWithError:]
+___69-[_priv_NBSLensURLSessionDemux URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_.99
+___destroy_helper_block_.100
+-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveResponse:completionHandler:]
+___89-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveResponse:completionHandler:]_block_invoke
+___copy_helper_block_.104
+___destroy_helper_block_.105
+-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didBecomeDownloadTask:]
+___74-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didBecomeDownloadTask:]_block_invoke
+___copy_helper_block_.109
+___destroy_helper_block_.110
+-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveData:]
+___67-[_priv_NBSLensURLSessionDemux URLSession:dataTask:didReceiveData:]_block_invoke
+___copy_helper_block_.114
+___destroy_helper_block_.115
+-[_priv_NBSLensURLSessionDemux URLSession:dataTask:willCacheResponse:completionHandler:]
+___88-[_priv_NBSLensURLSessionDemux URLSession:dataTask:willCacheResponse:completionHandler:]_block_invoke
+___copy_helper_block_.119
+___destroy_helper_block_.120
+-[_priv_NBSLensURLSessionDemux URLSession:task:didFinishCollectingMetrics:]
+___75-[_priv_NBSLensURLSessionDemux URLSession:task:didFinishCollectingMetrics:]_block_invoke
+___copy_helper_block_.124
+___destroy_helper_block_.125
+-[_priv_NBSLensURLSessionDemux configuration]
+-[_priv_NBSLensURLSessionDemux session]
+-[_priv_NBSLensURLSessionDemux sessionDelegateQueue]
+-[_priv_NBSLensURLSessionDemux .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensURLSessionDemuxTaskInfo._delegate
+_OBJC_IVAR_$__priv_NBSLensURLSessionDemuxTaskInfo._thread
+_OBJC_IVAR_$__priv_NBSLensURLSessionDemuxTaskInfo._modes
+_OBJC_IVAR_$__priv_NBSLensURLSessionDemux._configuration
+_OBJC_IVAR_$__priv_NBSLensURLSessionDemux._sessionDelegateQueue
+_OBJC_IVAR_$__priv_NBSLensURLSessionDemux._session
+___block_descriptor_tmp.84
+___block_descriptor_tmp.89
+___block_descriptor_tmp.95
+___block_descriptor_tmp.106
+___block_descriptor_tmp.111
+___block_descriptor_tmp.116
+___block_descriptor_tmp.121
+___block_descriptor_tmp.126
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDataDelegate
+-[_priv_NBSLensUITrackerLogger init]
++[_priv_NBSLensUITrackerLogger sharedInstance]
+___46+[_priv_NBSLensUITrackerLogger sharedInstance]_block_invoke
+-[_priv_NBSLensUITrackerLogger logEventOfVC:EventName:withDescription:andOtherInfo:]
+-[_priv_NBSLensUITrackerLogger logBreadcrumb:]
+-[_priv_NBSLensUITrackerLogger render:]
+___39-[_priv_NBSLensUITrackerLogger render:]_block_invoke
+-[_priv_NBSLensUITrackerLogger clear]
+-[_priv_NBSLensUITrackerLogger .cxx_destruct]
++[_priv_NBSLensUITrackerEventStack push]
++[_priv_NBSLensUITrackerEventStack pop]
++[_priv_NBSLensUITrackerEventStack isEmpty]
+_OBJC_IVAR_$__priv_NBSLensUITrackerLogger.eventList
+_OBJC_IVAR_$__priv_NBSLensUITrackerLogger.breadcrumbList
+_sharedInstance.instance
+___block_descriptor_tmp.33
+___block_literal_global.34
+_NBSLensUITrackerEventStack_cnt
++[_priv_NBSLensAppStartsMetrics sharedInstance]
+___47+[_priv_NBSLensAppStartsMetrics sharedInstance]_block_invoke
+-[_priv_NBSLensAppStartsMetrics init]
+-[_priv_NBSLensAppStartsMetrics isAppStartsValid]
+-[_priv_NBSLensAppStartsMetrics setIsAppStartsValid:]
+-[_priv_NBSLensAppStartsMetrics count]
+-[_priv_NBSLensAppStartsMetrics setCount:]
+-[_priv_NBSLensAppStartsMetrics sdkStartTimePoint]
+-[_priv_NBSLensAppStartsMetrics setSdkStartTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appDidFinishLaunchTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppDidFinishLaunchTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appDidEnterForegroundTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppDidEnterForegroundTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appDidEnterBackGroundTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppDidEnterBackGroundTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appDidBecomeActiveTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppDidBecomeActiveTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appFirstViewDidLoadTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppFirstViewDidLoadTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appLastVcViewWillAppearTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppLastVcViewWillAppearTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appViewDidAppearTimePoint]
+-[_priv_NBSLensAppStartsMetrics setAppViewDidAppearTimePoint:]
+-[_priv_NBSLensAppStartsMetrics appPhase]
+-[_priv_NBSLensAppStartsMetrics setAppPhase:]
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._isAppStartsValid
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._count
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appDidFinishLaunchTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appDidEnterForegroundTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appDidEnterBackGroundTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appDidBecomeActiveTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appFirstViewDidLoadTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appViewDidAppearTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appLastVcViewWillAppearTimePoint
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._appPhase
+_OBJC_IVAR_$__priv_NBSLensAppStartsMetrics._sdkStartTimePoint
+_theBinaryImageList.sl_array
+-[_priv_NBSThreadHandler init]
++[_priv_NBSThreadHandler sharedInstance]
+___40+[_priv_NBSThreadHandler sharedInstance]_block_invoke
+-[_priv_NBSThreadHandler threadExitNotice]
+-[_priv_NBSThreadHandler findStackWithThread:]
+-[_priv_NBSThreadHandler .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSThreadHandler.stackDict
+_OBJC_IVAR_$__priv_NBSThreadHandler.aLock
+-[_priv_NBS_DictAndArrary init]
+-[_priv_NBS_DictAndArrary addObject:ofKey:]
+-[_priv_NBS_DictAndArrary removeObjectOfKey:]
+-[_priv_NBS_DictAndArrary lastKey]
+-[_priv_NBS_DictAndArrary firstKey]
+-[_priv_NBS_DictAndArrary getObjectOfKey:]
+-[_priv_NBS_DictAndArrary count]
+-[_priv_NBS_DictAndArrary lastObj]
+-[_priv_NBS_DictAndArrary firstObj]
+-[_priv_NBS_DictAndArrary clear]
+-[_priv_NBS_DictAndArrary removeObjects:]
+-[_priv_NBS_DictAndArrary removeFirstObject]
+-[_priv_NBS_DictAndArrary setString:forKey:]
+-[_priv_NBS_DictAndArrary array]
+-[_priv_NBS_DictAndArrary dict]
+-[_priv_NBS_DictAndArrary .cxx_destruct]
+_eventHookThread
+___eventHookThread_block_invoke
+___eventHookThread_block_invoke_2
+___block_descriptor_tmp.30
+___nbs_requestHeaderBase_block_invoke
+_seRequesttHeader
+_getVCOfView
+___getMainThreadStackTrace_block_invoke
+_nbs_ip2string
+_nbs_requestHeaderBase._requestHeaderBase
+_nbs_requestHeaderBase.onceToken
+_nbs_glb_all_activing_VCS.dict
+___block_descriptor_tmp.380
+-[_priv_NBSLensCrashReporter onNotification_post:]
+-[_priv_NBSLensCrashReporter init]
+-[_priv_NBSLensCrashReporter dealloc]
++[_priv_NBSLensCrashReporter singletonObject]
+___45+[_priv_NBSLensCrashReporter singletonObject]_block_invoke
+-[_priv_NBSLensCrashReporter needUpload]
+-[_priv_NBSLensCrashReporter deleteFileInDir:Before:]
+___53-[_priv_NBSLensCrashReporter deleteFileInDir:Before:]_block_invoke
+-[_priv_NBSLensCrashReporter fileInDir:withSuffix:]
+___51-[_priv_NBSLensCrashReporter fileInDir:withSuffix:]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+___51-[_priv_NBSLensCrashReporter fileInDir:withSuffix:]_block_invoke.62
+-[_priv_NBSLensCrashReporter convertCrashFile:toReportFile:]
+-[_priv_NBSLensCrashReporter findAndConvert]
+___44-[_priv_NBSLensCrashReporter findAndConvert]_block_invoke
+-[_priv_NBSLensCrashReporter postToServer]
+-[_priv_NBSLensCrashReporter rptCount]
+_OBJC_IVAR_$__priv_NBSLensCrashReporter._rptCount
+_singletonObject.l_singletonObject
+_OBJC_IVAR_$__priv_NBSLensCrashReporter.rpt_cnt
+___block_descriptor_tmp.47
+___block_descriptor_tmp.59
+___block_descriptor_tmp.64
+___block_literal_global.65
+_convertCrashFile:toReportFile:.distinct_crash
+___block_descriptor_tmp.109
+___block_literal_global.110
++[_priv_NBSLensSessionReporter sharedInstance]
+___46+[_priv_NBSLensSessionReporter sharedInstance]_block_invoke
+-[_priv_NBSLensSessionReporter init]
+-[_priv_NBSLensSessionReporter postSessionDataToServer:]
+___56-[_priv_NBSLensSessionReporter postSessionDataToServer:]_block_invoke
+-[_priv_NBSLensSessionReporter dealloc]
+-[_priv_NBSLensSessionReporter .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensSessionReporter.queue
+___block_descriptor_tmp.11
+-[_priv_NBSKeychainItemWrapper initWithIdentifier:accessGroup:]
+-[_priv_NBSKeychainItemWrapper dealloc]
+-[_priv_NBSKeychainItemWrapper setObject:forKey:]
+-[_priv_NBSKeychainItemWrapper objectForKey:]
+-[_priv_NBSKeychainItemWrapper resetKeychainItem]
+-[_priv_NBSKeychainItemWrapper dictionaryToSecItemFormat:]
+-[_priv_NBSKeychainItemWrapper secItemFormatToDictionary:]
+-[_priv_NBSKeychainItemWrapper writeToKeychain]
+-[_priv_NBSKeychainItemWrapper deleteOldValues]
+-[_priv_NBSKeychainItemWrapper keychainItemData]
+-[_priv_NBSKeychainItemWrapper setKeychainItemData:]
+-[_priv_NBSKeychainItemWrapper genericPasswordQuery]
+-[_priv_NBSKeychainItemWrapper setGenericPasswordQuery:]
+-[_priv_NBSLensBackTrace initWithDictionary:]
+-[_priv_NBSLensBackTrace backTraceFromRaw]
+-[_priv_NBSLensBackTrace encodeWithCoder:]
+-[_priv_NBSLensBackTrace isContainsAddr:]
+-[_priv_NBSLensBackTrace thread_name]
+-[_priv_NBSLensBackTrace setThread_name:]
+-[_priv_NBSLensBackTrace thread_id]
+-[_priv_NBSLensBackTrace setThread_id:]
+-[_priv_NBSLensBackTrace backtrace]
+-[_priv_NBSLensBackTrace setBacktrace:]
+-[_priv_NBSLensBackTrace rawTrace]
+-[_priv_NBSLensBackTrace setRawTrace:]
+-[_priv_NBSLensBackTrace lossAddrs]
+-[_priv_NBSLensBackTrace setLossAddrs:]
+-[_priv_NBSLensBackTrace .cxx_destruct]
+-[_priv_NBSLensCrashInfo init]
+-[_priv_NBSLensCrashInfo render_traces]
+-[_priv_NBSLensCrashInfo render_dev]
+-[_priv_NBSLensCrashInfo render_app]
+-[_priv_NBSLensCrashInfo render_images]
+-[_priv_NBSLensCrashInfo systemVersion]
+-[_priv_NBSLensCrashInfo render]
++[_priv_NBSLensCrashInfo objectFromFile:]
+-[_priv_NBSLensCrashInfo saveToFile:]
+-[_priv_NBSLensCrashInfo indexOfImageList:byName:]
+-[_priv_NBSLensCrashInfo indexOfImageList:byAddr:]
+-[_priv_NBSLensCrashInfo imgList_shrink]
+-[_priv_NBSLensCrashInfo prepare]
+-[_priv_NBSLensCrashInfo rpt_uuid]
+-[_priv_NBSLensCrashInfo setRpt_uuid:]
+-[_priv_NBSLensCrashInfo crash_reason]
+-[_priv_NBSLensCrashInfo setCrash_reason:]
+-[_priv_NBSLensCrashInfo crash_tm]
+-[_priv_NBSLensCrashInfo setCrash_tm:]
+-[_priv_NBSLensCrashInfo app_start_tm]
+-[_priv_NBSLensCrashInfo setApp_start_tm:]
+-[_priv_NBSLensCrashInfo app_ver]
+-[_priv_NBSLensCrashInfo setApp_ver:]
+-[_priv_NBSLensCrashInfo app_SDK_ver]
+-[_priv_NBSLensCrashInfo setApp_SDK_ver:]
+-[_priv_NBSLensCrashInfo dev_connectType]
+-[_priv_NBSLensCrashInfo setDev_connectType:]
+-[_priv_NBSLensCrashInfo dev_carrierName]
+-[_priv_NBSLensCrashInfo setDev_carrierName:]
+-[_priv_NBSLensCrashInfo dev_netType]
+-[_priv_NBSLensCrashInfo setDev_netType:]
+-[_priv_NBSLensCrashInfo addtionalInfo]
+-[_priv_NBSLensCrashInfo setAddtionalInfo:]
+-[_priv_NBSLensCrashInfo binaryImageList]
+-[_priv_NBSLensCrashInfo setBinaryImageList:]
+-[_priv_NBSLensCrashInfo backtraceList]
+-[_priv_NBSLensCrashInfo setBacktraceList:]
+-[_priv_NBSLensCrashInfo backtraceItems]
+-[_priv_NBSLensCrashInfo setBacktraceItems:]
+-[_priv_NBSLensCrashInfo isOKInit]
+-[_priv_NBSLensCrashInfo setIsOKInit:]
+-[_priv_NBSLensCrashInfo mainUUID]
+-[_priv_NBSLensCrashInfo setMainUUID:]
+-[_priv_NBSLensCrashInfo setSystemVersion:]
+-[_priv_NBSLensCrashInfo systemLog]
+-[_priv_NBSLensCrashInfo setSystemLog:]
+-[_priv_NBSLensCrashInfo crashOwner]
+-[_priv_NBSLensCrashInfo setCrashOwner:]
+-[_priv_NBSLensCrashInfo channelID]
+-[_priv_NBSLensCrashInfo setChannelID:]
+-[_priv_NBSLensCrashInfo userId]
+-[_priv_NBSLensCrashInfo setUserId:]
+-[_priv_NBSLensCrashInfo appPhase]
+-[_priv_NBSLensCrashInfo setAppPhase:]
+-[_priv_NBSLensCrashInfo userActionId]
+-[_priv_NBSLensCrashInfo setUserActionId:]
+-[_priv_NBSLensCrashInfo .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensBackTrace._rawTrace
+_OBJC_IVAR_$__priv_NBSLensBackTrace._thread_id
+_OBJC_IVAR_$__priv_NBSLensBackTrace._thread_name
+_OBJC_IVAR_$__priv_NBSLensBackTrace._lossAddrs
+_OBJC_IVAR_$__priv_NBSLensBackTrace._backtrace
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._binaryImageList
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._backtraceList
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._backtraceItems
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._systemLog
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._crashOwner
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._userId
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._userActionId
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._dev_carrierName
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._dev_connectType
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._dev_netType
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._mainUUID
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._app_ver
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._app_SDK_ver
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._channelID
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._systemVersion
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._crash_tm
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._app_start_tm
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._isOKInit
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._rpt_uuid
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._crash_reason
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._addtionalInfo
+_OBJC_IVAR_$__priv_NBSLensCrashInfo._appPhase
+-[NBSLensHijackItem init]
++[NBSLensHijackItem createWithURL:ip:connectType:]
+-[NBSLensHijackItem url]
+-[NBSLensHijackItem setUrl:]
+-[NBSLensHijackItem ip]
+-[NBSLensHijackItem setIp:]
+-[NBSLensHijackItem connectType]
+-[NBSLensHijackItem setConnectType:]
+-[NBSLensHijackItem .cxx_destruct]
+_OBJC_IVAR_$_NBSLensHijackItem._url
+_OBJC_IVAR_$_NBSLensHijackItem._ip
+_OBJC_IVAR_$_NBSLensHijackItem._connectType
+_nbs_pbc_new
+_nbs_pbc_delete
+_nbs_pbc_type
+_nbs_pbc_error
+_nbs_pbcP_init_message
+_nbs_pbcP_push_message
+_nbs_pbcP_push_enum
+_nbs_pbcP_message_default
+_nbs_pbcP_get_message
+_nbs_pbcP_type
+_nbs_pbc_enum_id
+_free_enum
+_free_msg
+_free_stringpool
+__count
+__set_table
+_nbs_pbcS_new
+_nbs_pbcS_delete
+_nbs_pbcS_build
++[_priv_NBSLensWebViewDelegate webView:didFailLoadWithError:]
++[_priv_NBSLensWebViewDelegate delegateWithOldDeldate:webview:]
+-[_priv_NBSLensWebViewDelegate forwardInvocation:]
+-[_priv_NBSLensWebViewDelegate methodSignatureForSelector:]
+-[_priv_NBSLensWebViewDelegate respondsToSelector:]
+-[_priv_NBSLensWebViewDelegate .cxx_destruct]
++[_priv_NBSConfig sharedConfig]
+___31+[_priv_NBSConfig sharedConfig]_block_invoke
+-[_priv_NBSConfig loadConfig1]
+-[_priv_NBSConfig loadConfig2]
+-[_priv_NBSConfig removeConfig2]
+-[_priv_NBSConfig saveConfig1:]
+-[_priv_NBSConfig saveCondig2:]
+-[_priv_NBSConfig saveConfig:]
+-[_priv_NBSConfig setAppVersion:]
+-[_priv_NBSConfig appVersion]
+-[_priv_NBSConfig setIosSysVersion:]
+-[_priv_NBSConfig iosSysVersion]
+-[_priv_NBSConfig setNbs_SDKVersion:]
+-[_priv_NBSConfig nbs_SDKVersion]
+-[_priv_NBSConfig setTingyunID:]
+-[_priv_NBSConfig tingyunID]
+-[_priv_NBSConfig clearUDIDFromLastConfig]
+-[_priv_NBSConfig clearDataToken]
+-[_priv_NBSConfig init]
+-[_priv_NBSConfig loadFromDictionary:]
+-[_priv_NBSConfig disableAll]
+-[_priv_NBSConfig maxAgeOfData]
+-[_priv_NBSConfig setMaxAgeOfData:]
+-[_priv_NBSConfig maxCountOfActionToSent]
+-[_priv_NBSConfig setMaxCountOfActionToSent:]
+-[_priv_NBSConfig maxCountOffError]
+-[_priv_NBSConfig setMaxCountOffError:]
+-[_priv_NBSConfig maxOfErrorBody]
+-[_priv_NBSConfig setMaxOfErrorBody:]
+-[_priv_NBSConfig maxOfStack]
+-[_priv_NBSConfig setMaxOfStack:]
+-[_priv_NBSConfig isLogError]
+-[_priv_NBSConfig setIsLogError:]
+-[_priv_NBSConfig isNeedDNSTime]
+-[_priv_NBSConfig setIsNeedDNSTime:]
+-[_priv_NBSConfig data_sent_interval]
+-[_priv_NBSConfig setData_sent_interval:]
+-[_priv_NBSConfig dataToken]
+-[_priv_NBSConfig nbsID]
+-[_priv_NBSConfig intervalOnIdle]
+-[_priv_NBSConfig setIntervalOnIdle:]
+-[_priv_NBSConfig needStackTrace]
+-[_priv_NBSConfig setNeedStackTrace:]
+-[_priv_NBSConfig sdk_enabled]
+-[_priv_NBSConfig setSdk_enabled:]
+-[_priv_NBSConfig ActionFilter]
+-[_priv_NBSConfig ErrorFilter]
+-[_priv_NBSConfig actionURLMatchMode]
+-[_priv_NBSConfig uiTraceRetries]
+-[_priv_NBSConfig setUiTraceRetries:]
+-[_priv_NBSConfig uiTraces]
+-[_priv_NBSConfig setUiTraces:]
+-[_priv_NBSConfig uiTraceSize]
+-[_priv_NBSConfig setUiTraceSize:]
+-[_priv_NBSConfig uiTraceThreshold]
+-[_priv_NBSConfig setUiTraceThreshold:]
+-[_priv_NBSConfig disableTime]
+-[_priv_NBSConfig setDisableTime:]
+-[_priv_NBSConfig sleepBefore]
+-[_priv_NBSConfig setSleepBefore:]
+-[_priv_NBSConfig urlParamsCapturer]
+-[_priv_NBSConfig afterLoadingThreshold]
+-[_priv_NBSConfig setAfterLoadingThreshold:]
+-[_priv_NBSConfig features]
+-[_priv_NBSConfig setFeatures:]
+-[_priv_NBSConfig CRASH_TRAIL_NODES_MAX_COUNT]
+-[_priv_NBSConfig setCRASH_TRAIL_NODES_MAX_COUNT:]
+-[_priv_NBSConfig betaOn]
+-[_priv_NBSConfig setBetaOn:]
+-[_priv_NBSConfig tingyun_id_secret]
+-[_priv_NBSConfig stutterValue]
+-[_priv_NBSConfig setStutterValue:]
+-[_priv_NBSConfig betaFeatures]
+-[_priv_NBSConfig anrThreshold]
+-[_priv_NBSConfig anrActionsCount]
+-[_priv_NBSConfig cdnHeaderName]
+-[_priv_NBSConfig cdn_config]
+-[_priv_NBSConfig setCdn_config:]
+-[_priv_NBSConfig hijackWhitelist]
+-[_priv_NBSConfig slowPageThreshold]
+-[_priv_NBSConfig slowFirstPaintThreshold]
+-[_priv_NBSConfig slowFirstScreenThreshold]
+-[_priv_NBSConfig slowDomInteractiveThreshold]
+-[_priv_NBSConfig hotStartThreshold]
+-[_priv_NBSConfig slowStartThreshold]
+-[_priv_NBSConfig redirectDate]
+-[_priv_NBSConfig setRedirectDate:]
+-[_priv_NBSConfig accessKey_expireTime]
+-[_priv_NBSConfig setAccessKey_expireTime:]
+-[_priv_NBSConfig slowUserActionThreshold]
+-[_priv_NBSConfig userActions]
+-[_priv_NBSConfig actionFailureThreshold]
+-[_priv_NBSConfig so_disabled]
+-[_priv_NBSConfig setSo_disabled:]
+-[_priv_NBSConfig nbs_secret_key]
+-[_priv_NBSConfig setNbs_secret_key:]
+-[_priv_NBSConfig nbs_access_key]
+-[_priv_NBSConfig setNbs_access_key:]
+-[_priv_NBSConfig .cxx_destruct]
+_sharedConfig.onceToken
+_sharedConfig.theConfig
+_OBJC_IVAR_$__priv_NBSConfig.betaFeatures
+_OBJC_IVAR_$__priv_NBSConfig._appVersion
+_OBJC_IVAR_$__priv_NBSConfig._iosSysVersion
+_OBJC_IVAR_$__priv_NBSConfig._nbs_SDKVersion
+_OBJC_IVAR_$__priv_NBSConfig._tingyunID
+_OBJC_IVAR_$__priv_NBSConfig.afterLoadingThreshold
+_OBJC_IVAR_$__priv_NBSConfig.tingyun_id_secret
+_OBJC_IVAR_$__priv_NBSConfig.anrThreshold
+_OBJC_IVAR_$__priv_NBSConfig.anrActionsCount
+_OBJC_IVAR_$__priv_NBSConfig.cdnHeaderName
+_OBJC_IVAR_$__priv_NBSConfig.hijackWhitelist
+_OBJC_IVAR_$__priv_NBSConfig.slowPageThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowFirstPaintThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowFirstScreenThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowDomInteractiveThreshold
+_OBJC_IVAR_$__priv_NBSConfig.hotStartThreshold
+_OBJC_IVAR_$__priv_NBSConfig.slowStartThreshold
+_OBJC_IVAR_$__priv_NBSConfig.redirectDate
+_OBJC_IVAR_$__priv_NBSConfig.accessKey_expireTime
+_OBJC_IVAR_$__priv_NBSConfig.slowUserActionThreshold
+_OBJC_IVAR_$__priv_NBSConfig.userActions
+_OBJC_IVAR_$__priv_NBSConfig.actionFailureThreshold
+_OBJC_IVAR_$__priv_NBSConfig._so_disabled
+_OBJC_IVAR_$__priv_NBSConfig._nbs_secret_key
+_OBJC_IVAR_$__priv_NBSConfig._nbs_access_key
+-[NBSLensTraceData initWithRootSegmentStack:]
+-[NBSLensTraceData renderSegmentStackDataWithRootSegmentStack:]
+-[NBSLensTraceData renderTraceData]
+-[NBSLensTraceData CPU_SAMPLE_DATA]
+-[NBSLensTraceData setCPU_SAMPLE_DATA:]
+-[NBSLensTraceData MEMORY_SAMPLE_DATA]
+-[NBSLensTraceData setMEMORY_SAMPLE_DATA:]
+-[NBSLensTraceData rootSegmentStack]
+-[NBSLensTraceData setRootSegmentStack:]
+-[NBSLensTraceData .cxx_destruct]
++[_priv_NBSLensAppStartsDataManager sharedInstance]
+___51+[_priv_NBSLensAppStartsDataManager sharedInstance]_block_invoke
+-[_priv_NBSLensAppStartsDataManager init]
+-[_priv_NBSLensAppStartsDataManager render]
+-[_priv_NBSLensAppStartsDataManager renderAppStartMetricByTree:]
+-[_priv_NBSLensAppStartsDataManager renderActionMetricByTree:]
+_OBJC_IVAR_$_NBSLensTraceData._CPU_SAMPLE_DATA
+_OBJC_IVAR_$_NBSLensTraceData._MEMORY_SAMPLE_DATA
+_OBJC_IVAR_$_NBSLensTraceData._rootSegmentStack
+_sharedInstance.appStartDataManager
+-[_priv_NBSErrorItem init]
+-[_priv_NBSErrorItem URI]
+-[_priv_NBSErrorItem setURI:]
+-[_priv_NBSErrorItem urlParams]
+-[_priv_NBSErrorItem setUrlParams:]
+-[_priv_NBSErrorItem params]
+-[_priv_NBSErrorItem setParams:]
+-[_priv_NBSErrorItem statusCode]
+-[_priv_NBSErrorItem setStatusCode:]
+-[_priv_NBSErrorItem errCount]
+-[_priv_NBSErrorItem setErrCount:]
+-[_priv_NBSErrorItem httpMethodNumber]
+-[_priv_NBSErrorItem setHttpMethodNumber:]
+-[_priv_NBSErrorItem remoteIP]
+-[_priv_NBSErrorItem setRemoteIP:]
+-[_priv_NBSErrorItem cdnVendorName]
+-[_priv_NBSErrorItem setCdnVendorName:]
+-[_priv_NBSErrorItem httpLibClass]
+-[_priv_NBSErrorItem setHttpLibClass:]
+-[_priv_NBSErrorItem appPhase]
+-[_priv_NBSErrorItem setAppPhase:]
+-[_priv_NBSErrorItem userActionId]
+-[_priv_NBSErrorItem setUserActionId:]
+-[_priv_NBSErrorItem .cxx_destruct]
++[_priv_NBSErrorManager sharedErrorManager]
+-[_priv_NBSErrorManager errorUploadBuf]
+-[_priv_NBSErrorManager innerClear:]
+-[_priv_NBSErrorManager clearTo:]
+-[_priv_NBSErrorManager clearAll]
+-[_priv_NBSErrorManager handleMemoryWarning]
+-[_priv_NBSErrorManager init]
+-[_priv_NBSErrorManager dealloc]
+-[_priv_NBSErrorManager getKeyFromURI:urlParams:statusCode:httpMethod:libClass:appPhase:userActionId:]
+-[_priv_NBSErrorManager findAndIncrease:]
+-[_priv_NBSErrorManager getParamStrFromRequest:Response:ResponseData:Exception:]
+-[_priv_NBSErrorManager addErrToListForKey:]
+-[_priv_NBSErrorManager ignoreErrorByCode:url:]
+-[_priv_NBSErrorManager ignoreErrorByCode:request:]
+-[_priv_NBSErrorManager logErrorWithException:Request:]
+___55-[_priv_NBSErrorManager logErrorWithException:Request:]_block_invoke
+-[_priv_NBSErrorManager logErrorWithError:Request:withIP:cdnAssosiateInfo:libClass:appPhase:userActionID:]
+___106-[_priv_NBSErrorManager logErrorWithError:Request:withIP:cdnAssosiateInfo:libClass:appPhase:userActionID:]_block_invoke
+___copy_helper_block_.281
+___destroy_helper_block_.282
+-[_priv_NBSErrorManager logErrorWithHTTPError:Response:ResponseData:withIP:cdnAssosiateInfo:libClass:appPhase:userActionID:]
+_getURIFromURLString
+-[_priv_NBSErrorManager logErrorWithError:urlString:stackTrace:userActionID:]
+___77-[_priv_NBSErrorManager logErrorWithError:urlString:stackTrace:userActionID:]_block_invoke
+___copy_helper_block_.295
+___destroy_helper_block_.296
+-[_priv_NBSErrorManager logUnsupportedURLError:]
+-[_priv_NBSErrorManager getNumberWithHttpMethod:]
+-[_priv_NBSErrorManager getErrorList_busy]
+-[_priv_NBSErrorManager getUploadErrors]
+-[_priv_NBSErrorManager addErrorsToUploadBuf:]
+-[_priv_NBSErrorManager getErrorList_free:]
+-[_priv_NBSErrorManager freeUploadErrorsBuf:]
+-[_priv_NBSErrorManager Errors]
+-[_priv_NBSErrorManager ErrList]
+-[_priv_NBSErrorManager setErrorUploadBuf:]
+-[_priv_NBSErrorManager unsupportedErrors]
+-[_priv_NBSErrorManager setUnsupportedErrors:]
+-[_priv_NBSErrorManager .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSErrorItem._URI
+_OBJC_IVAR_$__priv_NBSErrorItem._urlParams
+_OBJC_IVAR_$__priv_NBSErrorItem._statusCode
+_OBJC_IVAR_$__priv_NBSErrorItem._errCount
+_OBJC_IVAR_$__priv_NBSErrorItem._params
+_OBJC_IVAR_$__priv_NBSErrorItem._httpMethodNumber
+_OBJC_IVAR_$__priv_NBSErrorItem._cdnVendorName
+_OBJC_IVAR_$__priv_NBSErrorItem._httpLibClass
+_OBJC_IVAR_$__priv_NBSErrorItem._appPhase
+_OBJC_IVAR_$__priv_NBSErrorItem._userActionId
+_OBJC_IVAR_$__priv_NBSErrorItem._remoteIP
+_sharedErrorManager._errMngr
+_OBJC_IVAR_$__priv_NBSErrorManager._errorUploadBuf
+_OBJC_IVAR_$__priv_NBSErrorManager._unsupportedErrors
+___block_descriptor_tmp.283
+___block_descriptor_tmp.297
+___GetSharedTelephonyNetworkInfo_block_invoke
++[_priv_NBSLensCrashHelper sharedInstance]
+___42+[_priv_NBSLensCrashHelper sharedInstance]_block_invoke
+-[_priv_NBSLensCrashHelper GetCrashDeviceInfo]
+_GetAvailableStorageSpace
+-[_priv_NBSLensCrashHelper GetActionDeviceInfo]
+-[_priv_NBSLensCrashHelper init]
+-[_priv_NBSLensCrashHelper additionalInfo]
+-[_priv_NBSLensCrashHelper deviceMachine]
+-[_priv_NBSLensCrashHelper cpuType]
+-[_priv_NBSLensCrashHelper systemVersion]
+-[_priv_NBSLensCrashHelper jailBreak]
+-[_priv_NBSLensCrashHelper appVersion]
+-[_priv_NBSLensCrashHelper appImageName]
+-[_priv_NBSLensCrashHelper mobileNetworkCode]
+-[_priv_NBSLensCrashHelper mobileCountryCode]
+-[_priv_NBSLensCrashHelper totalMemorySize]
+-[_priv_NBSLensCrashHelper totalStorageSpaceSize]
+-[_priv_NBSLensCrashHelper deviceNetType]
+-[_priv_NBSLensCrashHelper crashTime]
+-[_priv_NBSLensCrashHelper cpuUsed]
+-[_priv_NBSLensCrashHelper setCpuUsed:]
+-[_priv_NBSLensCrashHelper networkState]
+-[_priv_NBSLensCrashHelper isOpenGPS]
+-[_priv_NBSLensCrashHelper isLandscape]
+-[_priv_NBSLensCrashHelper statusOrientation]
+-[_priv_NBSLensCrashHelper proximityState]
+-[_priv_NBSLensCrashHelper battery]
+-[_priv_NBSLensCrashHelper operaBusiness]
+-[_priv_NBSLensCrashHelper crashUUID]
+-[_priv_NBSLensCrashHelper availableMemorySize]
+-[_priv_NBSLensCrashHelper availableDiskSpaceSize]
+-[_priv_NBSLensCrashHelper userAdditonInfo]
+-[_priv_NBSLensCrashHelper setUserAdditonInfo:]
+-[_priv_NBSLensCrashHelper .cxx_destruct]
+_nbs_locationServicesEnabled
+_GetBatteryLevel
+_GetMobileOperator
+_GetAvailableMemorySize
+_GetSharedTelephonyNetworkInfo.instance
+_GetSharedTelephonyNetworkInfo.onceToken
+___block_descriptor_tmp.3
+___block_literal_global.4
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._crashTime
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._totalStorageSpaceSize
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._availableDiskSpaceSize
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._cpuUsed
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._networkState
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._isOpenGPS
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._isLandscape
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._statusOrientation
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._proximityState
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._battery
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._operaBusiness
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._crashUUID
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._availableMemorySize
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._deviceMachine
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._cpuType
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._systemVersion
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._totalMemorySize
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._jailBreak
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._appVersion
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._appImageName
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._mobileNetworkCode
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._mobileCountryCode
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._deviceNetType
+_OBJC_IVAR_$__priv_NBSLensCrashHelper._userAdditonInfo
+_JAIL_PATHS
++[_priv_NBSURLParamItem URLParamsItemWithURL:andGetParamRules:andPostParamRules:andHeaders:]
+-[_priv_NBSURLParamItem captureString:withPattern:]
+-[_priv_NBSURLParamItem getParamsFromMultipartData:withRule:]
+-[_priv_NBSURLParamItem captureParamsWithURLString:headers:body:HTTPMethod:]
+-[_priv_NBSURLParamItem filterURL]
+-[_priv_NBSURLParamItem setFilterURL:]
+-[_priv_NBSURLParamItem getParamRules]
+-[_priv_NBSURLParamItem setGetParamRules:]
+-[_priv_NBSURLParamItem postParamRules]
+-[_priv_NBSURLParamItem setPostParamRules:]
+-[_priv_NBSURLParamItem headerParamRules]
+-[_priv_NBSURLParamItem setHeaderParamRules:]
+-[_priv_NBSURLParamItem .cxx_destruct]
++[_priv_NBSLENS_URLParamsFilter captureWithParamRules:]
++[_priv_NBSLENS_URLParamsFilter separateString:]
+-[_priv_NBSLENS_URLParamsFilter getParamsFromURLString:andHeaders:andBody:HTTPMethod:]
+-[_priv_NBSLENS_URLParamsFilter findParamsItemWithURLString:]
+-[_priv_NBSLENS_URLParamsFilter getURIFromURLString:]
+-[_priv_NBSLENS_URLParamsFilter paramItems]
+-[_priv_NBSLENS_URLParamsFilter setParamItems:]
+-[_priv_NBSLENS_URLParamsFilter .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSURLParamItem._filterURL
+_OBJC_IVAR_$__priv_NBSURLParamItem._getParamRules
+_OBJC_IVAR_$__priv_NBSURLParamItem._postParamRules
+_OBJC_IVAR_$__priv_NBSURLParamItem._headerParamRules
+_OBJC_IVAR_$__priv_NBSLENS_URLParamsFilter._paramItems
++[_priv_NBSURLProtocolSession setCallBackOfShippingAuthentication:andCallBackOfPreparingRequest:]
++[_priv_NBSURLProtocolSession canInitWithRequest:]
++[_priv_NBSURLProtocolSession canonicalRequestForRequest:]
++[_priv_NBSURLProtocolSession requestIsCacheEquivalent:toRequest:]
+-[_priv_NBSURLProtocolSession startLoading]
++[_priv_NBSURLProtocolSession share_nbs_Sesssion]
+___49+[_priv_NBSURLProtocolSession share_nbs_Sesssion]_block_invoke
+-[_priv_NBSURLProtocolSession stopLoading]
+-[_priv_NBSURLProtocolSession URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:]
+-[_priv_NBSURLProtocolSession URLSession:dataTask:didReceiveData:]
+-[_priv_NBSURLProtocolSession URLSession:dataTask:didReceiveResponse:completionHandler:]
+-[_priv_NBSURLProtocolSession URLSession:task:didCompleteWithError:]
+-[_priv_NBSURLProtocolSession URLSession:dataTask:willCacheResponse:completionHandler:]
+-[_priv_NBSURLProtocolSession URLSession:task:didReceiveChallenge:completionHandler:]
+-[_priv_NBSURLProtocolSession URLSession:task:didFinishCollectingMetrics:]
+-[_priv_NBSURLProtocolSession dataTask]
+-[_priv_NBSURLProtocolSession setDataTask:]
+-[_priv_NBSURLProtocolSession modes]
+-[_priv_NBSURLProtocolSession setModes:]
+-[_priv_NBSURLProtocolSession .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSURLProtocolSession.isStartLoading
+_share_nbs_Sesssion.sDemux
+_share_nbs_Sesssion.sOnceToken
+_OBJC_IVAR_$__priv_NBSURLProtocolSession.curr_response
+_OBJC_IVAR_$__priv_NBSURLProtocolSession._dataTask
+_OBJC_IVAR_$__priv_NBSURLProtocolSession._modes
+_nbs_getAppDataFromResponse
++[NBSHookWebview nbs_webView:didCreateJSContext:frame:]
+___55+[NBSHookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke
+___55+[NBSHookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke_2
+___55+[NBSHookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke.128
+_nbs_logWebData
+___copy_helper_block_.133
+___destroy_helper_block_.134
+___55+[NBSHookWebview nbs_webView:didCreateJSContext:frame:]_block_invoke.140
+___copy_helper_block_.147
+___destroy_helper_block_.148
+-[NBSHookWebview nbs_setDelegate:]
++[NBSHookWebview install]
+___block_descriptor_tmp.135
+-[NBSLaunchMetric initWithLaunchType:]
+-[NBSLaunchMetric isSlowStart]
+-[NBSLaunchMetric setupAdditionInfo]
+-[NBSLaunchMetric caculateDuration]
+-[NBSLaunchMetric appStartType]
+-[NBSLaunchMetric setAppStartType:]
+-[NBSLaunchMetric appStartDuration]
+-[NBSLaunchMetric setAppStartDuration:]
+-[NBSLaunchMetric contexCreateTime]
+-[NBSLaunchMetric setContexCreateTime:]
+-[NBSLaunchMetric appInitTime]
+-[NBSLaunchMetric setAppInitTime:]
+-[NBSLaunchMetric mainActivityCreateTime]
+-[NBSLaunchMetric setMainActivityCreateTime:]
+-[NBSLaunchMetric mainActivityResumeTime]
+-[NBSLaunchMetric setMainActivityResumeTime:]
+-[NBSLaunchMetric setIsSlowStart:]
+-[NBSLaunchMetric additionalInfo]
+-[NBSLaunchMetric setAdditionalInfo:]
+-[NBSLaunchMetric .cxx_destruct]
+_OBJC_IVAR_$_NBSLaunchMetric._appStartType
+_OBJC_IVAR_$_NBSLaunchMetric._appStartDuration
+_OBJC_IVAR_$_NBSLaunchMetric._contexCreateTime
+_OBJC_IVAR_$_NBSLaunchMetric._appInitTime
+_OBJC_IVAR_$_NBSLaunchMetric._mainActivityCreateTime
+_OBJC_IVAR_$_NBSLaunchMetric._mainActivityResumeTime
+_OBJC_IVAR_$_NBSLaunchMetric._isSlowStart
+_OBJC_IVAR_$_NBSLaunchMetric._additionalInfo
+_OBJC_IVAR_$_NBSLaunchMetric.flag
+-[NBSActionMetric initWithActionId:]
+-[NBSActionMetric setupAdditionInfo]
+-[NBSActionMetric isSlowAction]
+-[NBSActionMetric actionType]
+-[NBSActionMetric setActionType:]
+-[NBSActionMetric actionId]
+-[NBSActionMetric setActionId:]
+-[NBSActionMetric duration]
+-[NBSActionMetric setDuration:]
+-[NBSActionMetric blockTime]
+-[NBSActionMetric setBlockTime:]
+-[NBSActionMetric errorType]
+-[NBSActionMetric setErrorType:]
+-[NBSActionMetric setIsSlowAction:]
+-[NBSActionMetric additionalInfo]
+-[NBSActionMetric setAdditionalInfo:]
+-[NBSActionMetric requestCount]
+-[NBSActionMetric setRequestCount:]
+-[NBSActionMetric requestFailureCount]
+-[NBSActionMetric setRequestFailureCount:]
+-[NBSActionMetric .cxx_destruct]
+_OBJC_IVAR_$_NBSActionMetric._actionType
+_OBJC_IVAR_$_NBSActionMetric._actionId
+_OBJC_IVAR_$_NBSActionMetric._isSlowAction
+_OBJC_IVAR_$_NBSActionMetric._duration
+_OBJC_IVAR_$_NBSActionMetric._blockTime
+_OBJC_IVAR_$_NBSActionMetric._errorType
+_OBJC_IVAR_$_NBSActionMetric._additionalInfo
+_OBJC_IVAR_$_NBSActionMetric._requestCount
+_OBJC_IVAR_$_NBSActionMetric._requestFailureCount
+_OBJC_IVAR_$_NBSActionMetric.flag
+_eventHookSendAction
+___eventHookSendAction_block_invoke
+_nbs_pbcB_init
+_nbs_pbcB_register_fields
+_pbc_descriptor
++[_priv_NBSLensWebActionManager sharedManager]
+___46+[_priv_NBSLensWebActionManager sharedManager]_block_invoke
+-[_priv_NBSLensWebActionManager init]
+-[_priv_NBSLensWebActionManager addWebAction:]
+-[_priv_NBSLensWebActionManager findWebActionByTaskIdentfier:]
+-[_priv_NBSLensWebActionManager renderByMainURL:]
+-[_priv_NBSLensWebActionManager getResourceDataFromNavigationStart:toLoaded:]
+-[_priv_NBSLensWebActionManager getWebActionByURL:]
+-[_priv_NBSLensWebActionManager clean]
+-[_priv_NBSLensWebActionManager actionContainer]
+-[_priv_NBSLensWebActionManager setActionContainer:]
+-[_priv_NBSLensWebActionManager .cxx_destruct]
+_sharedManager.instance
+_sharedManager.onceToken
+_OBJC_IVAR_$__priv_NBSLensWebActionManager._actionContainer
++[_priv_NBSStack defaultStack]
+-[_priv_NBSStack bottomOfStack]
+-[_priv_NBSStack peer]
+-[_priv_NBSStack init]
+-[_priv_NBSStack count]
+-[_priv_NBSStack isEmpty]
+-[_priv_NBSStack clearStack]
+-[_priv_NBSStack push:]
+-[_priv_NBSStack pop]
+-[_priv_NBSStack removeItem:]
+-[_priv_NBSStack setCount:]
+-[_priv_NBSStack .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSStack._count
++[NBSHookURL nbs_initWithString:]
++[NBSHookURL nbs_URLWithString:]
++[NBSHookURL install]
+-[NBSActionIndicator onButtonClick:]
+-[NBSActionIndicator locationChange:]
+-[NBSActionIndicator initWithSize:delegate:imageEn:imageDis:mainWindow:]
++[NBSActionIndicator indicatorWithSize:delegate:imageEn:imageDis:mainWindow:]
+-[NBSActionIndicator hide]
+-[NBSActionIndicator show]
+-[NBSActionIndicator setClickEnable:]
+-[NBSActionIndicator .cxx_destruct]
+_OBJC_IVAR_$_NBSActionIndicator.delegate
+_OBJC_IVAR_$_NBSActionIndicator.mainWin
+_OBJC_IVAR_$_NBSActionIndicator.theButton
+_OBJC_IVAR_$_NBSActionIndicator.gesturePan
+_appUniqueId
+_appIsFirstLaunch
+___appIsFirstLaunch_block_invoke
+_appIsUsedLasestSDK
+___appIsUsedLasestSDK_block_invoke
+_getUserId
+_getCurrentViewController
+_appUniqueId._uniqueId_var
+_appIsFirstLaunch.flag
+_appIsFirstLaunch.onceToken
+___block_literal_global.41
+_nbs_pbcM_malloc
+_nbs_pbcM_free
+_nbs_pbcM_realloc
+_nbs_pbcH_new
+_nbs_pbcH_delete
+_nbs_pbcH_alloc
+_nbs_pbcM_memory
+__g
+-[NBSFormDataRequest initWithURL:]
+-[NBSFormDataRequest addData:forField:]
+-[NBSFormDataRequest addFilePath:forField:]
+-[NBSFormDataRequest addFileData:forField:]
+-[NBSFormDataRequest clear]
+-[NBSFormDataRequest complete]
+-[NBSFormDataRequest .cxx_destruct]
+_OBJC_IVAR_$_NBSFormDataRequest.fileNames
+_OBJC_IVAR_$_NBSFormDataRequest.filePaths
+_OBJC_IVAR_$_NBSFormDataRequest.keyValues
+_OBJC_IVAR_$_NBSFormDataRequest.dataNames
+_OBJC_IVAR_$_NBSFormDataRequest.datas
+_OBJC_IVAR_$_NBSFormDataRequest.BOUNDRY
+_OBJC_IVAR_$_NBSFormDataRequest.subBOUNDRY
+-[_priv_NBS_Lock getTheLock]
+-[_priv_NBS_Lock init]
+-[_priv_NBS_Lock dealloc]
+-[_priv_NBS_Lock lock]
+-[_priv_NBS_Lock unlock]
+-[_priv_NBS_Lock writeLock]
+-[_priv_NBS_Lock unWriteLock]
+-[_priv_NBS_Lock _getTheLock]
+-[_priv_NBS_Lock setTheLock:]
+_OBJC_IVAR_$__priv_NBS_Lock.plock
+_OBJC_IVAR_$__priv_NBS_Lock._theLock
+_id_to_hex.hex
+_str_map.map
+_eventInvokeStageInSyn
+_eventInvokeStageInAsyn
+_eventEntryStageInAsyn
+_eventExitStageInAsyn
+_eventEntryStageInSyn
+_eventCreateVirtureRootNode
+_eventInvokeStageSessionAsyn
+_eventVirtualEntryStageInAsyn
+_eventVirtualExitStageInAsyn
+_actionCreateRootNodeInSyn
+_actionExitRootNode
+_eventExitRootStageInSyn
+_relateNetworkError
+_eventExitStageInSyn
+_actionCreateRootNodeInSyn.index
+-[_priv_NBSHookASI copyWithZone:]
+-[_priv_NBSHookASI rawResponseData]
+-[_priv_NBSHookASI url]
+-[_priv_NBSHookASI URL]
+-[_priv_NBSHookASI responseHeaders]
+-[_priv_NBSHookASI allHeaderFields]
+-[_priv_NBSHookASI responseStatusCode]
+-[_priv_NBSHookASI addRequestHeader:value:]
+-[_priv_NBSHookASI statusCode]
+-[_priv_NBSHookASI HTTPBody]
+-[_priv_NBSHookASI postBody]
+-[_priv_NBSHookASI allHTTPHeaderFields]
+-[_priv_NBSHookASI requestHeaders]
+-[_priv_NBSHookASI HTTPMethod]
+-[_priv_NBSHookASI requestMethod]
+-[_priv_NBSHookASI HTTPBodyStream]
+-[_priv_NBSHookASI postBodyReadStream]
+-[_priv_NBSHookASI nbs_buildRequestHeaders]
+-[_priv_NBSHookASI nbs_startRequest]
+-[_priv_NBSHookASI nbs_requestReceivedResponseHeaders:]
+-[_priv_NBSHookASI nbs_requestFinished]
+-[_priv_NBSHookASI nbs_failWithError:]
+-[_priv_NBSHookASI nbs_cancel]
+-[_priv_NBSHookASI nbs_passOnReceivedData:]
+-[_priv_NBSHookASI totalBytesRead]
+-[_priv_NBSHookASI nbs_updateDownloadProgress]
+-[_priv_NBSHookASI totalBytesSent]
+-[_priv_NBSHookASI nbs_updateUploadProgress]
+-[_priv_NBSHookASI nbs_performRedirect]
+-[_priv_NBSHookASI redirectURL]
+-[_priv_NBSHookASI .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSHookASI._redirectURL
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+-[_priv_NBSEventForest init]
+-[_priv_NBSEventForest checkCrashAction]
++[_priv_NBSEventForest sharedInstance]
+___38+[_priv_NBSEventForest sharedInstance]_block_invoke
+-[_priv_NBSEventForest breakIn]
+___31-[_priv_NBSEventForest breakIn]_block_invoke
+___31-[_priv_NBSEventForest breakIn]_block_invoke.54
+___copy_helper_block_.71
+___destroy_helper_block_.72
+-[_priv_NBSEventForest dealloc]
+-[_priv_NBSEventForest addEventTree:withKey:]
+-[_priv_NBSEventForest removeEventTree:]
+-[_priv_NBSEventForest findEventTree:]
+-[_priv_NBSEventForest findActiveTree]
+-[_priv_NBSEventForest addCompletedEventTree:]
+-[_priv_NBSEventForest getCompletedTrees]
+-[_priv_NBSEventForest queue]
+-[_priv_NBSEventForest setQueue:]
+-[_priv_NBSEventForest .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSEventForest.eventDict
+_OBJC_IVAR_$__priv_NBSEventForest.appStartsArray
+_OBJC_IVAR_$__priv_NBSEventForest.userActionArray
+_OBJC_IVAR_$__priv_NBSEventForest._queue
+_OBJC_IVAR_$__priv_NBSEventForest.arrayLock
+_OBJC_IVAR_$__priv_NBSEventForest.dictLock
+___block_descriptor_tmp.73
++[_priv_NBSFilterItem filterWithStr:StatuCodes:Mode:]
+-[_priv_NBSFilterItem isMatch:code:]
+-[_priv_NBSFilterItem .cxx_destruct]
+-[_priv_NBSFilter init]
+-[_priv_NBSFilter addRule:Codes:rulMode:]
+-[_priv_NBSFilter isMatch:ErrorCode:]
+-[_priv_NBSFilter .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSFilter.Items
++[_priv_NBSLensDelegateUITracker install]
+-[_priv_NBSLensDelegateUITracker nbs_setDelegate:]
+___50-[_priv_NBSLensDelegateUITracker nbs_setDelegate:]_block_invoke
+___50-[_priv_NBSLensDelegateUITracker nbs_setDelegate:]_block_invoke.54
+___copy_helper_block_.59
+___destroy_helper_block_.60
+___50-[_priv_NBSLensDelegateUITracker nbs_setDelegate:]_block_invoke.69
+___50-[_priv_NBSLensDelegateUITracker nbs_setDelegate:]_block_invoke_2
+___copy_helper_block_.77
+___destroy_helper_block_.78
+-[_priv_NBSLensDelegateUITracker tableView:didSelectRowAtIndexPath:]
+-[_priv_NBSLensDelegateUITracker pickerView:didSelectRow:inComponent:]
+-[_priv_NBSLensDelegateUITracker collectionView:didSelectItemAtIndexPath:]
+-[_priv_NBSLensDelegateUITracker nbs_addAction:]
++[_priv_NBSLensDelegateUITracker nbs_actionWithTitle:style:handler:]
+___68+[_priv_NBSLensDelegateUITracker nbs_actionWithTitle:style:handler:]_block_invoke
+___copy_helper_block_.94
+___destroy_helper_block_.95
+___block_descriptor_tmp.62
+___block_descriptor_tmp.80
+___block_descriptor_tmp.97
+_nbs_pbc_register
+__register_enum
+__register_message
+__register_extension
+__concat_name
+__register_field
+-[NBSURLConnectionDelegate nbs_connection:willSendRequest:redirectResponse:]
+-[NBSURLConnectionDelegate nbs_connection:didReceiveResponse:]
+-[NBSURLConnectionDelegate nbs_connection:didReceiveData:]
+-[NBSURLConnectionDelegate nbs_connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]
+-[NBSURLConnectionDelegate nbs_connectionDidFinishLoading:]
+-[NBSURLConnectionDelegate nbs_connection:needNewBodyStream:]
+-[NBSURLConnectionDelegate nbs_connection:willCacheResponse:]
+-[NBSURLConnectionDelegate nbs_connection:didFailWithError:]
+-[NBSURLConnectionDelegate nbs_connectionShouldUseCredentialStorage:]
+-[NBSURLConnectionDelegate nbs_connection:willSendRequestForAuthenticationChallenge:]
+-[NBSURLConnectionDelegate nbs_connection:canAuthenticateAgainstProtectionSpace:]
+-[NBSURLConnectionDelegate nbs_connection:didReceiveAuthenticationChallenge:]
+-[NBSURLConnectionDelegate nbs_connection:didCancelAuthenticationChallenge:]
+l_OBJC_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDelegate
+l_OBJC_PROTOCOL_$_NSURLConnectionDataDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDataDelegate
+-[NBSLensSession init]
+-[NBSLensSession initWithCoder:]
+-[NBSLensSession encodeWithCoder:]
+-[NBSLensSession sessionStart]
+-[NBSLensSession sessionContinue]
+-[NBSLensSession sessionSuspend]
+-[NBSLensSession sessionFinished]
+-[NBSLensSession clearSession]
+-[NBSLensSession saveToDiskAtPath:]
+-[NBSLensSession removeSessionFromDiskAtPath:]
+-[NBSLensSession render]
+-[NBSLensSession sessionTimeInSeconds]
+-[NBSLensSession setSessionTimeInSeconds:]
+-[NBSLensSession sessionDuration]
+-[NBSLensSession setSessionDuration:]
+-[NBSLensSession requestCount]
+-[NBSLensSession setRequestCount:]
+-[NBSLensSession pageFlows]
+-[NBSLensSession setPageFlows:]
+-[NBSLensSession customerEvents]
+-[NBSLensSession setCustomerEvents:]
+-[NBSLensSession sessionSuspendInSeconds]
+-[NBSLensSession setSessionSuspendInSeconds:]
+-[NBSLensSession suspendTime]
+-[NBSLensSession setSuspendTime:]
+-[NBSLensSession isFinished]
+-[NBSLensSession setIsFinished:]
+-[NBSLensSession .cxx_destruct]
+_OBJC_IVAR_$_NBSLensSession._sessionDuration
+_OBJC_IVAR_$_NBSLensSession._sessionTimeInSeconds
+_OBJC_IVAR_$_NBSLensSession._requestCount
+_OBJC_IVAR_$_NBSLensSession._pageFlows
+_OBJC_IVAR_$_NBSLensSession._customerEvents
+_OBJC_IVAR_$_NBSLensSession._sessionSuspendInSeconds
+_OBJC_IVAR_$_NBSLensSession._suspendTime
+_OBJC_IVAR_$_NBSLensSession._isFinished
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+___nbs_binaryImage_getTextRawAddr_block_invoke
++[_priv_NBSForwardMessage install:]
+-[_priv_NBSForwardMessage nbs_methodSignatureForSelector:]
+-[_priv_NBSForwardMessage nbs_forwardInvocation:]
+-[_priv_NBSForwardMessage methodSignatureForSelector:]
+-[_priv_NBSForwardMessage forwardInvocation:]
++[_priv_NBSDevice getSysInfo:]
++[_priv_NBSDevice getTotalMemory]
++[_priv_NBSDevice getAvailableMemory]
++[_priv_NBSDevice getCPUNumber]
++[_priv_NBSDevice getCPUFreq]
++[_priv_NBSDevice mobileCountryCode]
++[_priv_NBSDevice mobileNetworkCode]
++[_priv_NBSDevice mobileNetworkType]
++[_priv_NBSDevice getCPUInfo:]
+-[AppDelegate1 application:openURL:options:]
+-[AppDelegate1 window]
+-[AppDelegate1 setWindow:]
+-[AppDelegate1 .cxx_destruct]
++[NBSActionDefiner hookDelegate:]
+___33+[NBSActionDefiner hookDelegate:]_block_invoke
+_getAppid_token_from
+___33+[NBSActionDefiner hookDelegate:]_block_invoke_2
++[NBSActionDefiner load]
+___24+[NBSActionDefiner load]_block_invoke
+-[NBSActionDefiner init]
+-[NBSActionDefiner getActionFor:forEvent:withTargets:]
+-[NBSActionDefiner screenShot:]
+-[NBSActionDefiner getGestureActionEvent:withDictionary:]
+-[NBSActionDefiner getSortedTargetsForControl:]
+-[NBSActionDefiner getControlActionEvent:withDictionary:]
+-[NBSActionDefiner getDelegateActionEvent:withDictionary:]
+-[NBSActionDefiner getAllActionEvent:]
+-[NBSActionDefiner highlightControl:]
+-[NBSActionDefiner popAErrorMessage:]
+___37-[NBSActionDefiner popAErrorMessage:]_block_invoke
+___37-[NBSActionDefiner popAErrorMessage:]_block_invoke_2
+___copy_helper_block_.336
+___destroy_helper_block_.337
+-[NBSActionDefiner alertView:clickedButtonAtIndex:]
+-[NBSActionDefiner postOneActionInfo:]
+___38-[NBSActionDefiner postOneActionInfo:]_block_invoke
+___copy_helper_block_.433
+___destroy_helper_block_.434
+-[NBSActionDefiner onMoveStart]
+-[NBSActionDefiner onClick]
+___27-[NBSActionDefiner onClick]_block_invoke
+___copy_helper_block_.448
+___destroy_helper_block_.449
+___27-[NBSActionDefiner onClick]_block_invoke.452
+___copy_helper_block_.453
+___destroy_helper_block_.454
+-[NBSActionDefiner onMoveStop]
+-[NBSActionDefiner initButton]
+-[NBSActionDefiner selectFatherView:]
+-[NBSActionDefiner onMoveOver]
+-[NBSActionDefiner initTableview]
+-[NBSActionDefiner tableView:numberOfRowsInSection:]
+-[NBSActionDefiner tableView:cellForRowAtIndexPath:]
+-[NBSActionDefiner tableView:didSelectRowAtIndexPath:]
+-[NBSActionDefiner tableView:heightForRowAtIndexPath:]
++[NBSActionDefiner definerWithMainWindow:]
+___42+[NBSActionDefiner definerWithMainWindow:]_block_invoke
+___copy_helper_block_.562
+___destroy_helper_block_.563
+-[NBSActionDefiner start]
+___25-[NBSActionDefiner start]_block_invoke
+___copy_helper_block_.614
+___destroy_helper_block_.615
+-[NBSActionDefiner mainWindow]
+-[NBSActionDefiner setMainWindow:]
+-[NBSActionDefiner url]
+-[NBSActionDefiner setUrl:]
+-[NBSActionDefiner appId]
+-[NBSActionDefiner setAppId:]
+-[NBSActionDefiner token]
+-[NBSActionDefiner setToken:]
+-[NBSActionDefiner dataArray]
+-[NBSActionDefiner setDataArray:]
+-[NBSActionDefiner tableViewArray]
+-[NBSActionDefiner setTableViewArray:]
+-[NBSActionDefiner button]
+-[NBSActionDefiner setButton:]
+-[NBSActionDefiner .cxx_destruct]
+_st_appid
+_st_token
+_OBJC_IVAR_$_AppDelegate1._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+___block_descriptor_tmp.186
+___block_descriptor_tmp.195
+_OBJC_IVAR_$_NBSActionDefiner.session
+_OBJC_IVAR_$_NBSActionDefiner.backupView
+_OBJC_IVAR_$_NBSActionDefiner.backup_borderColor
+_OBJC_IVAR_$_NBSActionDefiner.backup_borderWidth
+_OBJC_IVAR_$_NBSActionDefiner.backup_cornerRadius
+___block_descriptor_tmp.320
+_OBJC_IVAR_$_NBSActionDefiner._mainWindow
+___block_descriptor_tmp.339
+_OBJC_IVAR_$_NBSActionDefiner._url
+_OBJC_IVAR_$_NBSActionDefiner._appId
+_OBJC_IVAR_$_NBSActionDefiner._token
+___block_descriptor_tmp.436
+_OBJC_IVAR_$_NBSActionDefiner.indicator
+___block_descriptor_tmp.451
+___block_descriptor_tmp.455
+_OBJC_IVAR_$_NBSActionDefiner.buttonWindow
+_selectFatherView:.count
+_OBJC_IVAR_$_NBSActionDefiner.window
+_OBJC_IVAR_$_NBSActionDefiner.tableview
+_definerWithMainWindow:._sharedobj
+_definerWithMainWindow:.onceToken
+___block_descriptor_tmp.564
+___block_descriptor_tmp.616
+_OBJC_IVAR_$_NBSActionDefiner._dataArray
+_OBJC_IVAR_$_NBSActionDefiner._tableViewArray
+_OBJC_IVAR_$_NBSActionDefiner._button
+_nbs_pbcM_si_new
+_nbs_pbcM_si_query
+_nbs_pbcM_si_delete
+_nbs_pbcM_ip_new
+_nbs_pbcM_ip_combine
+_nbs_pbcM_ip_query
+_nbs_pbcM_ip_delete
+_nbs_pbcM_sp_new
+_nbs_pbcM_sp_insert
+_nbs_pbcM_sp_query
+_nbs_pbcM_sp_query_insert
+_nbs_pbcM_sp_delete
+_nbs_pbcM_sp_foreach
+_nbs_pbcM_sp_foreach_ud
+_nbs_pbcM_sp_next
+_calc_hash
+__inject
+_nbs_pbcM_sp_insert_hash
+_nbs_pbcM_sp_rehash
+-[_priv_NBSLensWebAction init]
+-[_priv_NBSLensWebAction initWithTaskIdentifier:]
+-[_priv_NBSLensWebAction setRESOURCE_URL:]
+-[_priv_NBSLensWebAction initiaType]
+-[_priv_NBSLensWebAction OFFSET_TIMESTAMP]
+-[_priv_NBSLensWebAction setOFFSET_TIMESTAMP:]
+-[_priv_NBSLensWebAction RESOURCE_TYPE]
+-[_priv_NBSLensWebAction setRESOURCE_TYPE:]
+-[_priv_NBSLensWebAction RESOURCE_URL]
+-[_priv_NBSLensWebAction FETCH_START]
+-[_priv_NBSLensWebAction setFETCH_START:]
+-[_priv_NBSLensWebAction DOMAIN_LOOKUP_START]
+-[_priv_NBSLensWebAction setDOMAIN_LOOKUP_START:]
+-[_priv_NBSLensWebAction DOMAIN_LOOKUP_END]
+-[_priv_NBSLensWebAction setDOMAIN_LOOKUP_END:]
+-[_priv_NBSLensWebAction CONNECT_START]
+-[_priv_NBSLensWebAction setCONNECT_START:]
+-[_priv_NBSLensWebAction CONNECT_END]
+-[_priv_NBSLensWebAction setCONNECT_END:]
+-[_priv_NBSLensWebAction SECURE_CONNECTION_START]
+-[_priv_NBSLensWebAction setSECURE_CONNECTION_START:]
+-[_priv_NBSLensWebAction REQUEST_START]
+-[_priv_NBSLensWebAction setREQUEST_START:]
+-[_priv_NBSLensWebAction RESPONSE_START]
+-[_priv_NBSLensWebAction setRESPONSE_START:]
+-[_priv_NBSLensWebAction RESPONSE_END]
+-[_priv_NBSLensWebAction setRESPONSE_END:]
+-[_priv_NBSLensWebAction TRANSFER_SIZE]
+-[_priv_NBSLensWebAction setTRANSFER_SIZE:]
+-[_priv_NBSLensWebAction ENCODED_BODY_SIZE]
+-[_priv_NBSLensWebAction setENCODED_BODY_SIZE:]
+-[_priv_NBSLensWebAction DECODED_BODY_SIZE]
+-[_priv_NBSLensWebAction setDECODED_BODY_SIZE:]
+-[_priv_NBSLensWebAction HTTP_STATUS_CODE]
+-[_priv_NBSLensWebAction setHTTP_STATUS_CODE:]
+-[_priv_NBSLensWebAction NETWORK_ERROR_CODE]
+-[_priv_NBSLensWebAction setNETWORK_ERROR_CODE:]
+-[_priv_NBSLensWebAction BYTES_RECEIVED]
+-[_priv_NBSLensWebAction setBYTES_RECEIVED:]
+-[_priv_NBSLensWebAction APP_DATA]
+-[_priv_NBSLensWebAction setAPP_DATA:]
+-[_priv_NBSLensWebAction CDN_VENDOR_NAME]
+-[_priv_NBSLensWebAction setCDN_VENDOR_NAME:]
+-[_priv_NBSLensWebAction mainDocumentURLHost]
+-[_priv_NBSLensWebAction setMainDocumentURLHost:]
+-[_priv_NBSLensWebAction referer]
+-[_priv_NBSLensWebAction setReferer:]
+-[_priv_NBSLensWebAction isMainURL]
+-[_priv_NBSLensWebAction setIsMainURL:]
+-[_priv_NBSLensWebAction taskIdentifier]
+-[_priv_NBSLensWebAction setTaskIdentifier:]
+-[_priv_NBSLensWebAction pathExtension]
+-[_priv_NBSLensWebAction setPathExtension:]
+-[_priv_NBSLensWebAction .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLensWebAction._OFFSET_TIMESTAMP
+_OBJC_IVAR_$__priv_NBSLensWebAction._RESOURCE_TYPE
+_OBJC_IVAR_$__priv_NBSLensWebAction._RESOURCE_URL
+_OBJC_IVAR_$__priv_NBSLensWebAction._FETCH_START
+_OBJC_IVAR_$__priv_NBSLensWebAction._DOMAIN_LOOKUP_START
+_OBJC_IVAR_$__priv_NBSLensWebAction._DOMAIN_LOOKUP_END
+_OBJC_IVAR_$__priv_NBSLensWebAction._CONNECT_START
+_OBJC_IVAR_$__priv_NBSLensWebAction._SECURE_CONNECTION_START
+_OBJC_IVAR_$__priv_NBSLensWebAction._REQUEST_START
+_OBJC_IVAR_$__priv_NBSLensWebAction._RESPONSE_START
+_OBJC_IVAR_$__priv_NBSLensWebAction._RESPONSE_END
+_OBJC_IVAR_$__priv_NBSLensWebAction._TRANSFER_SIZE
+_OBJC_IVAR_$__priv_NBSLensWebAction._ENCODED_BODY_SIZE
+_OBJC_IVAR_$__priv_NBSLensWebAction._DECODED_BODY_SIZE
+_OBJC_IVAR_$__priv_NBSLensWebAction._HTTP_STATUS_CODE
+_OBJC_IVAR_$__priv_NBSLensWebAction._NETWORK_ERROR_CODE
+_OBJC_IVAR_$__priv_NBSLensWebAction._BYTES_RECEIVED
+_OBJC_IVAR_$__priv_NBSLensWebAction._APP_DATA
+_OBJC_IVAR_$__priv_NBSLensWebAction._CDN_VENDOR_NAME
+_OBJC_IVAR_$__priv_NBSLensWebAction._mainDocumentURLHost
+_OBJC_IVAR_$__priv_NBSLensWebAction._referer
+_OBJC_IVAR_$__priv_NBSLensWebAction._isMainURL
+_OBJC_IVAR_$__priv_NBSLensWebAction._pathExtension
+_OBJC_IVAR_$__priv_NBSLensWebAction._taskIdentifier
+_initiaType.initiaTypeInfo
+_OBJC_IVAR_$__priv_NBSLensWebAction._CONNECT_END
+___getSharedTelephonyNetworkInfo_block_invoke
+_create
+_getAvailableStorageSpace
+_getDeviceBattery
+_getCurrentCpuUsage
+_getCurrentAppUsedMemory
+_getAvailableDiskSize
+_getAvailableMemorySize
+_getSharedTelephonyNetworkInfo.instance
+_getSharedTelephonyNetworkInfo.onceToken
+_getCurrentCpuUsage.prevTime
+_getCurrentCpuUsage.lastUsage
+_getCurrentAppUsedMemory.prevTime
+_getCurrentAppUsedMemory.lastUsage
+_nbs_pbc_rmessage_new
+_nbs_pbc_rmessage_delete
+_nbs_pbc_rmessage_integer
+_nbs_pbc_rmessage_real
+_nbs_pbc_rmessage_string
+_nbs_pbc_rmessage_message
+_nbs_pbc_rmessage_size
+_nbs_pbc_rmessage_next
+__nbs_pbc_rmessage_new
+_gzippedData
+_gunzippedData
+_isGzippedData
+_hookSwizzle
+_hookClassSwizzleOne
+_hookClassCopyAllMethods
+_hookCopyFromClass
+_hookClassCopyMethod
+_hookClassHasMethod
+_hookClassCopyMethodName
+_hookClassCopyOneProperty
+_hookGetClassImp
+_hookGetInstanceImp
+_hookIsClassHadMethodByItSelf
+_hookIsClassImpByItSelf
+_hookSwizzleOnly
+_hookCopySwizzleOneMethodFromNBS
+_hookSwizzleOrCopy
+_hookSwizzleOrReplaceWithIMP
+_hookSubClassList
+_hookDispAllMethod
+_hookInstanceMethod
+_hookClassMethod
+_hookClassCopyAMethod
+_hookClassCopyAMetaMethod
+_hookClassCopySwizzleAMethod
+_hookGetNearestParentClass
+_hookAddShellClass
+_hookClassInMainBundle
+_hookSubClassInMainBundle
+_hookSubMetaClassInMainBundle
+_hookAncestry
+_hookGetClassInBundle
+_nbs_classNamesInMainBundle_c
+-[_priv_NBSLens_iOSANREntity init]
+-[_priv_NBSLens_iOSANREntity anrActions]
+-[_priv_NBSLens_iOSANREntity setupImageListAndStackTraceFromAddresses:]
+-[_priv_NBSLens_iOSANREntity setupAdditionalinfo]
+-[_priv_NBSLens_iOSANREntity addANRAction:]
+-[_priv_NBSLens_iOSANREntity getTransactions]
+-[_priv_NBSLens_iOSANREntity renderToArray]
+-[_priv_NBSLens_iOSANREntity getTrackers]
+___41-[_priv_NBSLens_iOSANREntity getTrackers]_block_invoke
+-[_priv_NBSLens_iOSANREntity anr_time_in_seconds]
+-[_priv_NBSLens_iOSANREntity app_start_time_in_seconds]
+-[_priv_NBSLens_iOSANREntity app_init_flag]
+-[_priv_NBSLens_iOSANREntity setApp_init_flag:]
+-[_priv_NBSLens_iOSANREntity anr_type]
+-[_priv_NBSLens_iOSANREntity anr_object]
+-[_priv_NBSLens_iOSANREntity setAnr_object:]
+-[_priv_NBSLens_iOSANREntity anr_message]
+-[_priv_NBSLens_iOSANREntity setAnr_message:]
+-[_priv_NBSLens_iOSANREntity anr_os_build_version]
+-[_priv_NBSLens_iOSANREntity setAnr_os_build_version:]
+-[_priv_NBSLens_iOSANREntity anr_trace_file]
+-[_priv_NBSLens_iOSANREntity setAnr_trace_file:]
+-[_priv_NBSLens_iOSANREntity anr_system_log]
+-[_priv_NBSLens_iOSANREntity setAnr_system_log:]
+-[_priv_NBSLens_iOSANREntity device_data]
+-[_priv_NBSLens_iOSANREntity setDevice_data:]
+-[_priv_NBSLens_iOSANREntity app_info_override]
+-[_priv_NBSLens_iOSANREntity setApp_info_override:]
+-[_priv_NBSLens_iOSANREntity additionalInfo]
+-[_priv_NBSLens_iOSANREntity setAdditionalInfo:]
+-[_priv_NBSLens_iOSANREntity cpuUsageBeforeANR]
+-[_priv_NBSLens_iOSANREntity setCpuUsageBeforeANR:]
+-[_priv_NBSLens_iOSANREntity cpuUsageInANR]
+-[_priv_NBSLens_iOSANREntity setCpuUsageInANR:]
+-[_priv_NBSLens_iOSANREntity anr_stack_trace]
+-[_priv_NBSLens_iOSANREntity setAnr_stack_trace:]
+-[_priv_NBSLens_iOSANREntity anr_tracks]
+-[_priv_NBSLens_iOSANREntity setAnr_tracks:]
+-[_priv_NBSLens_iOSANREntity state]
+-[_priv_NBSLens_iOSANREntity setState:]
+-[_priv_NBSLens_iOSANREntity setAnrActions:]
+-[_priv_NBSLens_iOSANREntity anr_image_list]
+-[_priv_NBSLens_iOSANREntity setAnr_image_list:]
+-[_priv_NBSLens_iOSANREntity anrController]
+-[_priv_NBSLens_iOSANREntity setAnrController:]
+-[_priv_NBSLens_iOSANREntity .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_time_in_seconds
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._app_start_time_in_seconds
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._app_init_flag
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_type
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_message
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_trace_file
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_system_log
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_object
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._additionalInfo
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_stack_trace
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_image_list
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_tracks
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anrController
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._state
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anrActions
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._anr_os_build_version
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._device_data
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._app_info_override
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._cpuUsageBeforeANR
+_OBJC_IVAR_$__priv_NBSLens_iOSANREntity._cpuUsageInANR
+_nbs_rebind_symbols
+_nbs_rebind_symbols_image
+_prepend_rebindings
+__rebind_symbols_for_image
+_rebind_symbols_for_image
+_perform_rebinding_with_section
+__rebindings_head
++[_priv_NBSLensHijackLogger sharedObject]
+___41+[_priv_NBSLensHijackLogger sharedObject]_block_invoke
+-[_priv_NBSLensHijackLogger init]
+-[_priv_NBSLensHijackLogger logHijackItem:]
+-[_priv_NBSLensHijackLogger renderHijackData]
+-[_priv_NBSLensHijackLogger removeObjectInRange:]
+-[_priv_NBSLensHijackLogger hijackItems]
+-[_priv_NBSLensHijackLogger setHijackItems:]
+-[_priv_NBSLensHijackLogger .cxx_destruct]
+_sharedObject.instance
+_OBJC_IVAR_$__priv_NBSLensHijackLogger._hijackItems
+-[_priv_NBSHookNSData nbs_initWithContentsOfFile:]
+-[_priv_NBSHookNSData nbs_initWithContentsOfFile:options:error:]
+-[_priv_NBSHookNSData nbs_writeToFile:atomically:]
+-[_priv_NBSHookNSData nbs_writeToFile:options:error:]
++[_priv_NBSUIHookMatrix nbs_JSONObjectWithData:options:error:]
++[_priv_NBSUIHookMatrix nbs_JSONObjectWithStream:options:error:]
++[_priv_NBSUIHookMatrix nbs_dataWithJSONObject:options:error:]
++[_priv_NBSUIHookMatrix nbs_writeJSONObject:toStream:options:error:]
++[_priv_NBSUIHookMatrix nbs_imageNamed:]
+-[_priv_NBSUIHookMatrix nbs_initWithContentsOfFile:]
+-[_priv_NBSUIHookMatrix nbs_initWithData:]
+-[_priv_NBSUIHookMatrix nbs_executeFetchRequest:error:]
+-[_priv_NBSUIHookMatrix nbs_processPendingChanges]
+-[_priv_NBSUIHookMatrix nbs_jump_viewDidLoad:superClass:]
+-[_priv_NBSUIHookMatrix nbs_jump_viewWillAppear:origIMP:superClass:]
+-[_priv_NBSUIHookMatrix nbs_jump_viewDidAppear:origIMP:superClass:]
+-[_priv_NBSUIHookMatrix nbs_executeUpdate:error:withArgumentsInArray:orDictionary:orVAList:]
+-[_priv_NBSUIHookMatrix nbs_executeQuery:withArgumentsInArray:orDictionary:orVAList:]
++[_priv_NBSLens_iOSANRMonitor shareInstance]
+___44+[_priv_NBSLens_iOSANRMonitor shareInstance]_block_invoke
+-[_priv_NBSLens_iOSANRMonitor stopMonitor]
+-[_priv_NBSLens_iOSANRMonitor startMonitor]
+_nbs_runLoopObserverCallBack
+___43-[_priv_NBSLens_iOSANRMonitor startMonitor]_block_invoke
+___copy_helper_block_.65
+___destroy_helper_block_.66
+-[_priv_NBSLens_iOSANRMonitor .cxx_destruct]
+_shareInstance.instance
+_shareInstance.onceToken
+_OBJC_IVAR_$__priv_NBSLens_iOSANRMonitor.observer
+-[_priv_NBSLens_iOSANRManager entitys]
++[_priv_NBSLens_iOSANRManager shareInstance]
+___44+[_priv_NBSLens_iOSANRManager shareInstance]_block_invoke
+-[_priv_NBSLens_iOSANRManager init]
+-[_priv_NBSLens_iOSANRManager logANREntity:]
+-[_priv_NBSLens_iOSANRManager getUploadData]
+-[_priv_NBSLens_iOSANRManager cacheDataIsValidFromTimePoint:]
+-[_priv_NBSLens_iOSANRManager postANRDataToServer]
+-[_priv_NBSLens_iOSANRManager cacheANRDataToDisk:]
+-[_priv_NBSLens_iOSANRManager setEntitys:]
+-[_priv_NBSLens_iOSANRManager .cxx_destruct]
+_OBJC_IVAR_$__priv_NBSLens_iOSANRManager._entitys
++[_priv_NBSAESEncrypt convertDataToHexStr:]
+___43+[_priv_NBSAESEncrypt convertDataToHexStr:]_block_invoke
++[_priv_NBSAESEncrypt convertHexStrToData:]
++[_priv_NBSAESEncrypt AES128Crypt:key:accessKey:enc:]
+_convet_key
++[_priv_NBSAESEncrypt AES128CryptWithData:key:accessKey:enc:]
++[_priv_NBSHookURLConnection nbs_sendAsynchronousRequest:queue:completionHandler:]
+___82+[_priv_NBSHookURLConnection nbs_sendAsynchronousRequest:queue:completionHandler:]_block_invoke
++[_priv_NBSHookURLConnection nbs_sendSynchronousRequest:returningResponse:error:]
+-[_priv_NBSHookURLConnection nbs_initWithRequest:delegate:]
+-[_priv_NBSHookURLConnection nbs_cancel]
+-[_priv_NBSHookURLConnection nbs_start]
+-[_priv_NBSHookURLConnection nbs_initWithRequest:delegate:startImmediately:]
+_nbs_pbcA_open
+_nbs_pbcA_open_heap
+_nbs_pbcA_close
+_nbs_pbcA_push
+_nbs_pbcA_index
+_nbs_pbcA_index_p
+_nbs_pbc_array_size
+_nbs_pbc_array_integer
+_nbs_pbc_array_real
+_nbs_pbc_array_slice
+_nbs_pbc_array_push_integer
+_nbs_pbc_array_push_slice
+_nbs_pbc_array_push_real
+_nbsHookNSURLSession
+_nbsCreateURLSessionDelegateClass
+_nbsAddObseverForURLSessionDelegate
+_nbsHookNSURLConnection
+_nbsCreateURLConnectionDelegateClass
+_nbsHookASI
+___nbsHookNSURLSessionTask_block_invoke
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionTaskDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionDataDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionDownloadDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionStreamDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionStreamDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLSessionStreamDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLConnectionDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLConnectionDataDelegate
+l_OBJC_PROTOCOL_$_NSURLConnectionDownloadDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLConnectionDownloadDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_NSURLConnectionDownloadDelegate
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=351.8 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
