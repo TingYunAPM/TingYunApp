@@ -38,9 +38,9 @@
     [NBSAppAgent setCustomerData:data forKey:key];
 }
 
-+(void)setSetOption:(int)option{
-    [NBSAppAgent setSetOption:option];
-}
+//+(void)setSetOption:(int)option{
+//    [NBSAppAgent setSetOption:option];
+//}
 
 +(void)leaveBreadcrumb:(NSString *)breadcrumb{
     [NBSAppAgent leaveBreadcrumb:breadcrumb];

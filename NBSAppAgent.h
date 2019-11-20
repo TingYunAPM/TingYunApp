@@ -83,7 +83,6 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
  useBuildVersion：YES优先使用CFBundleVersion版本号，NO使用CFBundleShortVersionString，默认为NO。
  */
 +(void)startWithAppID:(NSString*)appId location:(BOOL)locationAllowed rateOfLaunch:(double) rate channelId:(NSString *)channelId useBuildVersion:(BOOL)useBuildVersion;
-
 /*
  忽略某些网络请求。block返回true的，都被忽略。
  */
@@ -95,7 +94,7 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
 /*
  设置启动选项，SDK有几个功能，借此可以关闭某个。此函数应该在其他函数之前调用。option的值应该是NBSOption_Net、NBSOption_UI、NBSOption_Crash、NBSOption_hybrid、NBSOption_Socket的组合
  */
-+(void)setSetOption:(int)option;
++(void)setStartOption:(int)option;
 /*
  面包屑功能：是指用户在程序中通过该接口添加的一些信息,当程序发生崩溃时，将会把这些添加的信息，按顺序收集起来，和崩溃信息都发送给服务器
  @breadcrumb:自定义信息
@@ -107,22 +106,36 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
  warning:为保证数据的准确性，该接口最好只设置一次
  */
 +(void)setUserIdentifier:(NSString *)userId;
-
 /*
  自定义事件：最多包含32个字符，支持中文、英文、数字、下划线，但不能包含空格或其他的转义字符
  */
 + (void)trackEvent:(NSString *)eventID;
-
 /*
  返回一个BOOL值，代表tingyunApp是否启动
  */
 + (BOOL)tingyunAppIsStart;
-
+/*
+ @need 传入yes，会对采集的网络请求参数，response header、response body加密。
+ */
++ (void)encryptionRequired:(BOOL)need;
 /*
  关闭更新提示log。
  SDKVersion为最新的SDK版本
  */
 + (void)closeLogForUpdateHint:(NSString *)SDKVersion;
+/*
+ 设置自定义的操作Id，在需要改变对应操作名称的实现中调用
+ @target:方法的receiver，一般为self
+ @actionId:自定义名称，最多包含32个字符，支持英文、数字、下划线，不能使用“#”
+ @warning:只能在主线程中调用
+ Example:
+ - (void)tap
+ {
+    [NBSAppAgent setTarget:self actionId:@"xxx"];//会把操作名称tap改为xxx，应该首先调用
+    ...
+ }
+ */
++ (void)setTarget:(id)target actionId:(NSString *)actionId;
 @end
 
 /*
@@ -144,7 +157,7 @@ void nbsCustomerAPI_logFinish(NSString *eventName,SEL _cmd);
  ];
  
  Example 5:使用选项启动SDK：
- [NBSAppAgent setSetOption:NBSOption_Net|NBSOption_Crash];//只开启网络和崩溃的监控，不开启UI的监控
+ [NBSAppAgent setStartOption:NBSOption_Net|NBSOption_Crash];//只开启网络和崩溃的监控，不开启UI的监控
  [NBSAppAgent startWithAppID:@"xxxxxxx"];
  
  */
